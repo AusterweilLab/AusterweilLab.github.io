@@ -1,0 +1,63 @@
+---
+layout: default
+title: Austerweil Lab | Home
+---
+
+
+<h1>Austerweil Lab</h1>
+<p class = 'fancy'>University of Madison-Wisconsin</p>
+
+<marquee id='news_scroll' direction='left' >
+<table>
+<tr>
+{% for post in site.categories.news %}
+	<td valign='middle'>
+	<a href='{{post.url}}'>{{post.date | date: "%-d %B %Y"}}</a> - 
+	{{post.title}}
+	</td>
+{% endfor %} 
+</tr>
+</table>
+</marquee>
+
+<img src="img/misc/BrainOfRobots3.png">
+
+
+
+<style type="text/css">
+
+#news_scroll{
+	width: 100%;
+	border-bottom: 1px solid #607D8B;
+	border-top: 1px solid #607D8B;
+	margin-bottom: 10px;
+}
+
+tr {
+	height: 50px;
+}
+
+td {
+  border: 0px solid transparent;
+  background-clip: padding-box;
+}
+
+tr > td + td {
+  border-left-width: 35px;
+}
+
+
+#content img {
+		max-width: 100%;
+		object-fit: scale-down;
+		display: block;
+		margin: auto;
+	  }
+</style>
+
+
+
+
+
+
+

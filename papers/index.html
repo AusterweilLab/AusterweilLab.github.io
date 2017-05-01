@@ -1,0 +1,199 @@
+---
+title: Austerweil Lab | Papers
+layout: default
+---
+
+<h1>Lab Publications</h1>
+
+<p class = 'show_all'> <a onclick="findRows('SHOW EVERYTHING')">Show all papers.</a> </p>
+
+<table id='papertable'>
+
+{% assign paperList = site.data.papers | sort: "year" | reverse %}
+{% for paper in paperList %}
+
+<tr class = 'paperrow'>
+
+<td class = 'metacell'>
+	{% if paper.URL %}
+		<a href="{{paper.URL}}">URL</a>
+	{% endif %}
+	
+	
+	<hr>
+	{% if paper.abstract %}
+		<a onclick = 'toggleDiv("{{paper.id}}")' > Abstract</a>
+	{% endif %}
+</td>
+
+<!-- format citation -->
+<td class = 'citationcell'>
+
+	<!-- authors -->
+	{% for author in paper.author %}
+	
+	<!-- add ampersand if there is more than one author
+         and this is the last author -->
+	{% if forloop.last %}
+		{% if forloop.first == false %}
+			&amp;
+		{% endif %}
+	{% endif %}
+
+	<!-- author info, add comma is not the last author -->
+	{{author.family}}, {{author.given}}{% if forloop.last == false %},{% endif %}
+	{%endfor%}
+
+	<!-- year, title, journal -->
+	({{paper.year}}).
+	{{paper.title}}
+	<i>{{paper.container-title}}</i>.
+	
+	<!-- tags -->
+	{% if paper.tags %}
+		<div class = 'tagdiv'>
+		Tags: 
+		{% for tag in paper.tags %}
+			<span class='papertag {{tag}}'>
+			<a onclick="findRows('{{tag}}')">{{tag}}</a>
+			</span>
+		{% endfor %}
+		</div>
+	{% endif %}
+
+	
+
+
+{% if paper.abstract %}
+	<div class = 'abstract' id = "{{paper.id}}">
+{{paper.abstract}}
+	</div>
+{% endif %}
+
+</td>
+</tr>
+
+{% endfor %}
+
+
+</table>
+
+
+<p class = 'show_all'> <a onclick="findRows('SHOW EVERYTHING')">Show all papers.</a> </p>
+
+
+
+
+<style type="text/css">
+	.abstract {
+		display: none;
+		font-style: italic;
+		padding: 10px 25px;
+		font-size: 0.8em;
+	}
+
+	table {
+		width:100%;
+		border-collapse: collapse;
+		border-bottom: 1px solid #424242;
+	}
+
+	tr {
+		border-top: 1px solid #424242;
+		border-collapse: collapse;
+	}
+
+	tr:nth-child(even) {
+	    background-color: #ECEFF1;
+	}
+
+	td {
+		padding: 10px 0;
+	}
+	.metacell {
+		width: 18%;
+		text-align: center;
+		font-size: 0.75em;
+		padding: 5px;
+		padding-right: 15px;
+	}
+
+	.tagdiv {
+		padding:  10px;
+		font-size: 0.8em;
+	}
+
+	.papertag {
+		padding: 2px;
+		border: 1px solid #424242;
+		border-radius: 25px;
+	}
+
+	.papertag a {
+		color: inherit;
+	}
+
+	.show_all {
+		text-align: center;
+		display: none;
+	}
+	.show_all a {
+		color: inherit;
+	}
+
+	/* TAG SPECIFIC COLORS */
+	.similarity {background-color: #FF9E80;}
+	.categorization {background-color: #FFCC80;}
+</style>
+
+
+
+
+
+<script type="text/javascript">
+	function toggleDiv(id) {
+	    var div = document.getElementById(id);
+	    if (div.style.display == 'none') {
+	    	div.style.display = 'block';
+	    } else if (div.style.display == 'block') {
+	    	div.style.display = 'none';
+	    } else {
+	    	div.style.display = 'block';
+	    }
+	}
+
+	function findRows(tag) {
+		var table = document.getElementById("papertable")
+		var rows = table.getElementsByClassName("paperrow");
+		for (var i = 0; i < rows.length; i++) {
+			var row = rows[i];
+
+			if (tag == 'SHOW EVERYTHING') {
+				row.style.display = 'block';
+				continue
+			}
+
+			var possible_spans = row.getElementsByClassName(tag);
+			if (possible_spans.length == 0) {
+				row.style.display = 'none';
+			} else {
+				row.style.display = 'block';
+			}
+		}
+
+		var buttons = document.getElementsByClassName("show_all");
+		for (var i = 0; i < buttons.length; i++) {
+			if (tag != 'SHOW EVERYTHING') {
+				buttons[i].style.display = 'block';
+			} else {
+				buttons[i].style.display = 'none';
+			}
+		}
+
+	}
+
+
+</script>
+
+
+

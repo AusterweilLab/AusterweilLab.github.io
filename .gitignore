@@ -1,0 +1,5 @@
+# Misc
+.DS_Store
+*.sublime-workspace
+
+_site/

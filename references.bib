@@ -1,0 +1,512 @@
+
+
+  @inproceedings{austerweil10-nips,
+    Address = {Cambridge, MA},
+    Author = {J. L. Austerweil and T. L. Griffiths},
+    Booktitle = {Advances in {N}eural {I}nformation {P}rocessing {S}ystems},
+    Editor = {R. Zemel and J. Shawne-Taylor},
+    Pages = {82-90},
+    Publisher = {MIT Press},
+    Title = {Learning invariant features using the Transformed Indian Buffet Process},
+    Volume = 23,
+    Year = {2010},
+    url = {http://alab.psych.wisc.edu/papers/AusterweilGriffithsTIBPNIPS2010.pdf},
+    abstract = {Identifying the features of objects becomes a challenge when those features can
+    change in their appearance. We introduce the Transformed Indian Buffet Process
+    (tIBP), and use it to define a nonparametric Bayesian model that infers features
+    that can transform across instantiations. We show that this model can identify
+    features that are location invariant by modeling a previous experiment on human
+    feature learning. However, allowing features to transform adds new kinds of ambiguity:
+    Are two parts of an object the same feature with different transformations
+    or two unique features? What transformations can features undergo? We present
+    two new experiments in which we explore how people resolve these questions,
+    showing that the tIBP model demonstrates a similar sensitivity to context to that
+    shown by human learners when determining the invariant aspects of features}
+    }
+
+    @article{austerweil11,
+    author = {J. L. Austerweil and T. L. Griffiths},
+    title = {A rational model of the effects of distributional information on feature learning},
+    journal = {Cognitive Psychology},
+    volume = {63},
+    pages = {173-209},
+    year = {2011},
+    url = {http://www.sciencedirect.com/science/article/pii/S0010028511000661},
+    abstract = {Most psychological theories treat the features of objects as being fixed and immediately available to observers. However, novel objects have an infinite array of properties that could potentially be encoded as features, raising the question of how people learn which features to use in representing those objects. We focus on the effects of distributional information on feature learning, considering how a rational agent should use statistical information about the properties of objects in identifying features. Inspired by previous behavioral results on human feature learning, we present an ideal observer model based on nonparametric Bayesian statistics. This model balances the idea that objects have potentially infinitely many features with the goal of using a relatively small number of features to represent any finite set of objects. We then explore the predictions of this ideal observer model. In particular, we investigate whether people are sensitive to how parts co-vary over objects they observe. In a series of four behavioral experiments (three using visual stimuli, one using conceptual stimuli), we demonstrate that people infer different features to represent the same four objects depending on the distribution of parts over the objects they observe. Additionally in all four experiments, the features people infer have consequences for how they generalize properties to novel objects. We also show that simple models that use the raw sensory data as inputs and standard dimensionality reduction techniques (principal component analysis and independent component analysis) are insufficient to explain our results.}
+    }
+
+    @inproceedings{abbott12,
+    author = {J. T. Abbott and J. L. Austerweil and T. L. Griffiths},
+    title = {Human memory search as a random walk in a semantic network},
+    booktitle = {Advances in Neural Information Processing Systems 25},
+    year = {2012},
+    editor = {P. Bartlett and F. C. N. Pereira and C. J. C. Burges and L. Bottou and K. Q. Weinberger},
+    pages = {3050-3058},
+    abstract={The human mind has a remarkable ability to store a vast amount of information in memory, and an even more remarkable ability to retrieve these experiences when needed. Understanding the representations and algorithms that underlie human memory search could potentially be useful in other information retrieval settings, including internet search. Psychological studies have revealed clear regularities in how people search their memory, with clusters of semantically related items tending to be retrieved together. These findings have recently been taken as evidence that human memory search is similar to animals foraging for food in patchy environments, with people making a rational decision to switch away from a cluster of related information as it becomes depleted. We demonstrate that the results that were taken as evidence for this account also emerge from a random walk on a semantic network, much like the random web surfer model used in internet search engines. This offers a simpler and more unified account of how people search their memory, postulating a single process rather than one process for exploring a cluster and one process for switching between clusters.},
+    url={http://papers.nips.cc/paper/4761-human-memory-search-as-a-random-walk-in-a-semantic-network.pdf}
+    }
+
+    @article{austerweil13rev,
+    author = {J. L. Austerweil and T. L. Griffiths},
+    title = {A nonparametric {B}ayesian framework for constructing flexible feature representations},
+    journal = {Psychological Review},
+    year = {2013},
+    volume = {120},
+    number = {4},
+    pages = {817-851},
+    abstract = {Representations are a key explanatory device used by cognitive psychologists to account for human behavior. Understanding the effects of context and experience on the representations people use is essential, because if two people encode the same stimulus using different representations, their response to that stimulus may be different. We present a computational framework that can be used to define models that flexibly construct feature representations (where by a feature we mean a part of the image of an object) for a set of observed objects, based on nonparametric Bayesian statistics. Austerweil and Griffiths (2011) presented an initial model constructed in this framework that captures how the distribution of parts affects the features people use to represent a set of objects. We build on this work in three ways. First, although people use features that can be transformed on each observation (e.g., translate on the retinal image), many existing feature learning models can only recognize features that are not transformed (occur identically each time). Consequently, we extend the initial model to infer features that are invariant over a set of transformations, and learn different structures of dependence between feature transformations. Second, we compare two possible methods for capturing the manner that categorization affects feature representations. Finally, we present a model that learns features incrementally, capturing an effect of the order of object presentation on the features people learn. We conclude by considering the implications and limitations of our empirical and theoretical results.},
+    url={http://dx.doi.org/10.1037/a0034194}
+    }
+
+    @inproceedings{austerweil10,
+    Author = {J. L. Austerweil and T. L. Griffiths},
+    Booktitle = {Proceedings of the 32nd Annual Conference of the Cognitive Science Society},
+    Title = {Learning hypothesis spaces and dimensions through concept learning},
+    Year = {2010},
+    pages = {73--78},
+    abstract = {Generalizing a property from a set of objects to a new object is a fundamental problem faced by the human cognitive system, and a long-standing topic of investigation in psychology. Classic analyses suggest that the probability with which people generalize a property from one stimulus to another depends on the distance between those stimuli in psychological space. This raises the question of how people identify an appropriate metric for determining the distance between novel stimuli. In particular, how do people determine if two dimensions should be treated as separable, with distance measured along each dimension independently (as in an L1 metric), or integral, supporting Euclidean distance (as in an L2 metric)? We build on an existing Bayesian model of generalization to show that learning a metric can be formalized as a problem of learning a hypothesis space for generalization, and that both ideal and human learners can learn appropriate hypothesis spaces for a novel domain by learning concepts expressed in that domain.},
+    url = {https://mindmodeling.org/cogsci2010/papers/0011/paper0011.pdf}
+    }
+
+    @inproceedings{malle15,
+    author = {B. F. Malle and M. Scheutz and J. L. Austerweil},
+    title = {Networks of social and moral norms in human and artificial agents},
+    booktitle= {International Conference on Robot Ethics},
+    year = {2015}
+    }
+
+@article{cibelli16,
+    author = {E. Cibelli and Y. Xu and J. L. Austerweil and T. L. Griffiths and T. Reiger},
+    title = {The {S}apir-{W}horf hypothesis and probabilistic inference: {E}vidence from the domain of color},
+    journal = {{PLos ONE}},
+    volume = {11},
+    number = {7},
+    pages = {e0158725},
+    url = {http://dx.doi.org/10.1371/journal.pone.0158725},
+    year = {2016}
+}
+
+@article{sobel16,
+    author = {D. M. Sobel and J. L. Austerweil},
+    title = {Coding choices affect the analyses of a false belief measure},
+    journal = {Cognitive Development},
+    volume = {40},
+    pages = {9-23},
+    year = {2016},
+    url = {http://dx.doi.org/10.1016/j.cogdev.2016.08.002}
+}
+
+@article{prinzmetal15,
+    author = {W. Prinzmetal and K. Whiteford and J. L. Austerweil and A. N. Landau},
+    title = {Spatial attention and environmental information},
+    journal = {Journal of Experimental Psychology: Human, Perception, \& Performance},
+    year = {2015},
+    volume = {41},
+    number = {5},
+    pages= {1396-1408},
+    abstract = {Navigating through our perceptual environment requires constant selection of behaviorally relevant information and irrelevant information. Spatial cues guide attention to information in the environment that is relevant to the current task. How does the amount of information provided by a location cue and irrelevant information influence the deployment of attention and what are the processes underlying this effect? To address these questions, we used a spatial cueing paradigm to measure the relationship between cue predictability (measured in bits of information) and the voluntary attention effect, the benefit in reaction time (RT) because of cueing a target. We found a linear relationship between cue predictability and the attention effect. To analyze the cognitive processes producing this effect, we used a simple RT model, the Linear Ballistic Accumulator model. We found that informative cues reduced the amount of evidence necessary to make a response (the threshold), regardless of the presence of irrelevant information (i.e., distractors). However, a change in the rate of evidence accumulation occurred when distractors were present in the display. Thus, the mechanisms underlying the deployment of attention are exquisitely tuned to the amount and behavioral relevancy of statistical information in the environment.},
+    url = {http://www.researchgate.net/profile/Kelly_Whiteford/publication/280059493_Spatial_Attention_and_Environmental_Information/links/55ad0dd808aed614b09670b0.pdf}
+    }
+
+    @article{cohenpriva15,
+    author = {U. Cohen-Priva and J. L. Austerweil},
+    title = {Analyzing the history of {Cognition} using topic models},
+    journal = {Cognition},
+    volume = {135},
+    pages = {4-9},
+    year={2015},
+    abstract = {Very few articles have analyzed how cognitive science as a field has changed over the last six decades. We explore how Cognition changed over the last four decades using Topic Models. Topic Models assume that every word in every document is generated by one of a limited number of topics. Words that are likely to co-occur are likely to be generated by a single topic. We find a number of significant historical trends: the rise of moral cognition, eyetracking methods, and action, the fall of sentence processing, and the stability of development. We introduce the notion of framing topics, which frame content, rather than present the content itself. These framing topics suggest that over time Cognition turned from abstract theorizing to more experimental approaches.},
+    url={http://www.sciencedirect.com/science/article/pii/S0010027714002261},
+
+    }
+
+    @article{abbott15,
+    author= {J. T. Abbott and J. L. Austerweil and T. L. Griffiths},
+    title = {Random walks on semantic networks can resemble optimal foraging},
+    journal = {Psychological Review},
+    volume = {122},
+    number = {3},
+    pages = {558-569},
+    year = {2015},
+    abstract = {When people are asked to retrieve members of a category from memory, clusters of semantically related items tend to be retrieved together. A recent article by Hills, Jones, and Todd (2012) argued that this pattern reflects a process similar to optimal strategies for foraging for food in patchy spatial environments, with an individual making a strategic decision to switch away from a cluster of related information as it becomes depleted. We demonstrate that similar behavioral phenomena also emerge from a random walk on a semantic network derived from human word-association data. Random walks provide an alternative account of how people search their memories, postulating an undirected rather than a strategic search process. We show that results resembling optimal foraging are produced by random walks when related items are close together in the semantic network. These findings are reminiscent of arguments from the debate on mental imagery, showing how different processes can produce similar results when operating on different representations.},
+    url = {https://cocosci.berkeley.edu/papers/RandomWalksOptimalForaging.pdf}
+    }
+
+    @incollection{austerweil15bnp,
+    author = {J. L. Austerweil and S. J. Gershman and J. B. Tenenbaum and T. L. Griffiths},
+    title = {Structure and flexibility in {B}ayesian models of cognition},
+    editor = {J. R. Busemeyer and Z. Wang and J. T. Townsend and A. Eidels},
+    booktitle = {Oxford Handbook of Computational and Mathemtical Psychology},
+    year = {2015},
+    publisher = {Oxford University Press},
+    pages = {187-208},
+    abstract = {Probability theory forms a natural framework for explaining
+    the impressive success of people at solving many difficult inductive problems,
+    such as learning words and categories, inferring the relevant
+    features of objects, and identifying functional
+    relationships. Probabilistic models of cognition use Bayes' rule to identify probable structures or representations that could have generated a set of observations, whether
+    the observations are sensory input or the output of other psychological processes. In this chapter we address an important question that arises within this framework: How do people infer representations that are complex enough to faithfully encode the world but not so complex that they ``overfit'' noise in the data? We discuss nonparametric Bayesian models as a potential answer to this question. To do so, first we present the mathematical background necessary to understand nonparametric Bayesian models. We then delve into nonparametric Bayesian models for three types of hidden structure: clusters, features, and functions. Finally, we conclude with a summary and discussion of open questions for future research.},
+    url={http://web.mit.edu/sjgershm/www/Austerweil15.pdf}
+    }
+
+    @article{austerweil15asd,
+    author = {J. L. Austerweil},
+    title = {Contradictory "Heuristic" Theories of Autism Spectrum Disorders: The Case for Theoretical Precision using Computational Models},
+    journal = {Autism},
+    volume = {19},
+    number = {3},
+    pages = {367-368},
+    year = {2015},
+    url = {http://aut.sagepub.com/content/19/3/367}
+    }
+
+    @inproceedings{ho15,
+    author = {M. K. Ho and M. L. Littman and F. Cushman and J. L. Austerweil},
+    title = {Teaching with rewards and punishments: Reinforcement or communication?},
+    booktitle = {Proceedings of the 37th Annual Meeting of the Cognitive Science Society},
+    address = {Austin, TX},
+    publisher = {Cognitive Science Society},
+    year = {2015},
+    editor = {D. C. Noelle and R. Dale and A. S. Warlaumont and J. Yoshimi and T. Matlock and C. D. Jennings and P. P. Maglio},
+    abstract = {Teaching with evaluative feedback involves expectations about how a learner will interpret rewards and punishments. We formalize two hypotheses of how a teacher implicitly expects a learner to interpret feedback – a reward-maximizing model based on standard reinforcement learning and an action-feedback model based on research on communicative intent – and describe a virtual animal-training task that distinguishes the two. The results of two experiments in which people gave learners feedback for isolated actions (Exp. 1) or while learning over time (Exp. 2) support the action-feedback model over the reward-maximizing model.},
+    url = {https://mindmodeling.org/cogsci2015/papers/0165/paper0165.pdf},
+    pages = {920-925}
+    }
+
+@inproceedings{austerweil16,
+  author = {J. L. Austerweil and S. Brawner and A. Greenwald and E. Hilliard and M. Ho and M. L. Littman and J. Mac{G}lashan and C. Trimbach},
+  title = {The impact of other-regarding preferences in a collection of non-zero-sum grid games},
+  booktitle={{AAAI} Spring Symposium 2016 on Challenges and Opportunities in Multiagent Learning for the Real World},
+  year = {2016},
+  url = {http://alab.psych.wisc.edu/papers/Austerweiletal2016_MARL.pdf}
+}
+
+@inproceedings{zemla16,
+  author = {J. C. Zemla and Y. N. Kenett and K. Jun and J. L. Austerweil},
+  title = {U-INVITE: Estimating Individual Semantic Networks from Fluency Data},
+  booktitle = {Proceedings of the 38th Annual Meeting of the Cognitive Science Society},
+  year = {2016},
+  url = {http://alab.psych.wisc.edu/papers/Zemlaetal2016.pdf}
+}
+
+@inproceedings{ho16,
+  author = {M. K. Ho and J. Mac{G}lashan and E. Hilliard and C. Trimbach and S. Brawner and N. Gopalan and A. Greenwald and M. L. Littman and J. B. Tenenbaum and M. Kleiman-{W}einer  and J. L. Austerweil},
+  title = {Feature-based Joint Planning and Norm Learning in Collaborative Games},
+  booktitle = {Proceedings of the 38th Annual Meeting of the Cognitive Science Society},
+  year = {2016},
+  url = {http://alab.psych.wisc.edu/papers/Hoetalnormlearning2016.pdf}
+}
+
+@inproceedings{ho17,
+  author = {M. K. Ho and M. L. Littman and J. L. Austerweil},
+  title = {Teaching by Intervention: Working Backwards, Undoing Mistakes, or Correcting Mistakes?},
+  booktitle = {Proceedings of the 39th Annual Meeting of the Cognitive Science Society},
+  year = {2017},
+  url = {http://alab.psych.wisc.edu/papers/Hotetal2017.pdf}
+  }
+
+@inproceedings{ren17,
+    author = {J. Ren and J. L. Austerweil},
+    title = {Interpreting Asymmetric Perception in Speech Processing with {B}ayesian Inference},
+    booktitle = {Proceedings of the 39th Annual Meeting of the Cognitive Science Society},
+    year = {2017}
+}
+
+@inproceedings{conaway17,
+    author = {N. Conaway and J. L. Austerweil},
+    title = {{PACKER}: An Exemplar Model of Category Generation},
+    booktitle = {Proceedings of the 39th Annual Meeting of the Cognitive Science Society},
+    year = {2017},
+    url= {http://alab.psych.wisc.edu/papers/PACKERCogSci2017.pdf}
+}
+
+@inproceedings{zemla17,
+    author = {J. C. Zemla and J. L. Austerweil},
+    title = {Modeling Semantic Fluency Data as Search on a Semantic Network},
+    booktitle = {Proceedings of the 39th Annual Meeting of the Cognitive Science Society},
+    year = {2017}
+}
+
+@inproceedings{ho16nips,
+  author = {M. K. Ho and M. L. Littman and J. Mac{G}lashan and F. Cushman and J. L. Austerweil},
+  title = {Showing versus Doing: Teaching by Demonstration},
+  editors = {D. D. Lee and M. Sugiyama and U. {von Luxburg} and I. Guyon},
+  booktitle = {Advances in Neural Information Processing Systems 29},
+  year = {2016},
+  pages = {X--X},
+  url = {http://alab.psych.wisc.edu/papers/Hoetal2016NIPS.pdf}
+}
+
+@inproceedings{kenett16,
+    author = {Y. N. Kenett and J. L. Austerweil},
+    title = {Examining search processes in low and high creative individuals with random walks},
+    booktitle = {Proceedings of the 38th Annual Meeting of the Cognitive Science Society},
+    year = {2016},
+    url = {http://alab.psych.wisc.edu/papers/Kenett16CreativityRW.pdf}
+}
+
+@inproceedings{kw16,
+    author = {M. Kleiman-{W}einer and M. K. Ho and J. L. Austerweil and M. L. Littman and J. B. Tenenbaum},
+    title = {Coordinate to cooperate or compete: {A}bstract goals and joint intentions in social interaction},
+    booktitle = {Proceedings of the 38th Annual Meeting of the Cognitive Science Society},
+    year = {2016},
+    url = {http://alab.psych.wisc.edu/papers/KW2016etal.pdf}
+}
+
+@inproceedings{qian15,
+    author = {T. Qian and J. L. Austerweil},
+    title = {Learning additive and substitutive features},
+    booktitle = {Proceedings of the 37th Annual Meeting of the Cognitive Science Society},
+    address = {Austin, TX},
+    publisher = {Cognitive Science Society},
+    editor = {D. C. Noelle and R. Dale and A. S. Warlaumont and J. Yoshimi and T. Matlock and C. D. Jennings and P. P. Maglio},
+    year = {2015},
+    abstract = {To adapt in an ever-changing world, people infer what basic units should be used to form concepts. Recent computational models of representation learning have successfully predicted how people discover features (Austerweil & Griffiths, 2013), however, the learned features are assumed to be additive. This assumption is not always true in the real world. Sometimes a basic unit is substitutive (Garner, 1978) - for example, a cat is either furry or hairless, but not both. Here we explore how people form representations for substitutive features, and what computational principles guide such behavior. In an experiment, we show that not only are people capable of forming substitutive feature representations, but they also infer whether a feature should be additive or substitutive depending on the input. This learning behavior is predicted by our novel extension to the Austerweil and Griffiths (2011, 2013)’s feature construction framework, but not their original model.},
+    url={https://mindmodeling.org/cogsci2015/papers/0332/paper0332.pdf},
+    pages={1919-1924}
+    }
+
+    @inproccedings{austerweil14,
+    author = {J. L. Austerweil},
+    title = {Testing the psychological validity of cluster construction biases},
+    booktitle = {Proceedings of the 36th Annual Meeting of the Cognitive Science Society},
+    pages = {122-127},
+    year = {2014},
+    address = {Austin, TX},
+    publisher = {Cognitive Science Society},
+    editor = {P. Bello and M. Guarini and M. {McShane}, and B. Scassellati},
+    abstract = {To generalize from one experience to the next in a world where the underlying structures are ever-changing, people construct clusters that group their observations and enable information to be pooled within a cluster in an efficient and effective manner. Despite substantial computational work describing potential domain-general processes for how people construct these clusters, there has been little empirical progress comparing different proposals to each other and to human performance. In this article, I empirically test some popular computational proposals against each other and against human behavior using the Markov chain Monte Carlo with People methodology. The results support two popular Bayesian nonparametric processes, the Chinese Restaurant Process and the related Dirichlet Process Mixture Model.},
+    url = {https://mindmodeling.org/cogsci2014/papers/032/paper032.pdf},
+    pages={122-127}
+    }
+
+    @inproceedings{jia13,
+    author = {Y. Jia and J. T. Abbott and J. L. Austerweil and T. L. Griffiths and T. Darrell},
+    title = {Visual Concept Learning: Combining Machine Vision and Bayesian Generalization on Concept Hierarchies},
+    editor = {C. J. C. Burges and L. Bottou and M. Welling and Z. Ghahramani and K. Q. Weinberger},
+    pages = {1842--1850},
+    booktitle = {Advances in Neural Information Processing Systems (Vol. 26)},
+    year = {2013},
+    publisher = {Curran Associates, Inc},
+    url = {http://papers.nips.cc/paper/5205-visual-concept-learning-combining-machine-vision-and-bayesian-generalization-on-concept-hierarchies.pdf},
+    abstract={Learning a visual concept from a small number of positive examples is a significant
+    challenge for machine learning algorithms. Current methods typically fail
+    to find the appropriate level of generalization in a concept hierarchy for a given
+    set of visual examples. Recent work in cognitive science on Bayesian models
+    of generalization addresses this challenge, but prior results assumed that objects
+    were perfectly recognized. We present an algorithm for learning visual concepts
+    directly from images, using probabilistic predictions generated by visual classi-
+    fiers as the input to a Bayesian generalization model. As no existing challenge
+    data tests this paradigm, we collect and make available a new, large-scale dataset
+    for visual concept learning using the ImageNet hierarchy as the source of possible
+    concepts, with human annotators to provide ground truth labels as to whether a
+    new image is an instance of each concept using a paradigm similar to that used in
+    experiments studying word learning in children. We compare the performance of
+    our system to several baseline algorithms, and show a significant advantage results
+    from combining visual classifiers with the ability to identify an appropriate level
+    of abstraction using Bayesian generalization.}
+
+    }
+
+    @inproceedings{abbott12,
+    author = {J. T. Abbott and J. L. Austerweil and T. L. Griffiths},
+    title = {Human memory search as a random walk in a semantic network},
+    booktitle = {Advances in Neural Information Processing Systems (Vol. 25)},
+    year = {2012},
+    editor = {F. Pereira and C.J.C. Burges and L. Bottou and K.Q. Weinberger},
+    pages = {3041--3049},
+    publisher = {Curran Associates, Inc.},
+    url = {http://papers.nips.cc/paper/4761-human-memory-search-as-a-random-walk-in-a-semantic-network.pdf},
+    abstract = {The human mind has a remarkable ability to store a vast amount of information in memory, and an even more remarkable ability to retrieve these experiences when needed. Understanding the representations and algorithms that underlie human memory search could potentially be useful in other information retrieval settings, including internet search. Psychological studies have revealed clear regularities in how people search their memory, with clusters of semantically related items tending to be retrieved together. These findings have recently been taken as evidence that human memory search is similar to animals foraging for food in patchy environments, with people making a rational decision to switch away from a cluster of related information as it becomes depleted. We demonstrate that the results that were taken as evidence for this account also emerge from a random walk on a semantic network, much like the random web surfer model used in internet search engines. This offers a simpler and more unified account of how people search their memory, postulating a single process rather than one process for exploring a cluster and one process for switching between clusters.}
+    }
+
+    @incollection{austerweil11nips,
+    title = {An ideal observer model for identifying the reference frame of objects},
+    author = {Joseph L. Austerweil and Abram L. Friesen and Thomas L. Griffiths},
+    booktitle = {Advances in Neural Information Processing Systems (Vol. 24)},
+    editor = {J. Shawe-Taylor and R.S. Zemel and P.L. Bartlett and F. Pereira and K.Q. Weinberger},
+    pages = {514--522},
+    year = {2011},
+    publisher = {Curran Associates, Inc.},
+    url = {http://papers.nips.cc/paper/4354-an-ideal-observer-model-for-identifying-the-reference-frame-of-objects.pdf},
+    abstract = {The object people perceive in an image can depend on its orientation relative to the scene it is in (its reference frame). For example, the images of the symbols × and + differ by a 45 degree rotation. Although real scenes have multiple images and reference frames, psychologists have focused on scenes with only one reference frame. We propose an ideal observer model based on nonparametric Bayesian statistics for inferring the number of reference frames in a scene and their parameters. When an ambiguous image could be assigned to two conflicting reference frames, the model predicts two factors should influence the reference frame inferred for the image: The image should be more likely to share the reference frame of the closer object ({\em proximity}) and it should be more likely to share the reference frame containing the most objects ({\em alignment}). We confirm people use both cues using a novel methodology that allows for easy testing of human reference frame inference.}
+    }
+
+    @incollection{austerweil09nips,
+    title = {Analyzing human feature learning as nonparametric Bayesian inference},
+    author = {J. L. Austerweil and T. L. Griffiths},
+    booktitle = {Advances in Neural Information Processing Systems (Vol. 21)},
+    editor = {D. Koller and D. Schuurmans and Y. Bengio and L. Bottou},
+    pages = {97--104},
+    year = {2009},
+    publisher = {Curran Associates, Inc},
+    url = {http://papers.nips.cc/paper/3621-analyzing-human-feature-learning-as-nonparametric-bayesian-inference.pdf},
+    abstract = {Almost all successful machine learning algorithms and cognitive models require powerful representations capturing the features that are relevant to a particular problem. We draw on recent work in nonparametric Bayesian statistics to define a rational model of human feature learning that forms a featural representation from raw sensory data without pre-specifying the number of features. By comparing how the human perceptual system and our rational model use distributional and category information to infer feature representations, we seek to identify some of the forces that govern the process by which people separate and combine sensory primitives to form features.}
+    }
+
+    @article{griffiths12bayesian,
+    title={Bayesian generalization with circular consequential regions},
+    author={T. L. Griffiths and J. L. Austerweil},
+    journal={Journal of Mathematical Psychology},
+    volume={56},
+    number={4},
+    pages={281--285},
+    year={2012},
+    abstract = {Generalization–deciding whether to extend a property from one stimulus to another stimulus–is a fundamental problem faced by cognitive agents in many different settings. Shepard (1987) provided a mathematical analysis of generalization in terms of Bayesian inference over the regions of psychological space that might correspond to a given property. He proved that in the unidimensional case, where regions are intervals of the real line, generalization will be a negatively accelerated function of the distance between stimuli, such as an exponential function. These results have been extended to rectangular consequential regions in multiple dimensions, but not for circular consequential regions, which play an important role in explaining generalization for stimuli that are not represented in terms of separable dimensions. We analyze Bayesian generalization with circular consequential regions, providing bounds on the generalization function and proving that this function is negatively accelerated.},
+    url={http://www.sciencedirect.com/science/article/pii/S0022249612000740}
+    }
+
+    @incollection{austerweil2012human,
+    title={Human Feature Learning},
+    author={J. L. Austerweil and T. L. Griffiths},
+    booktitle={Encyclopedia of the Sciences of Learning},
+    pages={1456--1458},
+    year={2012},
+    publisher={Springer},
+    editor = {N. M. Seel}
+    }
+
+    @inproceedings{griffiths2012cogsci,
+    title={Comparing the inductive biases of simple neural networks and {B}ayesian models},
+    author={T. L. Griffiths and J. L. Austerweil and V. G. Berthiaume},
+    booktitle={Proceedings of the 34th Annual Meeting of the Cognitive Science Society},
+    editor = {N. Miyake and D. Peebles and R. P. Cooper},
+    address = {Austin, TX},
+    publisher = {Cognitive Science Society},
+    year={2012},
+    pages = {402-407},
+    url = {https://mindmodeling.org/cogsci2012/papers/0081/paper0081.pdf},
+    abstract = {Understanding the relationship between connectionist and probabilistic models is important for evaluating the compatibility of these approaches. We use mathematical analyses and computer simulations to show that a linear neural network can approximate the generalization performance of a probabilistic model of property induction, and that training this network by gradient descent with early stopping results in similar performance to Bayesian inference with a particular prior. However, this prior differs from distributions defined using discrete structure, suggesting that neural networks have inductive biases that can be differentiated from probabilistic models with structured representations.}
+    }
+
+    @inproceedings{abbott2012cogsci,
+    title={Constructing a hypothesis space from the Web for large-scale Bayesian word learning},
+    author={J. T. Abbott and J. L. Austerweil and T. L. Griffiths},
+    booktitle={Proceedings of the 34th Annual Meeting of the Cognitive Science Society},
+    year={2012},
+    editor = {N. Miyake and D. Peebles and R. P. Cooper},
+    address = {Austin, TX},
+    publisher = {Cognitive Science Society},
+    pages = {54-59},
+    url = {https://mindmodeling.org/cogsci2012/papers/0023/paper0023.pdf},
+    abstract = {The Bayesian generalization framework has been successful in explaining how people generalize a property from a few observed stimuli to novel stimuli, across several different domains. To create a successful Bayesian generalization model, modelers typically specify a hypothesis space and prior probability distribution for each specific domain. However, this raises two problems: the models do not scale beyond the (typically small-scale) domain that they were designed for, and the explanatory power of the models is reduced by their reliance on a hand-coded hypothesis space and prior. To solve these two problems, we propose a method for deriving hypothesis spaces and priors from large online databases. We evaluate our method by constructing a hypothesis space and prior for a Bayesian word learning model from WordNet, a large online database that encodes the semantic relationships between words as a network. After validating our approach by replicating a previous word learning study, we apply the same model to a new experiment featuring three additional taxonomic domains (clothing, containers, and seats). In both experiments, we found that the same automatically constructed hypothesis space explains the complex pattern of generalization behavior, producing accurate predictions across a total of six different domains.}
+    }
+
+    @article{austerweil2011confbias,
+    title={Seeking Confirmation Is Rational for Deterministic Hypotheses},
+    author={J. L. Austerweil and T. L. Griffiths},
+    journal={Cognitive Science},
+    volume={35},
+    number = {3},
+    pages={499--526},
+    year={2011},
+    publisher={Blackwell Publishing Ltd},
+    url = {http://onlinelibrary.wiley.com/doi/10.1111/j.1551-6709.2010.01161.x/full},
+    abstract={The tendency to test outcomes that are predicted by our current theory (the confirmation bias) is one of the best-known biases of human decision making. We prove that the confirmation bias is an optimal strategy for testing hypotheses when those hypotheses are deterministic, each making a single prediction about the next event in a sequence. Our proof applies for two normative standards commonly used for evaluating hypothesis testing: maximizing expected information gain and maximizing the probability of falsifying the current hypothesis. This analysis rests on two assumptions: (a) that people predict the next event in a sequence in a way that is consistent with Bayesian inference; and (b) when testing hypotheses, people test the hypothesis to which they assign highest posterior probability. We present four behavioral experiments that support these assumptions, showing that a simple Bayesian model can capture people's predictions about numerical sequences (Experiments 1 and 2), and that we can alter the hypotheses that people choose to test by manipulating the prior probability of those hypotheses (Experiments 3 and 4).}
+    }
+
+    @inproceedings{austerweil2010lcogsci,
+    title={Learning hypothesis spaces and dimensions through concept learning},
+    author={J. L. Austerweil and T. L. Griffiths},
+    booktitle={Proceedings of the 32nd Annual Conference of the Cognitive Science Society},
+    editor = {S. Ohlsson and R. Catrambone},
+    pages={73--78},
+    year={2010},
+    publisher={Cognitive Science Society},
+    address={Austin, TX},
+    abstract={Generalizing a property from a set of objects to a new object is a fundamental problem faced by the human cognitive system, and a long-standing topic of investigation in psychology. Classic analyses suggest that the probability with which people generalize a property from one stimulus to another depends on the distance between those stimuli in psychological space. This raises the question of how people identify an appropriate metric for determining the distance between novel stimuli. In particular, how do people determine if two dimensions should be treated as separable, with distance measured along each dimension independently (as in an $L_1$ metric), or integral, supporting Euclidean distance (as in an $L_2$ metric)? We build on an existing Bayesian model of generalization to show that learning a metric can be formalized as a problem of learning a hypothesis space for generalization, and that both ideal and human learners can learn appropriate hypothesis spaces for a novel domain by learning concepts expressed in that domain.},
+    url={http://csjarchive.cogsci.rpi.edu/proceedings/2010/papers/0011/paper0011.pdf}
+    }
+
+    @article{gardner10,
+    title={Vertical position as a cue to pictorial depth: Height in the picture plane versus distance to the horizon},
+    author={J. S. Gardner and J. L. Austerweil and S. E. Palmer},
+    journal={Attention, Perception, \& Psychophysics},
+    volume={72},
+    number={2},
+    pages={445--453},
+    year={2010},
+    url={http://www.researchgate.net/profile/Stephen_Palmer6/publication/41413971_Vertical_position_as_a_cue_to_pictorial_depth_height_in_the_picture_plane_versus_distance_to_the_horizon/links/0fcfd50c75787a9735000000.pdf},
+    abstract={Two often cited but frequently confused pictorial cues to perceived depth are height in the picture plane (HPP) and distance to the horizon (DH). We report two psychophysical experiments that disentangled their influence on perception of relative depth in pictures of the interior of a schematic room. Experiment 1 showed that when HPP and DH varied independently with both a ceiling and a floor plane visible in the picture, DH alone determined judgments of relative depth; HPP was irrelevant. Experiment 2 studied relative depth perception in single-plane displays (floor only or ceiling only) in which the horizon either was not visible or was always at the midpoint of the target object. When the target object was viewed against either a floor or a ceiling plane, some observers used DH, but others (erroneously) used HPP. In general, when DH is defined and unambiguous, observers use it to determine the relative distance to objects, but when DH is undefined and/or ambiguous, at least some observers use HPP.},
+    }
+
+    @inproceedings{austerweil09cogsci,
+    title={The effect of distributional information on feature learning},
+    author={J. L. Austerweil and T. L. Griffiths},
+    booktitle={Proceedings of the 31st Annual Conference of the Cognitive Science Society},
+    year={2009},
+    editor={N. A. Taatgen and H. {van Rijn}},
+    address={Austin, TX},
+    publisher={Cognitive Science Society},
+    url={http://csjarchive.cogsci.rpi.edu/proceedings/2009/papers/619/paper619.pdf},
+    abstract={A fundamental problem solved by the human mind is the formation of basic units to represent observed objects that support future decisions. We present an ideal observer model that infers features to represent the raw sensory data of a given set of objects. Based on our rational analysis of feature representation, we predict that the distribution of the parts that compose objects should affect the features people use to infer objects. We confirm this prediction in a behavioral experiment, suggesting that distributional information is one of the factors that determines how people identify the features of objects.},
+    pages={2765-2770}
+    }
+
+    @inproceedings{austerweil2008cogsci,
+    title={A rational analysis of confirmation with deterministic hypotheses},
+    author={J. L. Austerweil and T. L. Griffiths},
+    booktitle={Proceedings of the 30th Annual Conference of the Cognitive Science Society},
+    pages={1041--1046},
+    year={2008},
+    editor={B. C. Love and K. {McRae} and V. M. Sloutsky},
+    address={Austin, TX},
+    publisher={Cognitive Science Society},
+    url={http://csjarchive.cogsci.rpi.edu/proceedings/2008/pdfs/p1041.pdf},
+    abstract={Whether scientists test their hypotheses as they ought to has interested
+    both cognitive psychologists and philosophers of science.
+    Classic analyses of hypothesis testing assume that people
+    should pick the test with the largest probability of falsifying
+    their current hypothesis, while experiments have shown
+    that people tend to select tests consistent with that hypothesis.
+    Using two different normative standards, we prove that seeking
+    evidence predicted by your current hypothesis is optimal
+    when the hypotheses in question are deterministic and other
+    reasonable assumptions hold. We test this account with two
+    experiments using a sequential prediction task, in which people
+    guess the next number in a sequence. Experiment 1 shows
+    that people’s predictions can be captured by a simple Bayesian
+    model. Experiment 2 manipulates people’s beliefs about the
+    probabilities of different hypotheses, and shows that they con-
+    firm whichever hypothesis they are led to believe is most likely.}
+    }
+
+    @inproceedings{elsner07naacl,
+    title={A Unified Local and Global Model for Discourse Coherence.},
+    author={M. Elsner and J. L. Austerweil and E. Charniak},
+    booktitle={HLT-NAACL},
+    pages={436--443},
+    year={2007},
+    url={http://www.aclweb.org/website/old_anthology/N/N07/N07-1055.pdf},
+    abstract={We present a model for discourse coherence which combines the local entitybased
+    approach of (Barzilay and Lapata, 2005) and the HMM-based content model
+    of (Barzilay and Lee, 2004). Unlike the mixture model of (Soricut and Marcu, 2006), we learn local and global features jointly, providing a better theoretical explanation of how they are useful. As the
+    local component of our model we adapt (Barzilay and Lapata, 2005) by relaxing
+    independence assumptions so that it is effective when estimated generatively. Our
+    model performs the ordering task competitively with (Soricut and Marcu, 2006),
+    and significantly better than either of the models it is based on.}
+    }
+
+    @inproceedings{charniak06naacl,
+    title={Multilevel coarse-to-fine PCFG parsing},
+    author={E. Charniak and M. Johnson and M. Elsner and J. L. Austerweil and D. Ellis and I. Haxton and C. Hill and R. Shrivaths and J. Moore and M. Pozar and T. Vu},
+    booktitle={HLT-NAACL},
+    pages={168--175},
+    year={2006},
+    organization={Association for Computational Linguistics},
+    url={http://dl.acm.org/citation.cfm?id=1220857},
+    abstract={We present a PCFG parsing algorithm that uses a multilevel coarse-to-fine
+    (MLCTF) scheme to improve the efficiency of search for the best parse.
+    Our approach requires the user to specify a sequence of nested partitions or
+    equivalence classes of the PCFG nonterminals. We define a sequence of
+    PCFGs corresponding to each partition, where the nonterminals of each
+    PCFG are clusters of nonterminals of the original source PCFG. We use the
+    results of parsing at a coarser level (i.e., grammar defined in terms of a
+    coarser partition) to prune the next finer level. We present experiments
+    showing that with our algorithm the	work load (as measured by the total
+    number of constituents processed) is decreased by a factor of ten with no decrease
+    in parsing accuracy compared to	standard CKY parsing with the original
+    PCFG. We suggest that the search space over mlctf algorithms is almost
+    totally unexplored so that future work should be able to improve significantly
+    on these results.}
+    }

@@ -1,0 +1,149 @@
+
+/* Globals */
+body {
+  color: #616161;
+  font-family: 'Custom Sans-Serif', sans-serif;
+  -webkit-text-size-adjust: 100%;
+}
+
+#container {
+  margin: 4em auto;
+  width: 100%;
+  max-width: 800px;
+  padding-bottom: 10px;
+}
+
+a {
+    color:#3a5fcd;
+    text-decoration: none;
+}
+
+a:visited{
+  color:#3a5fcd;
+}
+
+a:hover{
+  color:#4876ff;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+h1, h2, h3, h4, h5, h6, .fancy {
+  font-family: 'Custom Serif', serif;
+}
+
+code, pre {
+  font-family: 'Custom Mono', monospace;
+  /* font-size: 0.85em; */
+  margin: 2px;
+}
+
+
+blockquote {
+  background-color: #ECEFF1;
+  margin: 20px;
+}
+
+blockquote p {
+  padding: 10px;
+}
+
+/* fix top part */
+#topper {
+  position: fixed;
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%;
+  max-width: 800px;
+  background-color: white;
+  z-index: 500;
+}
+
+/* Nav Bar */
+#navbar{
+  font-size: 0.97em;
+  font-family: 'Custom Serif', serif;
+  text-align: center;
+  height: 2.4em;
+  line-height: 2.4em;
+  margin: 0 auto;  
+
+}
+
+#navbar ul {
+    list-style-type: none;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    background-color: #CFD8DC;
+    display: inline-block;
+    width: 100%;
+}
+
+#navbar li {
+  width: 25%;
+  max-width: 190px;
+  min-width: 30px;
+  float: left;
+  border-right: 1px solid #CFD8DC;
+  display: block;
+  text-align : center;
+  box-sizing: border-box;
+
+}
+
+#navbar .imagecell {
+  width:  12%;
+}
+
+#navbar li:last-child {
+    border-right: none;
+}
+
+#navbar li a {
+  text-decoration: none;
+  color: #263238;
+  display: block;
+}
+
+#navbar li a:hover {
+    background-color: #ECEFF1;
+}
+
+.imagenav {
+      vertical-align: middle;
+      padding: 1.5px 0px;
+      height: 32px;
+}
+
+#navbar #homecell {
+  background-color: #CFD8DC;
+}
+
+#navbar #homecell a:hover{
+  background-color: #ECEFF1;
+}
+
+/* code blocks */
+
+/* blog images */
+  .highlight .lineno { 
+    color: #CFD8DC; 
+    display:inline-block; 
+    padding-left: 5px;
+    margin: 0;
+    padding-right: 10px;
+    border-right:1px solid #607D8B; 
+  }
+  .highlight pre code { 
+    display: block; 
+    white-space: pre; 
+    overflow-x: auto; 
+    word-wrap: normal; 
+  }
+  .highlight pre {
+    margin-left: 8px;
+  }
+
+  div .highlight {
+    background-color: white;
+  }

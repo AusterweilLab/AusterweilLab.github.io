@@ -1,0 +1,25 @@
+name: Austerweil Lab
+
+# Configure Markdown
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    css_class: 'highlight'
+    span:
+      line_numbers: false
+    block:
+      line_numbers: true
+      start_line: 1
+
+gems:
+  - jekyll-sitemap
+
+# default info
+title: Austerweil Lab
+excerpt: Official Website for the Austerweil Lab at the University of Wisconsin-Madison
+keywords: cognitive, mathematical, computational, psychology
+
+

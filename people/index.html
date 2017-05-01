@@ -1,0 +1,55 @@
+---
+title: Austerweil Lab | People
+layout: default
+---
+
+<h1>Lab Members</h1>
+
+
+{% for group in site.data.people %}
+	<hr>
+	<table>
+	<h2>{{group[1].label}}</h2>
+
+	{% for person in group[1].people %}
+	<tr>
+		<td class = "peopleinfo">
+			{% if group[0] == "1_overlord" %}
+				<h2>{{person.name}}</h2>
+			{% else %}
+			 	<h3>{{person.name}}</h3>
+			{% endif %}
+			
+			<p><i>{{person.title}}</i></p>
+			<p>{{person.blurb}}
+			{% if person.website %}
+				[<a href="{{person.website}}">Personal Webpage</a>]
+			{% endif %}
+			</p>
+		</td>
+		<td class = 'picturecell'>
+			<img class = 'peoplepic' 
+			src="{% if person.image %}{{ person.image }}{% else %}/img/people/default.jpg{% endif %}"
+			>
+		</td>
+	</tr>
+	{% endfor %}
+	</table>
+{% endfor %}
+
+<style type="text/css">
+	
+	.peopleinfo {
+		padding-right: 50px;
+	}
+	
+	.picturecell {
+		text-align: right;
+		vertical-align: middle;
+	}
+
+	.peoplepic {
+		width: 5em;
+	}
+
+</style>
