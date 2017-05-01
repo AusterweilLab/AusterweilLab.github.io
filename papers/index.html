@@ -29,6 +29,8 @@ layout: default
 <!-- format citation -->
 <td class = 'citationcell'>
 
+	
+
 	<!-- authors -->
 	{% for author in paper.author %}
 	
@@ -47,7 +49,42 @@ layout: default
 	<!-- year, title, journal -->
 	({{paper.year}}).
 	{{paper.title}}
-	<i>{{paper.container-title}}</i>.
+
+	<!-- FORMATTING FOR CONFERENCE PAPERS -->
+	{% if paper.type contains 'conference' or paper.type contains 'chapter' %}
+	{% if paper.editor %}
+		In 
+		{% for author in paper.editor %}
+	
+		<!-- add ampersand if there is more than one author
+	         and this is the last author -->
+		{% if forloop.last %}
+			{% if forloop.first == false %}
+				&amp;
+			{% endif %}
+		{% endif %}
+
+		<!-- author info, add comma is not the last author -->
+		{{author.given}} {{author.family}}{% if forloop.last == false %},{% endif %}
+		{%endfor%}
+		(Ed.),
+	{% endif %}
+
+	<i>{{paper.container-title}}</i>
+	{% if paper.page %}(pp. {{paper.page}}).{% else %}.{% endif %}
+	{% if paper.publisherplace %}
+		{{paper.publisherplace}}: {{paper.publisher}}.
+	{% else %}
+		{% if paper.page %} {% else %}.{% endif %}
+	{% endif %}
+	
+	<!-- FORMATTING FOR JOURNAL PAPERS-->
+	{% else %}
+	<i>{{paper.container-title}}</i>, 
+	{{paper.volume}}{% if paper.issue %}({{paper.issue}}){% endif %},
+	{{paper.page}}.
+	{% endif %}
+	
 	
 	<!-- tags -->
 	{% if paper.tags %}
@@ -88,8 +125,10 @@ layout: default
 	.abstract {
 		display: none;
 		font-style: italic;
-		padding: 10px 25px;
+		padding: 10px 0px;
 		font-size: 0.8em;
+		text-align: justify;
+		padding-right: 4px;
 	}
 
 	table {
@@ -124,7 +163,8 @@ layout: default
 	}
 
 	.papertag {
-		padding: 2px;
+		padding: 2px 4px;
+		margin: 0 1px;
 		border: 1px solid #424242;
 		border-radius: 25px;
 	}
@@ -139,16 +179,18 @@ layout: default
 	}
 	.show_all a {
 		color: inherit;
+		background-color: ;
 	}
-
-	/* TAG SPECIFIC COLORS */
-	.similarity {background-color: #FF9E80;}
-	.categorization {background-color: #FFCC80;}
+	{% for tag in site.data.tagcolors %}
+		.{{tag[0]}} {
+			background-color: #{{tag[1]}};
+		}
+	{% endfor %}
 </style>
 
 
 
-
+	
 
 <script type="text/javascript">
 	function toggleDiv(id) {

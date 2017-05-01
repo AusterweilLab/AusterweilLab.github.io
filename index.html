@@ -7,18 +7,17 @@ title: Austerweil Lab | Home
 <h1>Austerweil Lab</h1>
 <p class = 'fancy'>University of Madison-Wisconsin</p>
 
-<marquee id='news_scroll' direction='left' >
-<table>
-<tr>
+<div class="marquee">
+<p>
 {% for post in site.categories.news %}
-	<td valign='middle'>
+	<span class="newsitem">
 	<a href='{{post.url}}'>{{post.date | date: "%-d %B %Y"}}</a> - 
 	{{post.title}}
-	</td>
+	</span>
+	
 {% endfor %} 
-</tr>
-</table>
-</marquee>
+</p>
+</div>
 
 <img src="img/misc/BrainOfRobots3.png">
 
@@ -26,26 +25,41 @@ title: Austerweil Lab | Home
 
 <style type="text/css">
 
-#news_scroll{
+.newsitem {
+	padding: 0 2em;
+}
+
+.marquee {
 	width: 100%;
+    line-height: 1.2em;
+    white-space: nowrap;
+    overflow: hidden;
+    box-sizing: border-box;
 	border-bottom: 1px solid #607D8B;
 	border-top: 1px solid #607D8B;
 	margin-bottom: 10px;
+
+}
+.marquee p {
+    display: inline-block;
+    padding-left: 100%;
+    animation: marquee 20s linear infinite;
 }
 
-tr {
-	height: 50px;
+@keyframes marquee {
+    0%   { transform: translate(0, 0); }
+    100% { transform: translate(-100%, 0); }
 }
 
-td {
-  border: 0px solid transparent;
-  background-clip: padding-box;
+.marquee {
+	animation-play-state: paused;
 }
 
-tr > td + td {
-  border-left-width: 35px;
+.marquee p:hover {
+	-moz-animation-play-state: paused;
+	-webkit-animation-play-state: paused;
+	animation-play-state: paused;
 }
-
 
 #content img {
 		max-width: 100%;

@@ -14,8 +14,8 @@
     "id": "austerweil10-nips",
     "page": "82-90",
     "publisher": "MIT Press",
-    "publisher-place": "Cambridge, MA",
-    "title": "Learning invariant features using the transformed indian buffet process",
+    "publisherplace": "Cambridge, MA",
+    "title": "Learning invariant features using the transformed indian buffet process.",
     "type": "paper-conference",
     "volume": "23",
     "year": 2010
@@ -32,34 +32,10 @@
     "container-title": "Cognitive Psychology",
     "id": "austerweil11",
     "page": "173-209",
-    "title": "A rational model of the effects of distributional information on feature learning",
+    "title": "A rational model of the effects of distributional information on feature learning.",
     "type": "article-journal",
     "volume": "63",
     "year": 2011
-  },
-
-
-  {
-    "URL": "http://papers.nips.cc/paper/4761-human-memory-search-as-a-random-walk-in-a-semantic-network.pdf",
-    "abstract": "The human mind has a remarkable ability to store a vast amount of information in memory, and an even more remarkable ability to retrieve these experiences when needed. Understanding the representations and algorithms that underlie human memory search could potentially be useful in other information retrieval settings, including internet search. Psychological studies have revealed clear regularities in how people search their memory, with clusters of semantically related items tending to be retrieved together. These findings have recently been taken as evidence that human memory search is similar to animals foraging for food in patchy environments, with people making a rational decision to switch away from a cluster of related information as it becomes depleted. We demonstrate that the results that were taken as evidence for this account also emerge from a random walk on a semantic network, much like the random web surfer model used in internet search engines. This offers a simpler and more unified account of how people search their memory, postulating a single process rather than one process for exploring a cluster and one process for switching between clusters.",
-    "author": [
-      {"family": "Abbott", "given": "J. T."},
-      {"family": "Austerweil", "given": "J. L."},
-      {"family": "Griffiths", "given": "T. L."}
-    ],
-    "container-title": "Advances in neural information processing systems 25",
-    "editor": [
-      {"family": "Bartlett", "given": "P."},
-      {"family": "Pereira", "given": "F. C. N."},
-      {"family": "Burges", "given": "C. J. C."},
-      {"family": "Bottou", "given": "L."},
-      {"family": "Weinberger", "given": "K. Q."}
-    ],
-    "id": "abbott12",
-    "page": "3050-3058",
-    "title": "Human memory search as a random walk in a semantic network",
-    "type": "paper-conference",
-    "year": 2012
   },
 
 
@@ -80,24 +56,9 @@
     "year": 2013
   },
 
-
   {
-    "URL": "https://mindmodeling.org/cogsci2010/papers/0011/paper0011.pdf",
-    "abstract": "Generalizing a property from a set of objects to a new object is a fundamental problem faced by the human cognitive system, and a long-standing topic of investigation in psychology. Classic analyses suggest that the probability with which people generalize a property from one stimulus to another depends on the distance between those stimuli in psychological space. This raises the question of how people identify an appropriate metric for determining the distance between novel stimuli. In particular, how do people determine if two dimensions should be treated as separable, with distance measured along each dimension independently (as in an L1 metric), or integral, supporting Euclidean distance (as in an L2 metric)? We build on an existing Bayesian model of generalization to show that learning a metric can be formalized as a problem of learning a hypothesis space for generalization, and that both ideal and human learners can learn appropriate hypothesis spaces for a novel domain by learning concepts expressed in that domain.",
-    "author": [
-      {"family": "Austerweil", "given": "J. L."},
-      {"family": "Griffiths", "given": "T. L."}
-    ],
-    "container-title": "Proceedings of the 32nd annual conference of the cognitive science society",
-    "id": "austerweil10",
-    "page": "73-78",
-    "title": "Learning hypothesis spaces and dimensions through concept learning",
-    "type": "paper-conference",
-    "year": 2010
-  },
-
-
-  {
+    "URL":"/papers/files/malle-norms-2015.pdf",
+    "abstract": "The most intriguing and ethically challenging roles of robots in society are those of collaborator and social partner. We propose that such robots must have the capacity to learn, represent, activate, and apply social and moral norms—they must have a norm capacity. We offer a theoretical analysis of two parallel questions: what constitutes this norm capacity in humans and how might we implement it in robots? We propose that the human norm system has four properties: flexible learning despite a general logical format, structured representations, context-sensitive activation, and continuous updating. We explore two possible models that describe how norms are cognitively represented and activated in context-specific ways and draw implications for robotic architectures that would implement either model.",
     "author": [
       {"family": "Malle", "given": "B. F."},
       {"family": "Scheutz", "given": "M."},
@@ -105,7 +66,17 @@
     ],
     "container-title": "International conference on robot ethics",
     "id": "malle15",
-    "title": "Networks of social and moral norms in human and artificial agents",
+    "page": "3-17",
+    "editor":[
+      {"family": "Ferreira", "given": "M. I. A."},
+      {"family": "Sequeira", "given": "J. S."},
+      {"family": "Mohammad", "given": "O. T."},
+      {"family": "Kadar", "given": "E. E."},
+      {"family": "Virk", "given": "G. S."}
+    ],
+    "title": "Networks of social and moral norms in human and artificial agents.",
+    "publisher": "Springer International Publishing",
+    "publisherplace": "Cham, Switzerland",
     "type": "paper-conference",
     "year": 2015
   },
@@ -113,6 +84,7 @@
 
   {
     "URL": "http://dx.doi.org/10.1371/journal.pone.0158725",
+    "abstract":"The Sapir-Whorf hypothesis holds that our thoughts are shaped by our native language, and that speakers of different languages therefore think differently. This hypothesis is controversial in part because it appears to deny the possibility of a universal groundwork for human cognition, and in part because some findings taken to support it have not reliably replicated. We argue that considering this hypothesis through the lens of probabilistic inference has the potential to resolve both issues, at least with respect to certain prominent findings in the domain of color cognition. We explore a probabilistic model that is grounded in a presumed universal perceptual color space and in language-specific categories over that space. The model predicts that categories will most clearly affect color memory when perceptual information is uncertain. In line with earlier studies, we show that this model accounts for language-consistent biases in color reconstruction from memory in English speakers, modulated by uncertainty. We also show, to our knowledge for the first time, that such a model accounts for influential existing data on cross-language differences in color discrimination from memory, both within and across categories. We suggest that these ideas may help to clarify the debate over the Sapir-Whorf hypothesis.",
     "author": [
       {"family": "Cibelli", "given": "E."},
       {"family": "Xu", "given": "Y."},
@@ -120,11 +92,11 @@
       {"family": "Griffiths", "given": "T. L."},
       {"family": "Reiger", "given": "T."}
     ],
-    "container-title": "PLos ONE",
+    "container-title": "PLOS ONE",
     "id": "cibelli16",
     "issue": "7",
     "page": "e0158725",
-    "title": "The Sapir-Whorf hypothesis and probabilistic inference: Evidence from the domain of color",
+    "title": "The Sapir-Whorf hypothesis and probabilistic inference: Evidence from the domain of color.",
     "title-short": "The Sapir-Whorf hypothesis and probabilistic inference",
     "type": "article-journal",
     "volume": "11",
@@ -134,6 +106,7 @@
 
   {
     "URL": "http://dx.doi.org/10.1016/j.cogdev.2016.08.002",
+    "abstract":"The unexpected contents task is a ubiquitous measure of false belief. Not only has this measure been used to study children’s developing knowledge of belief, it has impacted the study of atypical development, education, and many other facets of cognitive development. Based on a review of articles using this task, we show that there is no consensus regarding how to score this measure. Further, examining both a logit analysis of performance on this measure and performance of a large sample of preschoolers, we show that which coding scheme researchers used to analyze raw data from this measure has a reliable effect on results, particularly when smaller sample sizes are used. Integrating our results, we conclude that the most frequently used coding scheme is flawed. We recommend best practices for scoring the unexpected contents task, and that researchers examine how they analyze data from this measure to ensure the robustness of their effects.",
     "author": [
       {"family": "Sobel", "given": "D. M."},
       {"family": "Austerweil", "given": "J. L."}
@@ -141,7 +114,7 @@
     "container-title": "Cognitive Development",
     "id": "sobel16",
     "page": "9-23",
-    "title": "Coding choices affect the analyses of a false belief measure",
+    "title": "Coding choices affect the analyses of a false belief measure.",
     "type": "article-journal",
     "volume": "40",
     "year": 2016
@@ -161,7 +134,7 @@
     "id": "prinzmetal15",
     "issue": "5",
     "page": "1396-1408",
-    "title": "Spatial attention and environmental information",
+    "title": "Spatial attention and environmental information.",
     "type": "article-journal",
     "volume": "41",
     "year": 2015
@@ -178,7 +151,7 @@
     "container-title": "Cognition",
     "id": "cohenpriva15",
     "page": "4-9",
-    "title": "Analyzing the history of Cognition using topic models",
+    "title": "Analyzing the history of Cognition using topic models.",
     "type": "article-journal",
     "volume": "135",
     "year": 2015
@@ -197,7 +170,7 @@
     "id": "abbott15",
     "issue": "3",
     "page": "558-569",
-    "title": "Random walks on semantic networks can resemble optimal foraging",
+    "title": "Random walks on semantic networks can resemble optimal foraging.",
     "type": "article-journal",
     "volume": "122",
     "year": 2015
@@ -223,14 +196,15 @@
     "id": "austerweil15bnp",
     "page": "187-208",
     "publisher": "Oxford University Press",
-    "title": "Structure and flexibility in Bayesian models of cognition",
+    "publisherplace": "New York, NY",
+    "title": "Structure and flexibility in Bayesian models of cognition.",
     "type": "chapter",
     "year": 2015
   },
 
 
   {
-    "URL": "http://aut.sagepub.com/content/19/3/367",
+    "URL": "/papers/files/austerweil-autism-2015.pdf",
     "author": [
       {"family": "Austerweil", "given": "J. L."}
     ],
@@ -238,7 +212,7 @@
     "id": "austerweil15asd",
     "issue": "3",
     "page": "367-368",
-    "title": "Contradictory “heuristic” theories of autism spectrum disorders: The case for theoretical precision using computational models",
+    "title": "Contradictory “heuristic” theories of autism spectrum disorders: The case for theoretical precision using computational models.",
     "title-short": "Contradictory “heuristic” theories of autism spectrum disorders",
     "type": "article-journal",
     "volume": "19",
@@ -268,7 +242,7 @@
     "id": "ho15",
     "page": "920-925",
     "publisher": "Cognitive Science Society",
-    "publisher-place": "Austin, TX",
+    "publisherplace": "Austin, TX",
     "title": "Teaching with rewards and punishments: Reinforcement or communication?",
     "title-short": "Teaching with rewards and punishments",
     "type": "paper-conference",
@@ -278,6 +252,7 @@
 
   {
     "URL": "/papers/files/Austerweiletal2016_MARL.pdf",
+    "abstract":"We examined the behavior of reinforcement-learning algorithms in a set of two-player stochastic games played on a grid. These games were selected because they include both cooperative and competitive elements, highlighting the importance of adaptive collaboration between the players. We found that pairs of learners were surprisingly good at discovering stable mutually bene- ficial behavior when such behaviors existed. However, the performance of learners was significantly impacted by their other-regarding preferences. We found similar patterns of results in games involving human–human and human–agent pairs.",
     "author": [
       {"family": "Austerweil", "given": "J. L."},
       {"family": "Brawner", "given": "S."},
@@ -290,7 +265,9 @@
     ],
     "container-title": "AAAI spring symposium 2016 on challenges and opportunities in multiagent learning for the real world",
     "id": "austerweil16",
-    "title": "The impact of other-regarding preferences in a collection of non-zero-sum grid games",
+    "title": "The impact of other-regarding preferences in a collection of non-zero-sum grid games.",
+    "publisher":"The AAAI Press",
+    "publisherplace":"Palo Alto, CA",
     "type": "paper-conference",
     "year": 2016
   },
@@ -298,16 +275,25 @@
 
   {
     "URL": "/papers/files/Zemlaetal2016.pdf",
+    "abstract":"Semantic networks have been used extensively in psychology to describe how humans organize facts and knowledge in memory. Numerous methods have been proposed to construct semantic networks using data from memory retrieval tasks, such as the semantic fluency task (listing items in a category). However these methods typically generate group-level networks, and sometimes require a very large amount of participant data. We present a novel computational method for estimating an individual’s semantic network using semantic fluency data that requires very little data. We establish its efficacy by examining the semantic relatedness of associations estimated by the model.",
     "author": [
       {"family": "Zemla", "given": "J. C."},
       {"family": "Kenett", "given": "Y. N."},
       {"family": "Jun", "given": "K."},
       {"family": "Austerweil", "given": "J. L."}
     ],
+    "editor": [
+      {"family": "Papafragou", "given": "A."},
+      {"family": "Grodner", "given": "D."},
+      {"family": "Mirman", "given": "D."},
+      {"family": "Trueswell", "given": "J."}
+    ],
     "container-title": "Proceedings of the 38th annual meeting of the cognitive science society",
     "id": "zemla16",
-    "title": "U-invite: Estimating individual semantic networks from fluency data",
-    "title-short": "U-invite",
+    "publisher":"Cognitive Science Society",
+    "publisherplace":"Austin, TX",
+    "title": "U-INVITE: Estimating individual semantic networks from fluency data.",
+    "page":"1907-1912",
     "type": "paper-conference",
     "year": 2016
   },
@@ -315,6 +301,7 @@
 
   {
     "URL": "/papers/files/Hoetalnormlearning2016.pdf",
+    "abstract":"People often use norms to coordinate behavior and accomplish shared goals. But how do people learn and represent norms? Here, we formalize the process by which collaborating individuals (1) reason about group plans during interaction, and (2) use task features to abstractly represent norms. In Experiment 1, we test the assumptions of our model in a gridworld that requires coordination and contrast it with a “best response” model. In Experiment 2, we use our model to test whether group members’ joint planning relies more on state features independent of other agents (landmark-based features) or state features determined by the configuration of agents (agent-relative features).",
     "author": [
       {"family": "Ho", "given": "M. K."},
       {"family": "MacGlashan", "given": "J."},
@@ -328,9 +315,18 @@
       {"family": "Kleiman-Weiner", "given": "M."},
       {"family": "Austerweil", "given": "J. L."}
     ],
+    "editor": [
+      {"family": "Papafragou", "given": "A."},
+      {"family": "Grodner", "given": "D."},
+      {"family": "Mirman", "given": "D."},
+      {"family": "Trueswell", "given": "J."}
+    ],
     "container-title": "Proceedings of the 38th annual meeting of the cognitive science society",
     "id": "ho16",
-    "title": "Feature-based joint planning and norm learning in collaborative games",
+    "title": "Feature-based joint planning and norm learning in collaborative games.",
+    "publisher":"Cognitive Science Society",
+    "publisherplace":"Austin, TX",
+    "page":"1158-1163",
     "type": "paper-conference",
     "year": 2016
   },
@@ -338,18 +334,26 @@
 
   {
     "URL": "/papers/files/Hoetal2017.pdf",
+    "abstract":"When teaching, people often intentionally intervene on a learner while it is acting. For instance, a dog owner might move the dog so it eats out of the right bowl, or a coach might intervene while a tennis player is practicing to teach a skill. How do people teach by intervention? And how do these strategies interact with learning mechanisms? Here, we examine one global and two local strategies: working backwards from the end-goal of a task (backwards chaining), placing a learner in a previous state when an incorrect action was taken (undoing), or placing a learner in the state they would be in if they had taken the correct action (correcting). Depending on how the learner interprets an intervention, different teaching strategies result in better learning. We also examine how people teach by intervention in an interactive experiment and find a bias for using local strategies like undoing.",
     "author": [
       {"family": "Ho", "given": "M. K."},
       {"family": "Littman", "given": "M. L."},
       {"family": "Austerweil", "given": "J. L."}
     ],
+    "editor": [
+      {"family": "Gunzelmann", "given": "G."},
+      {"family": "Howes", "given": "A."},
+      {"family": "Tenbrink", "given": "T."},
+      {"family": "Davelaar", "given": "E."}
+    ],
     "container-title": "Proceedings of the 39th annual meeting of the cognitive science society",
     "id": "ho17",
     "title": "Teaching by intervention: Working backwards, undoing mistakes, or correcting mistakes?",
-    "title-short": "Teaching by intervention",
+    "publisher":"Cognitive Science Society",
+    "publisherplace":"Austin, TX",
+    "page":"X-X",
     "type": "paper-conference",
-    "year": 2017,
-    "tags": ["similarity"]
+    "year": 2017
   },
 
 
@@ -358,9 +362,18 @@
       {"family": "Ren", "given": "J."},
       {"family": "Austerweil", "given": "J. L."}
     ],
+    "editor": [
+      {"family": "Gunzelmann", "given": "G."},
+      {"family": "Howes", "given": "A."},
+      {"family": "Tenbrink", "given": "T."},
+      {"family": "Davelaar", "given": "E."}
+    ],
     "container-title": "Proceedings of the 39th annual meeting of the cognitive science society",
     "id": "ren17",
-    "title": "Interpreting asymmetric perception in speech processing with Bayesian inference",
+    "title": "Interpreting asymmetric perception in speech processing with Bayesian inference.",
+    "publisher":"Cognitive Science Society",
+    "publisherplace":"Austin, TX",
+    "page":"X-X",
     "type": "paper-conference",
     "year": 2017
   },
@@ -368,17 +381,26 @@
 
   {
     "URL": "/papers/files/PACKERCogSci2017.pdf",
+    "abstract":"Generating new concepts is an intriguing yet understudied topic in cognitive science. In this paper, we present a novel exemplar model of category generation: PACKER (Producing Alike and Contrasting Knowledge using Exemplar Representations). PACKER's core design assumptions are (1) categories are represented as exemplars in a multidimensional psychological space, (2) generated items should be similar to exemplars of the same category, and (3) generated categories should be dissimilar to existing categories. A behavioral study reveals strong effects of contrast- and target-class similarity. These effects are novel empirical phenomena, which are directly predicted by the PACKER model but are not explained by existing formal approaches.",
     "author": [
       {"family": "Conaway", "given": "N."},
       {"family": "Austerweil", "given": "J. L."}
     ],
+    "editor": [
+      {"family": "Gunzelmann", "given": "G."},
+      {"family": "Howes", "given": "A."},
+      {"family": "Tenbrink", "given": "T."},
+      {"family": "Davelaar", "given": "E."}
+    ],
     "container-title": "Proceedings of the 39th annual meeting of the cognitive science society",
     "id": "conaway17",
-    "title": "PACKER: An exemplar model of category generation",
-    "title-short": "PACKER",
+    "title": "PACKER: An exemplar model of category generation.",
     "type": "paper-conference",
+    "publisher":"Cognitive Science Society",
+    "publisherplace":"Austin, TX",
+    "page":"X-X",
     "year": 2017,
-    "tags": ["similarity","categorization"]
+    "tags": ["creativity","categorization","modeling"]
   },
 
 
@@ -387,15 +409,25 @@
       {"family": "Zemla", "given": "J. C."},
       {"family": "Austerweil", "given": "J. L."}
     ],
+    "editor": [
+      {"family": "Gunzelmann", "given": "G."},
+      {"family": "Howes", "given": "A."},
+      {"family": "Tenbrink", "given": "T."},
+      {"family": "Davelaar", "given": "E."}
+    ],
     "container-title": "Proceedings of the 39th annual meeting of the cognitive science society",
     "id": "zemla17",
-    "title": "Modeling semantic fluency data as search on a semantic network",
+    "publisher":"Cognitive Science Society",
+    "publisherplace":"Austin, TX",
+    "page":"X-X",
+    "title": "Modeling semantic fluency data as search on a semantic network.",
     "type": "paper-conference",
     "year": 2017
   },
 
 
   {
+    "abstract":"People often learn from others' demonstrations, and classic inverse reinforcement learning (IRL) algorithms have brought us closer to realizing this capacity in machines. In contrast, teaching by demonstration has been less well studied computationally. Here, we develop a novel Bayesian model for teaching by demonstration. Stark differences arise when demonstrators are intentionally teaching a task versus simply performing a task. In two experiments, we show that human participants systematically modify their teaching behavior consistent with the predictions of our model. Further, we show that even standard IRL algorithms benefit when learning from behaviors that are intentionally pedagogical. We conclude by discussing IRL algorithms that can take advantage of intentional pedagogy.",
     "URL": "/papers/files/Hoetal2016NIPS.pdf",
     "author": [
       {"family": "Ho", "given": "M. K."},
@@ -404,11 +436,20 @@
       {"family": "Cushman", "given": "F."},
       {"family": "Austerweil", "given": "J. L."}
     ],
-    "container-title": "Advances in neural information processing systems 29",
+
+    "editor":[
+      {"family": "Lee", "given": "D. D."},
+      {"family": "Sugiyama ", "given": "M."},
+      {"family": "Luxburg", "given": "U. V."},
+      {"family": "Guyon", "given": "I."},
+      {"family": "Garnett", "given": "R."}
+    ],
+    "container-title": "Advances in neural information processing systems",
     "id": "ho16nips",
-    "page": "X-X",
-    "title": "Showing versus doing: Teaching by demonstration",
-    "title-short": "Showing versus doing",
+    "page": "3027-3035",
+    "publisher": "Curran Associates, Inc",
+    "publisherplace": "Red Hook, NY",
+    "title": "Showing versus doing: Teaching by demonstration.",
     "type": "paper-conference",
     "year": 2016
   },
@@ -416,20 +457,30 @@
 
   {
     "URL": "/papers/files/Kenett16CreativityRW.pdf",
+    "abstract": "The creative process involves several cognitive processes, such as working memory, controlled attention and task switching. One other process is cognitive search over semantic memory. These search processes can be controlled (e.g., problem solving guided by a heuristic), or uncontrolled (e.g., mind wandering). However, the nature of this search in relation to creativity has rarely been examined from a formal perspective. To do this, we use a random walk model to simulate uncontrolled cognitive search over semantic networks of low and high creative individuals with an equal number of nodes and edges. We show that a random walk over the semantic network of high creative individuals “finds” more unique words and moves further through the network for a given number of steps. Our findings are consistent with the associative theory of creativity, which posits that the structure of semantic memory facilitates search processes to find creative solutions.",
     "author": [
       {"family": "Kenett", "given": "Y. N."},
       {"family": "Austerweil", "given": "J. L."}
     ],
+    "editor": [
+      {"family": "Papafragou", "given": "A."},
+      {"family": "Grodner", "given": "D."},
+      {"family": "Mirman", "given": "D."},
+      {"family": "Trueswell", "given": "J."}
+    ],
     "container-title": "Proceedings of the 38th annual meeting of the cognitive science society",
     "id": "kenett16",
-    "title": "Examining search processes in low and high creative individuals with random walks",
+    "page": "313-318",
+    "publisher":"Cognitive Science Society",
+    "publisherplace":"Austin, TX",
+    "title": "Examining search processes in low and high creative individuals with random walks.",
     "type": "paper-conference",
     "year": 2016
   },
 
-
   {
     "URL": "/papers/files/KW2016etal.pdf",
+    "abstract": "Successfully navigating the social world requires reasoning about both high-level strategic goals, such as whether to cooperate or compete, as well as the low-level actions needed to achieve those goals. We develop a hierarchical model of social agency that infers the intentions of other agents, strategically decides whether to cooperate or compete with them, and then executes either a cooperative or competitive planning program. Learning occurs across both high-level strategic decisions and low-level actions leading to the emergence of social norms. We test predictions of this model in multi-agent behavioral experiments using rich video-game like environments. By grounding strategic behavior in a formal model of planning, we develop abstract notions of both cooperation and competition and shed light on the computational nature of joint intentionality.",
     "author": [
       {"family": "Kleiman-Weiner", "given": "M."},
       {"family": "Ho", "given": "M. K."},
@@ -437,10 +488,18 @@
       {"family": "Littman", "given": "M. L."},
       {"family": "Tenenbaum", "given": "J. B."}
     ],
+    "editor": [
+      {"family": "Papafragou", "given": "A."},
+      {"family": "Grodner", "given": "D."},
+      {"family": "Mirman", "given": "D."},
+      {"family": "Trueswell", "given": "J."}
+    ],
     "container-title": "Proceedings of the 38th annual meeting of the cognitive science society",
     "id": "kw16",
-    "title": "Coordinate to cooperate or compete: Abstract goals and joint intentions in social interaction",
-    "title-short": "Coordinate to cooperate or compete",
+    "page":"1679-1684",
+    "publisher":"Cognitive Science Society",
+    "publisherplace":"Austin, TX",
+    "title": "Coordinate to cooperate or compete: Abstract goals and joint intentions in social interaction.",
     "type": "paper-conference",
     "year": 2016
   },
@@ -466,8 +525,8 @@
     "id": "qian15",
     "page": "1919-1924",
     "publisher": "Cognitive Science Society",
-    "publisher-place": "Austin, TX",
-    "title": "Learning additive and substitutive features",
+    "publisherplace": "Austin, TX",
+    "title": "Learning additive and substitutive features.",
     "type": "paper-conference",
     "year": 2015
   },
@@ -489,9 +548,9 @@
     "page": "122-127",
     "container-title": "Proceedings of the 36th Annual Meeting of the Cognitive Science Society",
     "publisher": "Cognitive Science Society",
-    "publisher-place": "Austin, TX",
-    "title": "Testing the psychological validity of cluster construction biases",
-    "type": "no-type",
+    "publisherplace": "Austin, TX",
+    "title": "Testing the psychological validity of cluster construction biases.",
+    "type": "paper-conference",
     "year": 2014
   },
 
@@ -506,7 +565,7 @@
       {"family": "Griffiths", "given": "T. L."},
       {"family": "Darrell", "given": "T."}
     ],
-    "container-title": "Advances in neural information processing systems (vol. 26)",
+    "container-title": "Advances in neural information processing systems",
     "editor": [
       {"family": "Burges", "given": "C. J. C."},
       {"family": "Bottou", "given": "L."},
@@ -517,7 +576,7 @@
     "id": "jia13",
     "page": "1842-1850",
     "publisher": "Curran Associates, Inc",
-    "title": "Visual concept learning: Combining machine vision and bayesian generalization on concept hierarchies",
+    "title": "Visual concept learning: Combining machine vision and bayesian generalization on concept hierarchies.",
     "title-short": "Visual concept learning",
     "type": "paper-conference",
     "year": 2013
@@ -532,7 +591,7 @@
       {"family": "Austerweil", "given": "J. L."},
       {"family": "Griffiths", "given": "T. L."}
     ],
-    "container-title": "Advances in neural information processing systems (vol. 25)",
+    "container-title": "Advances in neural information processing systems",
     "editor": [
       {"family": "Pereira", "given": "F."},
       {"family": "Burges", "given": "C.J.C."},
@@ -541,8 +600,9 @@
     ],
     "id": "abbott12",
     "page": "3041-3049",
-    "publisher": "Curran Associates, Inc.",
-    "title": "Human memory search as a random walk in a semantic network",
+    "publisher": "Curran Associates, Inc",
+    "publisherplace": "Red Hook, NY",
+    "title": "Human memory search as a random walk in a semantic network.",
     "type": "paper-conference",
     "year": 2012
   },
@@ -552,22 +612,23 @@
     "URL": "http://papers.nips.cc/paper/4354-an-ideal-observer-model-for-identifying-the-reference-frame-of-objects.pdf",
     "abstract": "The object people perceive in an image can depend on its orientation relative to the scene it is in (its reference frame). For example, the images of the symbols × and + differ by a 45 degree rotation. Although real scenes have multiple images and reference frames, psychologists have focused on scenes with only one reference frame. We propose an ideal observer model based on nonparametric Bayesian statistics for inferring the number of reference frames in a scene and their parameters. When an ambiguous image could be assigned to two conflicting reference frames, the model predicts two factors should influence the reference frame inferred for the image: The image should be more likely to share the reference frame of the closer object (<i>proximity</i>) and it should be more likely to share the reference frame containing the most objects (<i>alignment</i>). We confirm people use both cues using a novel methodology that allows for easy testing of human reference frame inference.",
     "author": [
-      {"family": "Austerweil", "given": "Joseph L."},
-      {"family": "Friesen", "given": "Abram L."},
-      {"family": "Griffiths", "given": "Thomas L."}
+      {"family": "Austerweil", "given": "J. L."},
+      {"family": "Friesen", "given": "A. L."},
+      {"family": "Griffiths", "given": "T. L."}
     ],
-    "container-title": "Advances in neural information processing systems (vol. 24)",
+    "container-title": "Advances in neural information processing systems",
     "editor": [
       {"family": "Shawe-Taylor", "given": "J."},
-      {"family": "Zemel", "given": "R.S."},
-      {"family": "Bartlett", "given": "P.L."},
+      {"family": "Zemel", "given": "R. S."},
+      {"family": "Bartlett", "given": "P. L."},
       {"family": "Pereira", "given": "F."},
-      {"family": "Weinberger", "given": "K.Q."}
+      {"family": "Weinberger", "given": "K. Q."}
     ],
     "id": "austerweil11nips",
     "page": "514-522",
-    "publisher": "Curran Associates, Inc.",
-    "title": "An ideal observer model for identifying the reference frame of objects",
+    "publisher": "Curran Associates, Inc",
+    "publisherplace": "Red Hook, NY",
+    "title": "An ideal observer model for identifying the reference frame of objects.",
     "type": "chapter",
     "year": 2011
   },
@@ -580,7 +641,7 @@
       {"family": "Austerweil", "given": "J. L."},
       {"family": "Griffiths", "given": "T. L."}
     ],
-    "container-title": "Advances in neural information processing systems (vol. 21)",
+    "container-title": "Advances in neural information processing systems",
     "editor": [
       {"family": "Koller", "given": "D."},
       {"family": "Schuurmans", "given": "D."},
@@ -590,7 +651,8 @@
     "id": "austerweil09nips",
     "page": "97-104",
     "publisher": "Curran Associates, Inc",
-    "title": "Analyzing human feature learning as nonparametric bayesian inference",
+    "publisherplace": "Red Hook, NY",
+    "title": "Analyzing human feature learning as nonparametric bayesian inference.",
     "type": "chapter",
     "year": 2009
   },
@@ -607,7 +669,7 @@
     "id": "griffiths12bayesian",
     "issue": "4",
     "page": "281-285",
-    "title": "Bayesian generalization with circular consequential regions",
+    "title": "Bayesian generalization with circular consequential regions.",
     "type": "article-journal",
     "volume": "56",
     "year": 2012
@@ -623,12 +685,13 @@
     "editor": [
       {"family": "Seel", "given": "N. M."}
     ],
-    "id": "austerweil2012human",
+    "id": "austerweil2011human",
     "page": "1456-1458",
     "publisher": "Springer",
-    "title": "Human feature learning",
+    "publisherplace": "New York, NY",
+    "title": "Human feature learning.",
     "type": "chapter",
-    "year": 2012
+    "year": 2011
   },
 
 
@@ -649,8 +712,8 @@
     "id": "griffiths2012cogsci",
     "page": "402-407",
     "publisher": "Cognitive Science Society",
-    "publisher-place": "Austin, TX",
-    "title": "Comparing the inductive biases of simple neural networks and Bayesian models",
+    "publisherplace": "Austin, TX",
+    "title": "Comparing the inductive biases of simple neural networks and Bayesian models.",
     "type": "paper-conference",
     "year": 2012
   },
@@ -673,8 +736,8 @@
     "id": "abbott2012cogsci",
     "page": "54-59",
     "publisher": "Cognitive Science Society",
-    "publisher-place": "Austin, TX",
-    "title": "Constructing a hypothesis space from the web for large-scale bayesian word learning",
+    "publisherplace": "Austin, TX",
+    "title": "Constructing a hypothesis space from the web for large-scale bayesian word learning.",
     "type": "paper-conference",
     "year": 2012
   },
@@ -692,7 +755,7 @@
     "issue": "3",
     "page": "499-526",
     "publisher": "Blackwell Publishing Ltd",
-    "title": "Seeking confirmation is rational for deterministic hypotheses",
+    "title": "Seeking confirmation is rational for deterministic hypotheses.",
     "type": "article-journal",
     "volume": "35",
     "year": 2011
@@ -714,8 +777,8 @@
     "id": "austerweil2010lcogsci",
     "page": "73-78",
     "publisher": "Cognitive Science Society",
-    "publisher-place": "Austin, TX",
-    "title": "Learning hypothesis spaces and dimensions through concept learning",
+    "publisherplace": "Austin, TX",
+    "title": "Learning hypothesis spaces and dimensions through concept learning.",
     "type": "paper-conference",
     "year": 2010
   },
@@ -733,7 +796,7 @@
     "id": "gardner10",
     "issue": "2",
     "page": "445-453",
-    "title": "Vertical position as a cue to pictorial depth: Height in the picture plane versus distance to the horizon",
+    "title": "Vertical position as a cue to pictorial depth: Height in the picture plane versus distance to the horizon.",
     "title-short": "Vertical position as a cue to pictorial depth",
     "type": "article-journal",
     "volume": "72",
@@ -756,8 +819,8 @@
     "id": "austerweil09cogsci",
     "page": "2765-2770",
     "publisher": "Cognitive Science Society",
-    "publisher-place": "Austin, TX",
-    "title": "The effect of distributional information on feature learning",
+    "publisherplace": "Austin, TX",
+    "title": "The effect of distributional information on feature learning.",
     "type": "paper-conference",
     "year": 2009
   },
@@ -779,8 +842,8 @@
     "id": "austerweil2008cogsci",
     "page": "1041-1046",
     "publisher": "Cognitive Science Society",
-    "publisher-place": "Austin, TX",
-    "title": "A rational analysis of confirmation with deterministic hypotheses",
+    "publisherplace": "Austin, TX",
+    "title": "A rational analysis of confirmation with deterministic hypotheses.",
     "type": "paper-conference",
     "year": 2008
   },
@@ -794,9 +857,11 @@
       {"family": "Austerweil", "given": "J. L."},
       {"family": "Charniak", "given": "E."}
     ],
-    "container-title": "HLT-naacl",
+    "container-title": "Proceedings of the main conference on Human Language Technology Conference of the North American Chapter of the Association of Computational Linguistics",
     "id": "elsner07naacl",
     "page": "436-443",
+    "publisher": "Association for Computational Linguistics",
+    "publisherplace": "New York City, NY, USA",
     "title": "A unified local and global model for discourse coherence.",
     "type": "paper-conference",
     "year": 2007
@@ -819,11 +884,12 @@
       {"family": "Pozar", "given": "M."},
       {"family": "Vu", "given": "T."}
     ],
-    "container-title": "HLT-naacl",
+    "container-title": "Proceedings of the main conference on Human Language Technology Conference of the North American Chapter of the Association of Computational Linguistics",
     "id": "charniak06naacl",
     "page": "168-175",
     "publisher": "Association for Computational Linguistics",
-    "title": "Multilevel coarse-to-fine pcfg parsing",
+    "publisherplace": "New York City, NY, USA",
+    "title": "Multilevel coarse-to-fine PCFG parsing.",
     "type": "paper-conference",
     "year": 2006
   }
