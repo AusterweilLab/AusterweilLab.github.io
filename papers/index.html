@@ -3,8 +3,6 @@ title: Austerweil Lab | Papers
 layout: default
 ---
 
-<h1>Lab Publications</h1>
-
 <div id="tag_nav">
 	{% for tag in site.data.tagcolors %}
 		<span class='papertag {{tag[0] | replace:' ','_'}}'>
@@ -15,11 +13,15 @@ layout: default
 
 <p class = 'show_all'> <a onclick="findRows('SHOW EVERYTHING')">Show all papers.</a> </p>
 
-<table id='papertable'>
+<div id='all_paper_groups'>
 
-{% assign paperList = site.data.papers | sort: "year" | reverse %}
-{% for paper in paperList %}
+{% assign yearGroups = site.data.papers | sort:"year" | reverse | group_by:"year" %}
+{% for year in yearGroups %}
 
+<h2>{{year.name}}</h2>
+
+<table class='papertable'>
+{% for paper in year.items %}
 <tr class = 'paperrow'>
 
 <td class = 'metacell'>
@@ -119,9 +121,12 @@ layout: default
 </tr>
 
 {% endfor %}
-
-
 </table>
+
+
+{% endfor %}
+</div>
+
 
 
 <p class = 'show_all'> <a onclick="findRows('SHOW EVERYTHING')">Show all papers.</a> </p>
@@ -179,6 +184,7 @@ layout: default
 		margin: 0 1px;
 		border: 1px solid #424242;
 		border-radius: 25px;
+		display: inline-block;
 	}
 
 	.papertag a {
@@ -196,14 +202,12 @@ layout: default
 
 	#tag_nav {
 		font-size: 0.8em;
-		padding-bottom: 20px;
-		width: 90%;
+		width: 100%;
 		margin: auto;
 		text-align: center;
 	}
 
 	#tag_nav .papertag {
-		display: inline-block;
 		padding: 2px 3px;
 		margin: 2px 0;
 	}
@@ -232,16 +236,13 @@ layout: default
 	}
 
 	function findRows(tag) {
-		var table = document.getElementById("papertable")
-		var rows = table.getElementsByClassName("paperrow");
+		var rows = document.getElementsByClassName("paperrow")
 		for (var i = 0; i < rows.length; i++) {
 			var row = rows[i];
-
 			if (tag == 'SHOW EVERYTHING') {
 				row.style.display = 'block';
 				continue
 			}
-
 			var possible_spans = row.getElementsByClassName(tag);
 			if (possible_spans.length == 0) {
 				row.style.display = 'none';

@@ -24,7 +24,10 @@ layout: default
 
 
 <div id = 'content'>
-{{page.content}}
+
+<div id = "newspost">
+	{{page.content}}
+</div>
 </div>
 
 
@@ -47,5 +50,27 @@ layout: default
 	#pmeta table {
 		width: 100%;
 	}
+	
+	#newspost .datatable  { 
+	  border-collapse: collapse;
+	  border: 1px solid #37474F;  
+	  border-radius: 15px;
+	  margin: 10px auto;
+	  padding: 0 20px;
+	}
 
+	#newspost .datatable tr:nth-of-type(odd) { 
+	  background: #F5F5F5; 
+	}
+	#newspost .datatable th { 
+	  background: #37474F;
+	  border: 1px solid #37474F; 
+	  color: #ECEFF1; 
+	  font-weight: bold; 
+	}
+	#newspost .datatable td, th{ 
+		padding: 0.2em 1em;
+		border: 1px solid #546E7A;
+		text-align: left; 
+	}
 </style>
