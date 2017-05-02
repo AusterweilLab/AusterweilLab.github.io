@@ -1,0 +1,32 @@
+<div id='fundingfoot'>
+	
+<p id='fundthanks'>The Austerweil Lab thanks its previous and current funders.</p>
+<div id='fundlogos'>
+{% for image in site.static_files %}
+    {% if image.path contains 'img/fundinglogos' %}
+        <img class='fundlogo' src="{{ site.baseurl }}{{ image.path }}" alt="image" />
+    {% endif %}
+{% endfor %}
+</div>
+</div>
+
+
+<style type="text/css">
+	#fundthanks {
+		color: #B0BEC5;
+	}
+	
+	.fundlogo {
+		max-height: 50px;
+		margin: 0 2px;
+	}
+
+	#fundingfoot {
+		text-align: center;
+	}
+	
+	#fundlogos {
+		margin: 0 2em;
+	}
+
+</style>
