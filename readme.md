@@ -161,7 +161,8 @@ Putting all of that together, here's an example of a  project post:
     use_math: true
     ---
     
-    Some introduction, blah blah blah. Here is some code:
+    Some introduction, blah blah blah. Here is some cush
+    ode:
     
     ```python
     def BagelBites(time):
