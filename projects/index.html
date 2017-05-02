@@ -5,15 +5,19 @@ layout: default
 
 <h1> Lab Projects</h1>
 
+<!--  
 {%for project in site.categories.projects%}
+	<h4><a href="{{project.url}}">{{project.title}}</a></h4>
+	{{project.excerpt}}
 
-<h4><a href="{{project.url}}">{{project.title}}</a></h4>
-{{project.excerpt}}
+	{% unless forloop.last %}
+	<hr>
+	{% endunless %}
+{%endfor%} 
 
-<hr>
-{%endfor%}
+ -->
 
-
+This page is not yet finished!
 
 <style type="text/css">
 
