@@ -39,7 +39,7 @@ You can also see that I apply special CSS at the bottom of each page. That's jus
 
 ## How to add a new paper.
 
-Like in the people page, you should be able to add/edit lab papers using a json file: `_data/papers.json`. The html for this page is a bit more complex because I had to construct citations on the fly and add abstract toggling and tag functions, but you should be able to add and edit pages exclusively in the json file.
+Like in the people page, you should be able to add/edit lab papers using a json file: `_data/papers.json`. The html for this page is a bit more complex because I had to construct citations on the fly and add abstract toggling and tag functions, but you should be able to add and edit papers exclusively in the json file.
 
 Things to note:
 
@@ -48,9 +48,141 @@ Things to note:
 3. If you use a new tag, you'll need to specify its color in `_data/tagcolors.json`. I have been using the [Material Theme Colors](https://material.io/guidelines/style/color.html), and I've listed some unused ones in the comments of that file. Just add an entry for your tag with the color you want.
 4. Right now the only supported paper types are `"article-journal"`, `"paper-conference"` and `"chapter"` because, again, my implementation is not at all robust.
 
-## How to make a new project page.
+## How to make a new project or news page.
 
-### Syntax highlighting and MathJax.
+If you are writing a new project or news page, to eventually be listed in `projects/` or in the news marquee, you'll need to write it in markdown. I am using Jekyll's blog functionality to handle these items, and so all posts are markdown files within the `_posts\` directory. For organization, I have split that directory into `news` and `projects` subdirectories.
 
-## How to add a news post.
+In either case, the markdown files are specially formatted, with YAML frontmatter at the very beginning. Liquid syntax can also be used in these posts, in case you were wondering.
 
+Here is a sample news post:
+
+```
+---
+title: The title of the news post.
+excerpt: A sentence or two about the news.
+tags: tags, for, seo
+layout: post
+category: news
+---
+
+Some other content can go here! This will be visible to 
+whoever clicks the link in the news post.
+```
+
+News posts in particular can be exclusively the YAML front matter, but they don't have to be.
+
+Here's what the front matter items do:
+
+| Field          | Description                                     |
+| -------------- | ----------------------------------------------- |
+| `title` | For news, this is the text that is shown on the main page.  For projects, this will be the title of the project. |
+| `excerpt` | This is set as the page meta description for SEO, but it might also come in handy if we ever need a quick abstract about the post. |
+| `tags` | These are also used for SEO, but are additionally shown below the title of the page when you click the link to the post, so make sure they are appropriate. |
+| `layout` | This references a specific HTML layout that I have written. It should always be the name of a file in `_layouts`. The one i have written, `post`, is very general and you shouldn't need to write a new one. |
+| `category` |  This will either be `news` or `projects`, depending on which you are writing.|
+
+The file also has to be named very particularly for Jekyll to interpret it. Here is how it should look:
+
+```
+YYYY-M-DD-short-name.md
+```
+
+The date listed in that file will be shown on the post page, and also it will affect its order in the news marquee (which only shows the most recent three posts, in order of recency). So make sure that's done correctly!
+
+### Syntax highlighting, MathJax, and Tables
+
+I have additionally enabled syntax highlighting and MathJax on post pages, and I've written some special table styling. Here's how you use these things:
+
+#### Syntax highlighting
+
+Syntax highlighting works as with any Github-flavored markdown:
+
+    ```python
+    for i in range(3):
+        print(i)
+    ```
+
+That would produce this highlighting:
+
+```python
+for i in range(3):
+    print(i)
+```
+
+This [page](https://github.com/jneen/rouge/wiki/List-of-supported-languages-and-lexers) lists the languages that Jekyll's default highlighter, rouge, _should_ know about.
+
+#### MathJax
+
+By default MathJax is not loaded because it is a big library, so if you want to use it you will need to include this line in your YAML frontmatter:
+
+```
+use_math: true
+```
+
+If that line is in there, the MathJax library will be loaded. After you do that, you can use inline and display math like so:
+
+```
+This sentence has some inline math: \\(y=mx+b\\)
+```
+
+```
+Hey, check out this display equation:
+
+$$
+e = mc^2
+$$
+```
+
+I do not know a lot about MathJax and I constantly need to look things up, but i know those two things work! I would suggest constant checking to make sure your math displays correctly.
+
+#### Tables
+
+The default markdown table styling is _garbage_, so I have written special styling to make tables look nicer. To activate the styling, you need to apply a CSS class (`.datatable`) by using a decorator:
+
+```
+My great markdown table:
+
+{:.datatable}
+| Column 1 | Column 2 | 
+| -------- | -------- |
+| This |  Table |
+| Looks | Great! |
+```
+
+
+Putting all of that together, here's an example of a  project post:
+
+    ---
+    title: This is a sample project page!
+    excerpt: A description. Maybe a sentence or two.
+    tags: tags,for,seo
+    layout: post
+    category: projects
+    use_math: true
+    ---
+    
+    Some introduction, blah blah blah. Here is some code:
+    
+    ```python
+    def BagelBites(time):
+        if time.lower() in ['morning','evening','suppertime']:
+            return('Pizza')
+        else:
+            raise Exception('When pizza\'s on a bagel, you can have pizza anytime!')
+    ```
+    
+    My special inline math: \\(y=mx+b\\)
+    
+    My special display math:
+    
+    $$
+    e = mc^2
+    $$
+    
+    And, hey, look at this table!
+    
+    {:.datatable}
+    | Column 1 | Column 2 | 
+    | -------- | -------- |
+    | This |  Table |
+    | Looks | Great! |
