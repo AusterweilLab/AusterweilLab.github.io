@@ -62,11 +62,9 @@ blockquote p {
 #navbar{
   font-size: 0.97em;
   font-family: 'Custom Serif', serif;
-  text-align: center;
   height: 2.4em;
   line-height: 2.4em;
   margin: 0 auto;  
-
 }
 
 #navbar ul {
