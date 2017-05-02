@@ -32,7 +32,7 @@ After you've made changes, you can just copy the contents of `_site/` into the r
 
 Joe will probably ask for this to be done every year or so. The people page is in `people/index.html`, so you'll be editing that file (you will _not_ edit `_site/people/index.html`). You'll see that Jekyll's [Liquid](https://gist.github.com/smutnyleszek/9803727) Syntax is in use: anything inside of `{% ... %}` and `{{ ... }}`  is interpreted as Liquid and you can use that to make pages more dynamic.
 
-I have stored all the information about lab members in a special directory: `_data/people.json`. This file contains all the information relating to lab members, and if you on;y want to add/remove people, you'll only need to edit this file. You can delete / move people between categories, and you can also add entirely new categories and the thing should work. The fields are pretty straightforward so there's not much to talk about here. If you don't specify a particular image, Larry David is used.
+I have stored all the information about lab members in a special directory: `_data/people.json`. This file contains all the information relating to lab members, and if you only want to add/remove people, you'll only need to edit this file. You can delete / move people between categories, and you can also add entirely new categories and the thing should work. The fields are pretty straightforward so there's not much to talk about here. If you don't specify a particular image, Larry David is used.
 
 You can also see that I apply special CSS at the bottom of each page. That's just good to know if you can't figure out where in `css/style.css` a styling is applied.
 

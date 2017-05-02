@@ -1,21 +1,21 @@
 {
-	"categorization": "FFCDD2",
-	"creativity": "F8BBD0",
-	"modeling": "E1BEE7"
+	"bayesian nonparametrics": "#FFCDD2",
+	"categorization": "#F8BBD0",
+	"computational psychiatry": "#E1BEE7",
+	"creativity": "#D1C4E9",
+	"feature inference": "#C5CAE9",
+	"fluency": "#BBDEFB",
+	"natural language processing": "#B3E5FC",
+	"networks": "#FFE0B2",
+	"norms": "#B2EBF2",
+	"pedagogy": "#B2DFDB",
+	"perception": "#C8E6C9",
+	"rational analysis": "#DCEDC8",
+	"reasoning": "#F0F4C3",
+	"reinforcement learning": "#FFF9C4",
+	"statistical methods": "#FFECB3"
 }
 
 // UNUSED MATERIAL THEME COLORS
-// D1C4E9
-// C5CAE9
-// BBDEFB
-// B3E5FC
-// B2EBF2
-// B2DFDB
-// C8E6C9
-// DCEDC8
-// F0F4C3
-// FFF9C4
-// FFECB3
-// FFE0B2
 // FFCCBC
 // D7CCC8
