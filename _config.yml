@@ -17,6 +17,8 @@ kramdown:
 gems:
   - jekyll-sitemap
 
+exclude: ['*.sublime-project']
+
 # default info
 title: Austerweil Lab
 excerpt: Official Website for the Austerweil Lab at the University of Wisconsin-Madison
