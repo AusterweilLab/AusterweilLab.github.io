@@ -25,7 +25,7 @@ layout: default
 
 <div id = 'content'>
 
-<div id = "newspost">
+<div id = "mypost">
 	{{page.content}}
 </div>
 </div>
@@ -51,7 +51,7 @@ layout: default
 		width: 100%;
 	}
 	
-	#newspost .datatable  { 
+	#mypost .datatable  { 
 	  border-collapse: collapse;
 	  border: 1px solid #37474F;  
 	  border-radius: 15px;
@@ -59,18 +59,27 @@ layout: default
 	  padding: 0 20px;
 	}
 
-	#newspost .datatable tr:nth-of-type(odd) { 
+	#mypost .datatable tr:nth-of-type(odd) { 
 	  background: #F5F5F5; 
 	}
-	#newspost .datatable th { 
+	#mypost .datatable th { 
 	  background: #37474F;
 	  border: 1px solid #37474F; 
 	  color: #ECEFF1; 
 	  font-weight: bold; 
 	}
-	#newspost .datatable td, th{ 
+	#mypost .datatable td, th{ 
 		padding: 0.2em 1em;
 		border: 1px solid #546E7A;
 		text-align: left; 
 	}
+
+	/* images */
+	#mypost img {
+		max-width: 100%;
+		max-height: 250px;
+		object-fit: scale-down;
+		display: block;
+		margin: auto;
+	  }
 </style>

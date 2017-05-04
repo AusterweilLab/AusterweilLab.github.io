@@ -89,9 +89,9 @@ YYYY-M-DD-short-name.md
 
 The date listed in that file will be shown on the post page, and also it will affect its order in the news marquee (which only shows the most recent three posts, in order of recency). So make sure that's done correctly!
 
-### Syntax highlighting, MathJax, and Tables
+### Syntax highlighting, MathJax, Tables, and Images
 
-I have additionally enabled syntax highlighting and MathJax on post pages, and I've written some special table styling. Here's how you use these things:
+To get these aspects going, you need to use some special syntax elements, described below.
 
 #### Syntax highlighting
 
@@ -150,6 +150,26 @@ My great markdown table:
 ```
 
 
+#### Images
+
+Jekyll is particular about how files are organized, and so if you have locally hosted resources, such as images, you'll need to put them in a special place: `[projects|news]/assets/[post_name]/`. Then you'll need to reference those files in your post.
+
+So, for example, of my post was in `/_posts/projects/2017-4-15-sample.md`, I would put my resources in `/projects/assets/sample/`. 
+
+To make things a little easier, you can define the location of the page resources in your YAML frontmatter:
+
+```
+assets: /projects/assets/sample
+```
+
+Then you can use that variable in your post:
+
+```
+![alt text]( {{page.assets}}/image.jpg )
+```
+
+### Putting it all together
+
 Putting all of that together, here's an example of a  project post:
 
     ---
@@ -159,6 +179,7 @@ Putting all of that together, here's an example of a  project post:
     layout: post
     category: projects
     use_math: true
+    assets: /projects/assets/sample
     ---
     
     Some introduction, blah blah blah. Here is some cush
@@ -187,3 +208,7 @@ Putting all of that together, here's an example of a  project post:
     | -------- | -------- |
     | This |  Table |
     | Looks | Great! |
+    
+    And an image!
+    ![alt text]( {{page.assets}}/image.jpg )
+
