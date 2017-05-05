@@ -14,9 +14,6 @@ kramdown:
       line_numbers: true
       start_line: 1
 
-gems:
-  - jekyll-sitemap
-
 exclude: ['*.sublime-project']
 
 # default info

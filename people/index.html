@@ -2,9 +2,11 @@
 title: Austerweil Lab | People
 layout: default
 ---
-
-<h1>Lab Members</h1>
-
+<div class='labphotocontainer'>
+<img src="/img/lab-photos/2017-spring.JPG">
+<br>
+<span class='photoyear'>Spring 2017</span>
+</div>
 
 {% for group in site.data.people %}
 	<hr>
@@ -52,4 +54,17 @@ layout: default
 		width: 5em;
 	}
 
+	.labphotocontainer img {
+		width: 95%;
+		max-width: 500px;
+		margin: 0 auto;
+		align-content: center;
+	}
+
+	.labphotocontainer {
+		text-align: center;
+	}
+	.photoyear {
+		font-size: 0.8em;
+	}
 </style>
