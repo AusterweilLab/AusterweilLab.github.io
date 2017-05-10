@@ -423,6 +423,8 @@
 
 
   {
+    "abstract":"Psychologists have used the semantic fluency task for decades to gain insight into the processes and representations underlying memory retrieval. Recent work has suggested that a censored random walk on a semantic network resembles semantic fluency data because it produces optimal foraging. However, fluency data have rich structure beyond being consistent with optimal foraging. Under the assumption that memory can be represented as a semantic network, we test a variety of memory search processes and examine how well these processes capture the richness of fluency data. The search processes we explore vary in the extent they explore the network globally or exploit local clusters, and whether they are strategic. We found that a censored random walk with a priming component best captures the frequency and clustering effects seen in human fluency data.",
+    "URL": "/papers/files/zemla17cogsci.pdf",
     "author": [
       {"family": "Zemla", "given": "J. C."},
       {"family": "Austerweil", "given": "J. L."}

@@ -30,8 +30,10 @@ layout: default
 		<a href="{{paper.URL}}">URL</a>
 	{% endif %}
 	
-	
+	{% if paper.abstract or paper.URL%}
 	<hr>
+	{% endif %}
+	
 	{% if paper.abstract %}
 		<a onclick = 'toggleDiv("{{paper.id}}")' > Abstract</a>
 	{% endif %}
@@ -170,8 +172,10 @@ layout: default
 	.metacell {
 		width: 18%;
 		text-align: center;
+		vertical-align: top;
 		font-size: 0.75em;
 		padding: 5px;
+		padding-top: 1em;
 		padding-right: 15px;
 	}
 

@@ -1,6 +1,6 @@
 ---
 title: We'll be at Cog Sci and Math Psych 2017!
-excerpt: The Austerweil Lab will be presenting 4 papers at the Annual Meeting of the Cognitive Science Society (2 talks, 2 posters) and will be presenting one talk at the Annual Meeting of the Society for Mathematical Psychology.
+excerpt: The Austerweil Lab will be presenting 4 papers at the Annual Meeting of the Cognitive Science Society (2 talks, 2 posters) and will be presenting two talks at the Annual Meeting of the Society for Mathematical Psychology.
 tags: CogSci,MathPsych,Conferences
 layout: post
 category: news
