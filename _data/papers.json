@@ -375,6 +375,8 @@
 
 
   {
+    "URL": "/papers/files/RenAusterweil2017.pdf",
+    "abstract": "This paper proposes a Bayesian account of asymmetries found in speech perception: In many languages, listeners show greater sensitivity if a non-coronal sound (/b/, /p/, /g/, /k/) is changed to coronal sounds (/d/, /t/) than vice versa. The currently predominant explanation for these asymmetries is that they reflect innate constraints from Universal Grammar. Alternatively, we propose that the asymmetries could simply arise from optimal inference given the statistical properties of different speech categories of the listener’s native language. In the framework of Bayesian inference, we examined two statistical parameters of coronal and non-coronal sounds: frequencies of occurrence and variance in articulation. In the languages in which perceptual asymmetries have been found, coronal sounds are either more frequent or more variable than non-coronal sounds. Given such differences, an ideal observer is more likely to perceive a non-coronal speech signal as a coronal segment than vice versa. Thus, the perceptual asymmetries can be explained as a natural consequence of probabilistic inference. The coronal/non-coronal asymmetry is similar to asymmetries observed in many other cognitive domains. Thus, we argue that it is more parsimonious to explain this asymmetry as one of many similar asymmetries found in cognitive processing, rather than a linguistic-specific, innate constraint.",
     "author": [
       {"family": "Ren", "given": "J."},
       {"family": "Austerweil", "given": "J. L."}
@@ -392,7 +394,7 @@
     "publisherplace":"Austin, TX",
     "page":"X-X",
     "type": "paper-conference",
-    "tags":["perception"],
+    "tags":["perception","rational analysis"],
     "year": 2017
   },
 
