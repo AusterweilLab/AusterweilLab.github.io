@@ -27,7 +27,7 @@ We have designed two interfaces into jarjar: a shell command and a Python Module
 
 # The Shell Command
 
-The [`sh/`](https://github.com/AusterweilLab/jarjar/tree/master/sh) directory contains a shell command [`jarjar`](https://github.com/AusterweilLab/jarjar/blob/nolan-edits/sh/jarjar) and a configuration file [`.jarjar`](https://github.com/AusterweilLab/jarjar/blob/nolan-edits/sh/.jarjar).
+The [`sh/`](https://github.com/AusterweilLab/jarjar/tree/master/sh) directory contains a shell command [`jarjar`](https://github.com/AusterweilLab/jarjar/blob/master/sh/jarjar) and a configuration file [`.jarjar`](https://github.com/AusterweilLab/jarjar/blob/master/sh/.jarjar).
 
 Fill the configuration file out with useful defaults. Critically, you'll want to paste in your Slack webhook so that jarjar knows where to send the message. Then put the configuration file in your home directory (`~/`), that's where jarjar will look for it. Don't worry, you can override those defaults later.
 
