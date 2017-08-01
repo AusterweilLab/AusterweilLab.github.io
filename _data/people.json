@@ -34,6 +34,12 @@
 	"3_affiliates": {
 		"label":"Affiliates",
 		"people": [
+			{"name": "Jie Ren",
+			"title": "Brown University and McGovern Institute for Brain Research, and Beijing Normal University",
+			"image": "/img/people/jieren.jpg",
+			"website": "https://sites.google.com/a/brown.edu/jie-ren/",
+			"blurb": "​Jie's​ research is concerned with the biology and neurology of infant speech ​learning​. The research methods used in ​her​ research include behavioral measures of infant speech perception, functional neuroimaging (fNIRS) and computational modeling with ​machine-learning techniques."},
+
 			{"name": "Boyoung Kim",
 			"title": "Graduate Student at Brown University",
 			"blurb": "Boyoung collaborates on modeling how people learn social norms.."},
