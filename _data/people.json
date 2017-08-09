@@ -10,21 +10,16 @@
 	},
 
 	"2_grads_postdocs": {
-		"label":"Postdocs and Graduate Students",
+		"label":"Scientists, Postdocs, and Graduate Students",
 		"people": [
-			{"name": "Nolan Conaway",
-			"title": "Postdoctoral Researcher",
-			"image": "/img/people/nolanconaway.jpg",
-			"blurb": "Nolan studies categorization and representation learning using behavioral experiments guided by computational modeling. He received his PhD from SUNY Binghamton working with Kenneth Kurtz.",
-			"website": "https://nolanbconaway.github.io/"},
 	
 			{"name": "Jeff Zemla",
-			"title": "Postdoctoral Researcher",
+			"title": "Assistant Scientist",
 			"blurb": "Jeff studies semantic memory and Alzheimer's Disease. He received his PhD from Rice University working with Mike Byrne.",
 			"website":"http://chil.rice.edu/jzemla/"},
 	
 			{"name": "Mark Ho",
-			"title": "Graduate Student ",
+			"title": "Graduate Student",
 			"image": "/img/people/markho.png",
 			"website": "http://www.markkho.com/",
 			"blurb": "Mark studies social learning using computational and behavioral methods. Currently, he is focused on teaching with and learning from reward and punishment."}
@@ -35,7 +30,7 @@
 		"label":"Affiliates",
 		"people": [
 			{"name": "Jie Ren",
-			"title": "Brown University and McGovern Institute for Brain Research, and Beijing Normal University",
+			"title": "Visiting Instructor, Brown University; Visiting Professor, McGovern Institute for Brain Research at Beijing Normal University",
 			"image": "/img/people/jieren.jpg",
 			"website": "https://sites.google.com/a/brown.edu/jie-ren/",
 			"blurb": "​Jie's​ research is concerned with the biology and neurology of infant speech ​learning​. The research methods used in ​her​ research include behavioral measures of infant speech perception, functional neuroimaging (fNIRS) and computational modeling with ​machine-learning techniques."},
@@ -53,6 +48,12 @@
 	"4_alumni": {
 		"label":"Alumni",
 		"people": [
+            {"name": "Nolan Conaway",
+			"title": "Former Postdoctoral Researcher",
+			"image": "/img/people/nolanconaway.jpg",
+			"blurb": "Nolan studies categorization and representation learning using behavioral experiments guided by computational modeling. He received his PhD from SUNY Binghamton working with Kenneth Kurtz. He now works as a data scientist at Shutterstock.",
+			"website": "https://nolanbconaway.github.io/"},
+            
 			{"name": "Ting Qian",
 			"title": "Former Postdoctoral Scholar",
 			"blurb": "Ting is now a data scientist at the Children's Hospital of Philadelphia."},
