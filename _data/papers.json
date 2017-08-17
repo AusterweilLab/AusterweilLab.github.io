@@ -196,7 +196,7 @@
       {"family": "Tenenbaum", "given": "J. B."},
       {"family": "Griffiths", "given": "T. L."}
     ],
-    "container-title": "Oxford handbook of computational and mathemtical psychology",
+    "container-title": "Oxford handbook of computational and mathematical psychology",
     "editor": [
       {"family": "Busemeyer", "given": "J. R."},
       {"family": "Wang", "given": "Z."},
@@ -229,6 +229,26 @@
     "volume": "19",
     "tags":["computational psychiatry"],
     "year": 2015
+  },
+
+  {
+    "URL": "/papers/files/AusterweilRefFrames2017.pdf",
+    "abstract": "How does the visual system recognize images of a novel object after a single observation despite possible variations in the viewpoint of that object relative to the observer? One possibility is comparing the image with a prototype for invariance over a relevant transformation set (e.g., translations and dilations). However, invariance over rotations (i.e., orientation invariance) has proven difficult to analyze, because it applies to some objects but not others. We propose that the invariant transformations of an object are learned by incorporating prior expectations with real world evidence. We test this proposal by developing an ideal learner model for learning invariance that predicts better learning of orientation dependence when prior expectations about orientation are weak. This prediction was supported in two behavioral experiments, where participants learned the orientation dependence of novel images using feedback from solving arithmetic problems.",
+    "author": [
+      {"family": "Austerweil", "given": "J. L."},
+      {"family": "Griffiths", "given": "T. L."},
+      {"family": "Palmer", "given": "S. E."}
+    ],
+    "container-title": "RefFrameCogsci2017",
+    "id": "austerweil17refframes",
+    "issue": "5",
+    "page": "1183-1201",
+    "title": "Learning to Be (In)variant: Combining Prior Knowledge and Experience to Infer Orientation Invariance in Object Recognition.",
+    "title-short": "Learning to Be (In)variant",
+    "type": "article-journal",
+    "volume": "41",
+    "tags":["perception", "bayesian nonparametrics", "categorization"],
+    "year": 2017
   },
 
 
@@ -423,6 +443,32 @@
     "tags": ["creativity","categorization"]
   },
 
+  {
+    "abstract":"Human behavior is frequently guided by social and moral norms; in fact, no societies, no social groups could exist without norms. However, there are few cognitive science approaches to this central phenomenon of norms. While there has been some progress in developing formal representations of norm systems (e.g., deontological approaches), we do not yet know basic properties of human norms: how they are represented, activated, and learned. Further, what computational models can capture these properties, and what algorithms could learn them? In this paper we describe initial experiments on human norm representations in which the context specificity of norms features prominently. We then provide a formal representation of norms using Dempster-Shafer Theory that allows a machine learning algorithm to learn norms under uncertainty from these human data, while preserving their context specificity.",
+    "URL": "/papers/files/Sarathy2017.pdf",
+    "author": [
+      {"family": "Sarathy", "given": "V."},
+      {"family": "Scheutz", "given": "M."},
+      {"family": "Kenett", "given": "Y."},
+      {"family": "Allaham", "given": "M. M."},
+      {"family": "Austerweil", "given": "J. L."}
+    ],
+    "editor": [
+      {"family": "Gunzelmann", "given": "G."},
+      {"family": "Howes", "given": "A."},
+      {"family": "Tenbrink", "given": "T."},
+      {"family": "Davelaar", "given": "E."}
+    ],
+    "container-title": "Proceedings of the 39th annual meeting of the cognitive science society",
+    "id": "sarathy17",
+    "publisher":"Cognitive Science Society",
+    "publisherplace":"Austin, TX",
+    "page":"X-X",
+    "title": "Mental Representations and Computational Modeling of Context-Specific Human Norm Systems",
+    "type": "paper-conference",
+    "tags":["norms", "fluency"],
+    "year": 2017
+  },
 
   {
     "abstract":"Psychologists have used the semantic fluency task for decades to gain insight into the processes and representations underlying memory retrieval. Recent work has suggested that a censored random walk on a semantic network resembles semantic fluency data because it produces optimal foraging. However, fluency data have rich structure beyond being consistent with optimal foraging. Under the assumption that memory can be represented as a semantic network, we test a variety of memory search processes and examine how well these processes capture the richness of fluency data. The search processes we explore vary in the extent they explore the network globally or exploit local clusters, and whether they are strategic. We found that a censored random walk with a priming component best captures the frequency and clustering effects seen in human fluency data.",
