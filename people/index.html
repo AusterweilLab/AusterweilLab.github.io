@@ -21,7 +21,9 @@ layout: default
 			{% else %}
 			 	<h3>{{person.name}}</h3>
 			{% endif %}
-			
+			{% if person.email %}
+			<p><a href="mailto:{{person.email}}">{{person.email}}</a></p>
+			{% endif %}
 			<p><i>{{person.title}}</i></p>
 			<p>{{person.blurb}}
 			{% if person.website %}
@@ -30,7 +32,7 @@ layout: default
 			</p>
 		</td>
 		<td class = 'picturecell'>
-			<img class = 'peoplepic' 
+			<img class = 'peoplepic'
 			src="{% if person.image %}{{ person.image }}{% else %}/img/people/default.jpg{% endif %}"
 			>
 		</td>
@@ -40,11 +42,11 @@ layout: default
 {% endfor %}
 
 <style type="text/css">
-	
+
 	.peopleinfo {
 		padding-right: 50px;
 	}
-	
+
 	.picturecell {
 		text-align: right;
 		vertical-align: middle;

@@ -5,6 +5,7 @@
 			{"name": "Joseph Austerweil",
 			"title": "Assistant Professor",
 			"image": "/img/people/joe.jpg",
+			"email": "austerweil@wisc.edu",
 			"blurb": "As a computational cognitive psychologist, my research program explores questions at the intersection of perception and higher-level cognition. I use recent advances in statistics and computer science to formulate ideal learner models to see how they solve these problems and then test the model predictions using traditional behavioral experimentation. Ideal learner models help us understand the knowledge people use to solve problems because such knowledge must be made explicit for the ideal learner model to successfully produce human behavior. This method yields novel machine learning methods and leads to the discovery of new psychological principles."}
 		]
 	},
@@ -12,23 +13,42 @@
 	"2_grads_postdocs": {
 		"label":"Scientists, Postdocs, and Graduate Students",
 		"people": [
-	
 			{"name": "Jeff Zemla",
 			"title": "Assistant Scientist",
 			"blurb": "Jeff studies semantic memory and Alzheimer's Disease. He received his PhD from Rice University working with Mike Byrne.",
 			"website":"http://chil.rice.edu/jzemla/"},
-	
-			{"name": "Mark Ho",
-			"title": "Graduate Student",
-			"image": "/img/people/markho.png",
-			"website": "http://www.markkho.com/",
-			"blurb": "Mark studies social learning using computational and behavioral methods. Currently, he is focused on teaching with and learning from reward and punishment."}
-			]
+			{"name": "Nicole Beckage",
+			 "title": "Assistant Scientist",
+			 "blurb": "Dr. Beckage is currently researching models of cognitive and information search on multiplex networks.",
+			 "website":"http://wwww.ittc.ku.edu/~beckage/"},
+		 {"name": "Shi Xian Liew",
+  	 	"title": "Postdoctoral Researcher",
+			"blurb": "Xian recently graduated from University of Melbourne where he worked with Dr. Little. He investigates computational models of categorization.",
+			"image": "/img/people/xian.png"
+			 }]
 		},
 
-	"3_affiliates": {
+	"3_undergrads": {
+		"label": "Undergraduates",
+		"people": [
+			{"name": "Kendra Lange",
+			 "title": "Undergraduate Researcher",
+			 "blurb": "Kendra examines the interrelation between bilingualism, creativity, and intelligence. Specifically, she is examining whether reported advantages in creativity and intelligence due to bilngualism can be explained by properties of their representations."
+		 },
+	   {"name": "Jacqueline Erens",
+			"title": "Undergraduate Researcher",
+			"blurb": "Jackie has examined how people reason with features and relations using the Bayesian Generalization Framework in the domain of emojis. She is now exploring ambiguity in language production."
+		 }
+		]
+	},
+
+	"4_affiliates": {
 		"label":"Affiliates",
 		"people": [
+			{"name": "Elise Hopman",
+			 "title": "Psychology Graduate Student at University of Wisconsin-Madison",
+			 "blurb": "Elise studies how word production and learning are interrelated using computational and behavioral methods."
+		  },
 			{"name": "Jie Ren",
 			"title": "Visiting Instructor, Brown University; Visiting Professor, McGovern Institute for Brain Research at Beijing Normal University",
 			"image": "/img/people/jieren.jpg",
@@ -38,36 +58,42 @@
 			{"name": "Boyoung Kim",
 			"title": "Graduate Student at Brown University",
 			"blurb": "Boyoung collaborates on modeling how people learn social norms.."},
-	
+
 			{"name": "Babak Hemmatian",
 			"title": "Graduate Student at Brown University",
 			"blurb": "I am an Iranian first year Ph.D. student of cognitive science, with a background in psychology, but a new-found love for computational modeling. I am most interested in integrating the computational models offered for different kinds of reasoning (inductive, causal, deductive, etc.), offering new such models (with an emphasis on causal reasoning) and comparing the proposals with regards to how well they capture the qualitative and quantitative aspects of human reasoning."}
 		]
 	},
 
-	"4_alumni": {
+	"5_alumni": {
 		"label":"Alumni",
 		"people": [
-            {"name": "Nolan Conaway",
+			{"name": "Mark Ho",
+			"title": "Former Graduate Student",
+			"image": "/img/people/markho.png",
+			"website": "http://www.markkho.com/",
+			"blurb": "Mark completed his PhD in December 2017. He is now a postdoctoral researcher with Tom Griffiths and Sanjit Seshia."},
+
+      {"name": "Nolan Conaway",
 			"title": "Former Postdoctoral Researcher",
 			"image": "/img/people/nolanconaway.jpg",
-			"blurb": "Nolan studies categorization and representation learning using behavioral experiments guided by computational modeling. He received his PhD from SUNY Binghamton working with Kenneth Kurtz. He now works as a data scientist at Shutterstock.",
+			"blurb": "Nolan now works as a data scientist at Shutterstock.",
 			"website": "https://nolanbconaway.github.io/"},
-            
+
 			{"name": "Ting Qian",
 			"title": "Former Postdoctoral Scholar",
 			"blurb": "Ting is now a data scientist at the Children's Hospital of Philadelphia."},
-	
+
 			{"name": "Yoed Kenett",
 			"title": "Former Postdoctoral Scholar",
 			"image": "/img/people/yoed_cropSmall.jpg",
 			"blurb": "Yoed is now a postdoctoral scholar with Sharon Thompson-Schill at University of Pennsylvania."},
-	
+
 			{"name": "Mowafak Allaham",
 			"title": "Former Post-Undergrad Research Assistant",
 			"image": "/img/people/mowafak_cropSmall.jpg",
 			"blurb": "Mowafak is now a graduate student in Psychology at University of Illinois-Chicago. He works with Sylvia Morelli."}
-	
+
 		]
 	}
 }
