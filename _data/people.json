@@ -24,7 +24,7 @@
 			 "website":"http://wwww.ittc.ku.edu/~beckage/"},
 		 {"name": "Shi Xian Liew",
   	 	"title": "Postdoctoral Researcher",
-			"blurb": "Xian recently graduated from University of Melbourne where he worked with Dr. Little. He investigates computational models of categorization.",
+			"blurb": "Xian recently graduated from University of Melbourne where he worked with Dr. Little and Dr. Howe. He investigates computational models of categorization.",
 			"image": "/img/people/xian.png"
 			 }]
 		},
@@ -39,7 +39,19 @@
 	   {"name": "Jacqueline Erens",
 			"title": "Undergraduate Researcher",
 			"blurb": "Jackie has examined how people reason with features and relations using the Bayesian Generalization Framework in the domain of emojis. She is now exploring ambiguity in language production."
-		 }
+		},
+		{
+			"name": "Sichao Yang",
+			"title": "Undergraduate Researcher",
+			"blurb": "Sichao is an undergraduate at UW-Madison focusing on Psych, Math and Comp Sci. Before transferring to UW, he studied motion planning and computer vision for UAVs at Beihang University and NELVT, Peking University. Now he is interested in computational models of working memory and commonsense reasoning.",
+			"image": "/img/people/sichao.jpg"
+		},
+		{
+			"name": "Elizabeth Pettit",
+			"title": "Post-Baccularate Researcher",
+			"blurb": "Elizabeth graduated from UW-Madison in the Spring of 2017, majoring in Psychology. She will be a PhD graduate program in Psychology at Miami University starting September 2018.",
+			"image": "/img/people/elizabeth.jpg"
+		}
 		]
 	},
 
@@ -48,7 +60,9 @@
 		"people": [
 			{"name": "Elise Hopman",
 			 "title": "Psychology Graduate Student at University of Wisconsin-Madison",
-			 "blurb": "Elise studies how word production and learning are interrelated using computational and behavioral methods."
+			 "blurb": "Elise is interested in how language learning works and investigates this question with behavioral as well as computational research.",
+			 "website": "http://lcnl.wisc.edu/index.php/elise-hopman/",
+			 "image": "/img/people/elise.jpg"
 		  },
 			{"name": "Jie Ren",
 			"title": "Visiting Instructor, Brown University; Visiting Professor, McGovern Institute for Brain Research at Beijing Normal University",
@@ -62,7 +76,7 @@
 
 			{"name": "Babak Hemmatian",
 			"title": "Graduate Student at Brown University",
-			"blurb": "I am an Iranian first year Ph.D. student of cognitive science, with a background in psychology, but a new-found love for computational modeling. I am most interested in integrating the computational models offered for different kinds of reasoning (inductive, causal, deductive, etc.), offering new such models (with an emphasis on causal reasoning) and comparing the proposals with regards to how well they capture the qualitative and quantitative aspects of human reasoning."}
+			"blurb": "I am a Ph.D. student of cognitive science, with a background in psychology, but a new-found love for computational modeling. I am most interested in integrating the computational models offered for different kinds of reasoning (inductive, causal, deductive, etc.), offering new such models (with an emphasis on causal reasoning) and comparing the proposals with regards to how well they capture the qualitative and quantitative aspects of human reasoning."}
 		]
 	},
 
