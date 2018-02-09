@@ -21,10 +21,10 @@ layout: default
 			{% else %}
 			 	<h3>{{person.name}}</h3>
 			{% endif %}
+			<p><i>{{person.title}}</i></p>
 			{% if person.email %}
 			<p><a href="mailto:{{person.email}}">{{person.email}}</a></p>
 			{% endif %}
-			<p><i>{{person.title}}</i></p>
 			<p>{{person.blurb}}
 			{% if person.website %}
 				[<a href="{{person.website}}">Personal Webpage</a>]

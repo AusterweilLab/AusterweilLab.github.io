@@ -64,6 +64,14 @@
 			 "website": "http://lcnl.wisc.edu/index.php/elise-hopman/",
 			 "image": "/img/people/elise.jpg"
 		  },
+			{
+				"name": "Yun-Shiuan (Sean) Chang",
+				"title": "Visiting graduate student",
+				"blurb": "Sean recently graduated from National Taiwan University with BS in psychology and neuroscience.  He currently investigates children's math cognition development via computational modeling with fMRI data.",
+				"image": "/img/people/yunshiuan.jpg",
+				"website": "https://yunshiuan.github.io/",
+				"email": "yunshiuan.chuang@gmail.com"
+			},
 			{"name": "Jie Ren",
 			"title": "Visiting Instructor, Brown University; Visiting Professor, McGovern Institute for Brain Research at Beijing Normal University",
 			"image": "/img/people/jieren.jpg",
