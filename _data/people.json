@@ -38,13 +38,20 @@
 		 },
 	   {"name": "Jacqueline Erens",
 			"title": "Undergraduate Researcher",
-			"blurb": "Jackie has examined how people reason with features and relations using the Bayesian Generalization Framework in the domain of emojis. She is now exploring ambiguity in language production."
+			"blurb": "Jackie has examined how people reason with features and relations using the Bayesian Generalization Framework in the domain of emojis. She is now exploring ambiguity in language production.",
+			"image": "/img/people/jackie.png"
 		},
 		{
 			"name": "Sichao Yang",
 			"title": "Undergraduate Researcher",
 			"blurb": "Sichao is an undergraduate at UW-Madison focusing on Psych, Math and Comp Sci. Before transferring to UW, he studied motion planning and computer vision for UAVs at Beihang University and NELVT, Peking University. Now he is interested in computational models of working memory and commonsense reasoning.",
 			"image": "/img/people/sichao.jpg"
+		},
+		{
+			"name": "Anantha (Van) Rao",
+			"title": "Undergraduate Researcher",
+			"blurb": "Van is interested in how people perceive, reason, and make judgments about time.",
+			"image": "/img/people/van.png"
 		},
 		{
 			"name": "Elizabeth Pettit",
