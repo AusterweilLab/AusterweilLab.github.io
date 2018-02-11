@@ -34,7 +34,8 @@
 		"people": [
 			{"name": "Kendra Lange",
 			 "title": "Undergraduate Researcher",
-			 "blurb": "Kendra examines the interrelation between bilingualism, creativity, and intelligence. Specifically, she is examining whether reported advantages in creativity and intelligence due to bilngualism can be explained by properties of their representations."
+			 "blurb": "Kendra examines the interrelation between bilingualism, creativity, and intelligence. Specifically, she is examining whether reported advantages in creativity and intelligence due to bilngualism can be explained by properties of their representations.",
+			 "image": "/img/people/kendra.png"
 		 },
 	   {"name": "Jacqueline Erens",
 			"title": "Undergraduate Researcher",
