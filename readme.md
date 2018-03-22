@@ -25,7 +25,7 @@ bundle exec jekyll serve
 
 Or just `jekyll serve`. Jekyll will then compile the website into a subdirectory (`_site/`) and you can visit it on localhost (`http://127.0.0.1:4000/`). Jekyll will monitor the files for changes, and will automatically recompile the website whenever you save a change. So just run that command and then you're good to go.
 
-After you've made changes, you can just copy the contents of `_site/` into the root of our webserver and the site _should_ work. 
+After you've made changes, you can just copy the contents of `_site/` into the root of our webserver (/volume1/web on luke) and the site _should_ work. 
 
 
 ## How to edit the lab members page.
