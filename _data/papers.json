@@ -8,11 +8,11 @@
     ],
     "container-title": "Computational Brain and Behavior",
     "id": "Zemla18",
-    "page": "XX-XX",
+    "page": "1-23",
     "title": "Estimating semantic networks of groups and individuals from fluency data.",
     "type": "article-journal",
 	"volume": "X",
-    "tags":["knowledge representation","semantic networks","methodology","fluency","Bayesian modeling"],
+    "tags":["networks","fluency","statistical methods"],
     "year": 2018
   },
 
@@ -351,6 +351,148 @@
     "year": 2016
   },
 
+	{
+    "URL": "/papers/files/Cochraneetal2018.pdf",
+    "abstract":"All agents must constantly learn from dynamic environments to optimize their behaviors. For instance, it is necessary in new environments to learn how to distribute attention – i.e., which stimuli are relevant, and thus should be selected for greater processing, and which are irrelevant, and should be suppressed. Despite this, many experiments implicitly assume that attentional control is a static process (by averaging performance over large blocks of trials). By developing and utilizing new statistical tools, here we demonstrate that the effect of flanking items on response times to a central item (often utilized as an index of attentional control) is systematically and continuously influenced through time by the statistics of the flanking items. We discuss the implications of this finding from the perspective of examining individual differences – where traditional data analysis approaches may confound the rate at which attentional filtering changes through time with the asymptotic ability to filter.",
+    "author": [
+      {"family": "Cochrane", "given": "A."},
+      {"family": "Simmering", "given": "V."},
+      {"family": "Austerweil", "given": "J. L."},
+			{"family": "Green", "given": "C. S."}
+    ],
+    "editor": [
+      {"family": "Kalish", "given": "C."},
+      {"family": "Rau", "given": "M."},
+      {"family": "Rogers", "given": "T."},
+      {"family": "Zhu", "given": "J."}
+    ],
+    "container-title": "Proceedings of the 40th Annual Meeting of the Cognitive Science Society",
+    "id": "cochraneetal2018",
+    "publisher":"Cognitive Science Society",
+    "publisherplace":"Austin, TX",
+    "title": "Rapid Learning in Early Attentional Processing: Bayesian Estimation of Trial-by-Trial Updating.",
+    "page":"xx-xx",
+    "type": "paper-conference",
+    "tags":["perception", "statistical methods"],
+    "year": 2018
+  },
+
+	{
+		"URL": "/papers/files/Hoetal2018.pdf",
+		"abstract":"When observing others’ behavior, people use Theory of Mind
+to infer unobservable beliefs, desires, and intentions. And
+when showing what activity one is doing, people will modify
+their behavior in order to facilitate more accurate interpretation
+and learning by an observer. Here, we present a novel model of
+how demonstrators act and observers interpret demonstrations
+corresponding to different levels of recursive social reasoning
+(i.e. a cognitive hierarchy) grounded in Theory of Mind. Our
+model can explain how demonstrators show others how to perform
+a task and makes predictions about how sophisticated observers
+can reason about communicative intentions. Additionally,
+we report an experiment that tests (1) how well an observer
+can learn from demonstrations that were produced with
+the intent to communicate, and (2) how an observer’s interpretation
+of demonstrations influences their judgments.",
+		"author": [
+			{"family": "Ho", "given": "M. K."},
+			{"family": "Littman", "given": "M. L."},
+			{"family": "Cushman", "given": "F."},
+			{"family": "Austerweil", "given": "J. L."}
+		],
+		"editor": [
+			{"family": "Kalish", "given": "C."},
+			{"family": "Rau", "given": "M."},
+			{"family": "Rogers", "given": "T."},
+			{"family": "Zhu", "given": "J."}
+		],
+		"container-title": "Proceedings of the 40th Annual Meeting of the Cognitive Science Society",
+		"id": "hoetal2018",
+		"publisher":"Cognitive Science Society",
+		"publisherplace":"Austin, TX",
+		"title": "Effectively Learning from Pedagogical Demonstrations.",
+		"page":"xx-xx",
+		"type": "paper-conference",
+		"tags":["pedagogy", "reasoning", "reinforcement learning"],
+		"year": 2018
+	},
+
+	{
+		"URL": "/papers/files/Hopmanetal2018.pdf",
+		"abstract":"What makes some words harder to learn than others in a second
+language? Although some robust factors have been identified
+based on small scale experimental studies, many relevant
+factors are difficult to study in such experiments due to the
+amount of data necessary to test them. Here, we investigate
+what factors affect the ease of learning of a word in a second
+language using a large data set of users learning English as a
+second language through the Duolingo mobile app. In a
+regression analysis, we test and confirm the well-studied effect
+of cognate status on word learning accuracy. Furthermore, we
+find significant effects for both cross-linguistic semantic
+alignment and English semantic density, two novel predictors
+derived from large scale distributional models of lexical
+semantics. Finally, we provide data on several other
+psycholinguistically plausible word level predictors. We
+conclude with a discussion of the limits, benefits and future
+research potential of using big data for investigating second
+language learning.",
+		"author": [
+			{"family": "Hopman", "given": "E. W. M."},
+			{"family": "Thompson", "given": "B."},
+			{"family": "Austerweil", "given": "J. L."},
+			{"family": "Lupyan", "given": "G."}
+		],
+		"editor": [
+			{"family": "Kalish", "given": "C."},
+			{"family": "Rau", "given": "M."},
+			{"family": "Rogers", "given": "T."},
+			{"family": "Zhu", "given": "J."}
+		],
+		"container-title": "Proceedings of the 40th Annual Meeting of the Cognitive Science Society",
+		"id": "hopmanetal2018",
+		"publisher":"Cognitive Science Society",
+		"publisherplace":"Austin, TX",
+		"title": "Predictors of L2 word learning accuracy: A big data investigation.",
+		"page":"xx-xx",
+		"type": "paper-conference",
+		"tags":["pedagogy", "statistical methods"],
+		"year": 2018
+	},
+
+	{
+		"URL": "/papers/files/Isyroqietal2018.pdf",
+		"abstract":"We investigate a method for formulating context- and taskspecific
+computational models of human performance in a constrained
+semantic memory task. In particular, we assume that
+memory retrieval can only use a simple process – a random
+walk – and examine whether the effect of context and task
+specifications can be captured via a straightforward network
+estimation method that is sensitive to context and task. We find
+that a random walk model on the context-specific networks
+mimics aggregate human performance.",
+		"author": [
+			{"family": "Fathan", "given": "M. I."},
+			{"family": "Renfro", "given": "E. J."},
+			{"family": "Austerweil", "given": "J. L."},
+			{"family": "Beckage", "given": "N. M."}
+		],
+		"editor": [
+			{"family": "Kalish", "given": "C."},
+			{"family": "Rau", "given": "M."},
+			{"family": "Rogers", "given": "T."},
+			{"family": "Zhu", "given": "J."}
+		],
+		"container-title": "Proceedings of the 40th Annual Meeting of the Cognitive Science Society",
+		"id": "isyroqietal2018",
+		"publisher":"Cognitive Science Society",
+		"publisherplace":"Austin, TX",
+		"title": "Do Humans Navigate via Random Walks? Modeling Navigation in a Semantic Word Game.",
+		"page":"xx-xx",
+		"type": "paper-conference",
+		"tags":["networks", "reasoning"],
+		"year": 2018
+	},
 
   {
     "URL": "/papers/files/Hoetalnormlearning2016.pdf",
