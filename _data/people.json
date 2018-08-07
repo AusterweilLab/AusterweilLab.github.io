@@ -21,7 +21,7 @@
 			{"name": "Nicole Beckage",
 			 "title": "Assistant Scientist",
 			 "blurb": "Nicole is currently researching models of cognitive and information search on multiplex networks.",
-			 "website":"http://wwww.ittc.ku.edu/~beckage/",
+			 "website":"http://www.ittc.ku.edu/~beckage/",
 			 "image": "/img/people/nicole.jpg"},
 		 {"name": "Shi Xian Liew",
   	 	"title": "Postdoctoral Researcher",
@@ -38,23 +38,44 @@
 			 "blurb": "Kendra examines the interrelation between bilingualism, creativity, and intelligence. Specifically, she is examining whether reported advantages in creativity and intelligence due to bilngualism can be explained by properties of their representations.",
 			 "image": "/img/people/kendra.png"
 		 },
-	   {"name": "Jacqueline Erens",
-			"title": "Undergraduate Researcher",
-			"blurb": "Jackie has examined how people reason with features and relations using the Bayesian Generalization Framework in the domain of emojis. She is now exploring ambiguity in language production.",
-			"image": "/img/people/jackie.png"
-		},
+			{
+				"name": "Jacqueline Erens",
+				"title": "Undergraduate Researcher",
+				"blurb": "Jackie has examined how people reason with features and relations using the Bayesian Generalization Framework in the domain of emojis. She is now exploring ambiguity in language production.",
+				"image": "/img/people/jackie.png"
+			},
 		{
 			"name": "Sichao Yang",
 			"title": "Undergraduate Researcher",
-			"blurb": "Sichao is an undergraduate at UW-Madison focusing on Psych, Math and Comp Sci. Before transferring to UW, he studied motion planning and computer vision for UAVs at Beihang University and NELVT, Peking University. Now he is interested in computational models of working memory and commonsense reasoning.",
-			"image": "/img/people/sichao.jpg"
+			"blurb": "Sichao is working on Markov Chain Monte Carlo and Generative Adversarial Active Learning.",
+			"image": "/img/people/sichao.jpg",
+			"website": "http://www.yangsichao.cn"
 		},
+			{
+				"name": "Kesong Cao",
+				"title": "Undergraduate Researcher",
+				"blurb": "Kesong is interested in human behavior and the incentives that drive them. He possesses much excitement about research and coding and is looking to learn very much from the lab (as is the lab from him.)",
+				"image": "/img/people/kesong.jpg"				
+			},
 		{
 			"name": "Anantha (Van) Rao",
 			"title": "Undergraduate Researcher",
 			"blurb": "Van is interested in how people perceive, reason, and make judgments about time.",
 			"image": "/img/people/van.png"
 		},
+			{
+				"name": "Rebekah Manweiler",
+				"title": "Visiting Undergraduate Researcher",
+				"blurb": "Rebekah is an undergraduate senior from the University of Kansas in Lawrence majoring in Computer Science and minoring in Linguistics and Mathematics. She is interested in Computational Modeling and Machine learning and their applications to Psycholinguistics. Within Psycholinguistics, she is interested in the structure and method of access of the mental lexicon. She is working on research with Nicole Beckage over the summer to learn more about Cognitive Modeling and its applications. ",
+				"website": "https://rebekahmanweiler.wixsite.com/rebekahmanweiler",
+				"image": "/img/people/rebekah.jpg"
+			},
+			{
+				"name": "Sophie Sandweiss",
+				"title": "Visiting Undergraduate Researcher",
+				"blurb": "Sophie Sandweiss is an undergraduate at Brown studying Cognitive Neuroscience and Contemplative Studies. She is interested in human cognition, mental health and wellness and is in Madison studying semantic memory.",
+				"image": "/img/people/sophie.jpg"
+			},
 		{
 			"name": "Elizabeth Pettit",
 			"title": "Post-Baccularate Researcher",
