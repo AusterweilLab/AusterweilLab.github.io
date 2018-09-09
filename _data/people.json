@@ -18,11 +18,6 @@
 			"blurb": "Jeff studies semantic memory and Alzheimer's Disease. He received his PhD from Rice University working with Mike Byrne.",
 			"website":"http://chil.rice.edu/jzemla/",
             "image": "/img/people/jeff.jpg"},
-			{"name": "Nicole Beckage",
-			 "title": "Assistant Scientist",
-			 "blurb": "Nicole is currently researching models of cognitive and information search on multiplex networks.",
-			 "website":"http://www.ittc.ku.edu/~beckage/",
-			 "image": "/img/people/nicole.jpg"},
 		 {"name": "Shi Xian Liew",
   	 	"title": "Postdoctoral Researcher",
 			"blurb": "Xian recently graduated from University of Melbourne where he worked with Dr. Little and Dr. Howe. He investigates computational models of categorization.",
@@ -121,6 +116,12 @@
 	"5_alumni": {
 		"label":"Alumni",
 		"people": [
+			{"name": "Nicole Beckage",
+			 "title": "Former Assistant Scientist",
+			 "blurb": "",
+			 "website":"http://www.ittc.ku.edu/~beckage/",
+			 "image": "/img/people/nicole.jpg"},
+
 			{"name": "Mark Ho",
 			"title": "Former Graduate Student",
 			"image": "/img/people/markho.png",
