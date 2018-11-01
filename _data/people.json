@@ -19,9 +19,12 @@
 			"website":"http://chil.rice.edu/jzemla/",
             "image": "/img/people/jeff.jpg"},
 			{"name": "Mohsen Afrasiabi",
-			"title": "Assistant Scientist",
+			 "title": "Assistant Scientist",
+			 "blurb": "Mohsen is a data scientist with a PhD in Electrical and Computer Engineering and over 15 years of experience working in industry. He is returning to academia to pursue research in Machine Learning, Deep Learning and their application in Cognitive Psychology and Computational Neuroscience.",
+			 "image": "/img/people/mohsen.jpeg"
             },
 			{"name": "Shi Xian Liew",
+			 "email": "liew2@wisc.edu",
   	 		 "title": "Postdoctoral Researcher",
 			 "blurb": "Xian recently graduated from University of Melbourne where he worked with Dr. Little and Dr. Howe. He investigates computational models of categorization.",
 			 "image": "/img/people/xian.png"
