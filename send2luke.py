@@ -15,9 +15,13 @@ os.system('scp -i ~/Dropbox/.ssh/luke -P 1202 {}.tar.gz xian@alab.psych.wisc.edu
 #mk new dir on host and untar the tar
 cdcmd = 'cd {}'.format(serverdirbase)
 untarcmd = 'tar -xvzf {}.tar.gz -C ./'.format(tarname)
-renamecmd = 'rsync {}/* ./'.format(tarname)
-#rm the tar
-removecmd = 'rm {}.tar.gz'.format(localdir)
+#renamecmd = ''
+renamecmd = 'rsync -r {}/* ./'.format(localdir)
+#rm the tar on host
+removecmd = 'rm {}.tar.gz'.format(tarname)
 #run it all
 os.system('ssh -i ~/Dropbox/.ssh/luke -p 1202 -t xian@alab.psych.wisc.edu  \'{};{};{};{}\' '.format(cdcmd,untarcmd,renamecmd,removecmd))
+
+#rm the tar locally
+os.system('rm {}.tar.gz'.format(tarname))
 
