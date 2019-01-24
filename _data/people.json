@@ -32,7 +32,16 @@
 			{"name": "Ian Johnston",
 			"title": "Graduate Student",
 			"blurb": "Ian is interested in modeling legal decision making. He received his J.D. from Harvard Law School.",
-            "image": "/img/people/ian.jpg"}]
+             "image": "/img/people/ian.jpg"},
+			{"name": "Pablo Andre Caceres",
+			"title": "Graduate Student",
+			"blurb": "Pablo is a Ph.D. student in the Psychology Department. He is interested in the use of cognitive science and machine
+learning tools to explore a broad range of questions, ranging from human knowledge and skill acquisition to the use of
+psychologically-inspired AI to solve real-life social and technological problems. He is a Fulbright Scholar and holds a
+B.A. in Sociology and Master's in Public Policy from the Universidad de Chile.",
+             "image": "/img/people/pablo.jpg"}
+			
+		]
 		},
 
 	"3_undergrads": {
@@ -65,7 +74,7 @@
 		{
 			"name": "Anantha (Van) Rao",
 			"title": "Undergraduate Researcher",
-			"blurb": "Van is interested in how people perceive, reason, and make judgments about time.",
+			"blurb": "Van is interested in the relationship between the perception of categories and causal inference. He is currently investigating if, when and how people use multiple category information in intuitive physical judgements about object dynamics.",
 			"image": "/img/people/van.png"
 		},
 		{
