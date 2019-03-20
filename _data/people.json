@@ -29,6 +29,13 @@
 			 "blurb": "Xian recently graduated from University of Melbourne where he worked with Dr. Little and Dr. Howe. He investigates computational models of categorization.",
 			 "image": "/img/people/xian.png"
 			},
+			{"name": "Elise Hopman",
+			 "title": "Graduate Student",
+			 "blurb": "Elise is interested in how language learning works and investigates this question with behavioral as well as computational research.",
+			 "website": "http://lcnl.wisc.edu/index.php/elise-hopman/",
+			 "image": "/img/people/elise.jpg"
+		  },
+
 			{"name": "Ian Johnston",
 			"title": "Graduate Student",
 			"blurb": "Ian is interested in modeling legal decision making. He received his J.D. from Harvard Law School.",
@@ -39,7 +46,13 @@
 learning tools to explore a broad range of questions, ranging from human knowledge and skill acquisition to the use of
 psychologically-inspired AI to solve real-life social and technological problems. He is a Fulbright Scholar and holds a
 B.A. in Sociology and Master's in Public Policy from the Universidad de Chile.",
-             "image": "/img/people/pablo.jpg"}
+             "image": "/img/people/pablo.jpg"},
+			{"name": "Michael Payton",
+			 "title": "Graduate Student",
+			 "blurb": "",
+			 "image": "/img/people/michael.jpg"
+		  },
+
 			
 		]
 		},
@@ -47,31 +60,19 @@ B.A. in Sociology and Master's in Public Policy from the Universidad de Chile.",
 	"3_undergrads": {
 		"label": "Undergraduates",
 		"people": [
-			{"name": "Kendra Lange",
-			 "title": "Undergraduate Researcher",
-			 "blurb": "Kendra examines the interrelation between bilingualism, creativity, and intelligence. Specifically, she is examining whether reported advantages in creativity and intelligence due to bilngualism can be explained by properties of their representations.",
-			 "image": "/img/people/kendra.png"
-		 },
-			{
-				"name": "Jacqueline Erens",
-				"title": "Undergraduate Researcher",
-				"blurb": "Jackie has examined how people reason with features and relations using the Bayesian Generalization Framework in the domain of emojis. She is now exploring ambiguity in language production.",
-				"image": "/img/people/jackie.png"
-			},
-		{
-			"name": "Sichao Yang",
-			"title": "Undergraduate Researcher",
-			"blurb": "Sichao is working on Markov Chain Monte Carlo and Generative Adversarial Active Learning.",
-			"image": "/img/people/sichao.jpg",
-			"website": "http://www.yangsichao.cn"
-		},
 			{
 				"name": "Kesong Cao",
 				"title": "Undergraduate Researcher",
 				"blurb": "Kesong is interested in human behavior and the incentives that drive them. He possesses much excitement about research and coding and is looking to learn very much from the lab (as is the lab from him.)",
 				"image": "/img/people/kesong.jpg"				
 			},
-		{
+			{
+				"name": "Jacqueline Erens",
+				"title": "Undergraduate Researcher",
+				"blurb": "Jackie has examined how people reason with features and relations using the Bayesian Generalization Framework in the domain of emojis. She is now exploring ambiguity in language production.",
+				"image": "/img/people/jackie.png"
+			},
+			{
 			"name": "Anantha (Van) Rao",
 			"title": "Undergraduate Researcher",
 			"blurb": "Van is interested in the relationship between the perception of categories and causal inference. He is currently investigating if, when and how people use multiple category information in intuitive physical judgements about object dynamics.",
@@ -84,36 +85,23 @@ B.A. in Sociology and Master's in Public Policy from the Universidad de Chile.",
 			"image": "/img/people/yiwen.jpg"
 		},
 			{
-				"name": "Rebekah Manweiler",
-				"title": "Visiting Undergraduate Researcher",
-				"blurb": "Rebekah is an undergraduate senior from the University of Kansas in Lawrence majoring in Computer Science and minoring in Linguistics and Mathematics. She is interested in Computational Modeling and Machine learning and their applications to Psycholinguistics. Within Psycholinguistics, she is interested in the structure and method of access of the mental lexicon. She is working on research with Nicole Beckage over the summer to learn more about Cognitive Modeling and its applications. ",
-				"website": "https://rebekahmanweiler.wixsite.com/rebekahmanweiler",
-				"image": "/img/people/rebekah.jpg"
-			},
-			{
-				"name": "Sophie Sandweiss",
-				"title": "Visiting Undergraduate Researcher",
-				"blurb": "Sophie Sandweiss is an undergraduate at Brown studying Cognitive Neuroscience and Contemplative Studies. She is interested in human cognition, mental health and wellness and is in Madison studying semantic memory.",
-				"image": "/img/people/sophie.jpg"
-			},
-		{
-			"name": "Elizabeth Pettit",
-			"title": "Post-Baccularate Researcher",
-			"blurb": "Elizabeth graduated from UW-Madison in the Spring of 2017, majoring in Psychology. She will be a PhD graduate program in Psychology at Miami University starting September 2018.",
-			"image": "/img/people/elizabeth.jpg"
-		}
+			"name": "Sichao Yang",
+			"title": "Undergraduate Researcher",
+			"blurb": "Sichao is working on Markov Chain Monte Carlo and Generative Adversarial Active Learning.",
+			"image": "/img/people/sichao.jpg",
+			"website": "http://www.yangsichao.cn"
+		},
+			{"name": "Xinhui Yu",
+			 "title": "Undergraduate Researcher",
+			 "blurb": "Xinhui is majoring in Computer Science and Computer Engineering. He is interested in machine learning and neural networks. To put what he learned into practice, he is doing research on buiding neural network models based on linguistic features to help identify Alzheimer's disease in narrative speech.",
+			 "image": "/img/people/xinhui.jpg"
+		 },
 		]
 	},
 
 	"4_affiliates": {
 		"label":"Affiliates",
 		"people": [
-			{"name": "Elise Hopman",
-			 "title": "Psychology Graduate Student at University of Wisconsin-Madison",
-			 "blurb": "Elise is interested in how language learning works and investigates this question with behavioral as well as computational research.",
-			 "website": "http://lcnl.wisc.edu/index.php/elise-hopman/",
-			 "image": "/img/people/elise.jpg"
-		  },
 			{
 				"name": "Yun-Shiuan (Sean) Chang",
 				"title": "Visiting graduate student",
@@ -171,7 +159,31 @@ B.A. in Sociology and Master's in Public Policy from the Universidad de Chile.",
 			{"name": "Mowafak Allaham",
 			"title": "Former Post-Undergrad Research Assistant",
 			"image": "/img/people/mowafak_cropSmall.jpg",
-			"blurb": "Mowafak is now a graduate student in Psychology at University of Illinois-Chicago. He works with Sylvia Morelli."}
+			 "blurb": "Mowafak is now a graduate student in Psychology at University of Illinois-Chicago. He works with Sylvia Morelli."},
+			{"name": "Kendra Lange",
+			 "title": "Former Undergraduate Researcher",
+			 "blurb": "Kendra examines the interrelation between bilingualism, creativity, and intelligence. Specifically, she is examining whether reported advantages in creativity and intelligence due to bilngualism can be explained by properties of their representations.",
+			 "image": "/img/people/kendra.png"
+			},
+				{
+				"name": "Rebekah Manweiler",
+				"title": "Visiting Undergraduate Researcher",
+				"blurb": "Rebekah is an undergraduate senior from the University of Kansas in Lawrence majoring in Computer Science and minoring in Linguistics and Mathematics. She is interested in Computational Modeling and Machine learning and their applications to Psycholinguistics. Within Psycholinguistics, she is interested in the structure and method of access of the mental lexicon. She is working on research with Nicole Beckage over the summer to learn more about Cognitive Modeling and its applications. ",
+				"website": "https://rebekahmanweiler.wixsite.com/rebekahmanweiler",
+				"image": "/img/people/rebekah.jpg"
+			},
+			{
+				"name": "Sophie Sandweiss",
+				"title": "Visiting Undergraduate Researcher",
+				"blurb": "Sophie Sandweiss is an undergraduate at Brown studying Cognitive Neuroscience and Contemplative Studies. She is interested in human cognition, mental health and wellness and is in Madison studying semantic memory.",
+				"image": "/img/people/sophie.jpg"
+			},
+		{
+			"name": "Elizabeth Pettit",
+			"title": "Former Post-Baccularate Researcher",
+			"blurb": "Elizabeth graduated from UW-Madison in the Spring of 2017, majoring in Psychology. She will be a PhD graduate program in Psychology at Miami University starting September 2018.",
+			"image": "/img/people/elizabeth.jpg"
+		},
 
 		]
 	}
