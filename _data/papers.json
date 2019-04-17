@@ -1,5 +1,43 @@
 [
 	{
+    "URL": "/papers/files/Hoetal2019jep.pdf",
+    "abstract": "Carrots and sticks motivate behavior, and people can teach new behaviors to other organisms, such as children or nonhuman animals, by tapping into their reward learning mechanisms. But how people teach with reward and punishment depends on their expectations about the learner. We examine how people teach using reward and punishment by contrasting two hypotheses. The first is evaluative feedback as reinforcement, where rewards and punishments are used to shape learner behavior through reinforcement learning mechanisms. The second is evaluative feedback as communication, where rewards and punishments are used to signal target behavior to a learning agent reasoning about a teacher’s pedagogical goals. We present formalizations of learning from these 2 teaching strategies based on computational frameworks for reinforcement learning. Our analysis based on these models motivates a simple interactive teaching paradigm that distinguishes between the two teaching hypotheses. Across three sets of experiments, we find that people are strongly biased to use evaluative feedback communicatively rather than as reinforcement.",
+    "author": [
+		{"family": "Ho", "given": "M. K."},
+		{"family": "Cushman", "given": "F. A."},
+		{"family": "Littman", "given": "M. L."},
+		{"family": "Austerweil", "given": "J. L."}
+    ],
+    "container-title": "Journal of Experimental Psychology: General",
+    "id": "hoetal2019jep",
+    "page": "520-549",
+    "title": "People Teach with Rewards and Punishments as Communication not Reinforcements",
+    "type": "article-journal",
+		"volume": "148",
+		"issue": "3",
+		"tags":["pedagogy", "reward", "punishment", "reinforcement learning", "communication"],
+    "year": 2019
+	},
+	{
+    "URL": "/papers/files/Hoetal2019psyarxiv.pdf",
+    "abstract": "Theory of mind enables an observer to interpret others’ behavior in terms of unobservable beliefs, desires, intentions, feelings, and expectations about the world. This also empowers the person whose behavior is being observed: By intelligently modifying her actions, she can influence the mental representations that an observer ascribes to her, and by extension, what the observer comes to believe about the world. That is, she can engage in intentionally communicative demonstrations. Here, we develop a computational account of generating and interpreting communicative demonstrations by explicitly distinguishing between two interacting types of intentions. Object-directed intentions aim to control states of the physical environment, whereas belief-directed intentions aim to influence an observer’s mental representations. This formulation provides a number of theoretical insights. In particular, our framework (1) extends existing formal models of pragmatics and pedagogy to the setting of value-guided decision-making, (2) captures how people modify their intentional behavior to show what they know about the reward or causal structure of an environment, and (3) helps explain data on infant and child imitation in terms of differential attribution to adult demonstrators’ object-directed and belief-directed intentions. Additionally, our analysis of belief-directed intentionality and mentalizing helps shed light on the socio-cognitive mechanisms that underlie distinctly human forms of communication, culture, and sociality.",
+    "author": [
+		{"family": "Ho", "given": "M. K."},
+		{"family": "Cushman", "given": "F. A."},
+		{"family": "Littman", "given": "M. L."},
+		{"family": "Austerweil", "given": "J. L."}
+    ],
+    "container-title": "PsyArXiv",
+    "id": "hoetal2019psyarxiv",
+    "page": "1-86",
+    "title": "A Rational-Pragmatic Account of Communicative Demonstrations",
+    "type": "article-journal",
+	"volume": "19",
+		"tags":["communication","problem solving","pragmatics","planning","social learning"],
+    "year": 2019
+  },
+
+	{
     "URL": "/papers/files/ZemlaAusterweil2018.pdf",
     "abstract": "One popular and classic theory of how the mind encodes knowledge is an associative semantic network, where concepts and associations between concepts correspond to nodes and edges, respectively. A major issue in semantic network research is that there is no consensus among researchers as to the best method for estimating the network of an individual or group. We propose a novel method (U-INVITE) for estimating semantic networks from semantic fluency data (listing items from a category) based on a censored random walk model of memory retrieval. We compare this method to several other methods in the literature for estimating networks from semantic fluency data. In simulations, we find that U-INVITE can recover semantic networks with low error rates given only a moderate amount of data. U-INVITE is the only known method derived from a psychologically plausible process model of memory retrieval and one of two known methods that we found to be consistent estimators of this process: if semantic memory retrieval is consistent with this process, the procedure will eventually estimate the true network (given enough data). We conduct the first exploration of different methods for estimating psychologically-valid semantic networks by comparing people’s similarity judgments of edges estimated by each network estimation method. To encourage best practices, we discuss the merits of each network estimation technique, provide a flow chart that assists with choosing an appropriate method, and supply code for others to employ these techniques on their own data.",
     "author": [
