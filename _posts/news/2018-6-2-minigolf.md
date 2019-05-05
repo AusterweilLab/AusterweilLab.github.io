@@ -1,10 +1,10 @@
 ---
 title: 'The lab bids Sean Chang farewell with a minigolf party!'
 excerpt: 'The lab bids Sean Chang farewell with a minigolf party!'
-tags: students, members, party
+tags: [students, members, party]
 layout: post
 category: news
-assets: /projects/assets/minigolf
+assets: /news/assets/2018-minigolf
 ---
 
 To mark the end of another successful semester, the
@@ -14,9 +14,9 @@ having never touched a golf club in their lives (author
 included), it was a fun-filled night where many balls ended
 up where the holes weren't. 
 
-![alt text]( {{page.assets}}/minigolf_group.jpg )
+[![alt text]({{page.assets}}/minigolf_group.jpg)
 *From left: Xiayuan, Jeff, Jonathan (partially obscured by
-Shrek), Steven, Joe, Sean, and Xian. Photo credit: Alyssa*
+Shrek), Steven, Joe, Sean, and Xian. Photo credit: Alyssa*]({{page.assets}}/minigolf_group.jpg)
 
 This event was made bittersweet with the understanding that
 Sean Chang, a treasured member since 2017, would soon be

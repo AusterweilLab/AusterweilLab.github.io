@@ -1,7 +1,7 @@
 ---
 title: 'CogSci2019: The lab will be presenting 3 papers in Montreal!'
 excerpt: The Austerweil Lab will be presenting 3 papers at the Annual Meeting of the Cognitive Science Society.
-tags: CogSci,MathPsych,Conferences
+tags: [CogSci,MathPsych,Conferences]
 layout: post
 category: news
 ---

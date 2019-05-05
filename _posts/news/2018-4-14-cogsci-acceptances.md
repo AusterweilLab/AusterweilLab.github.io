@@ -1,7 +1,7 @@
 ---
 title: 'CogSci2018: The lab will be presenting 6 papers!'
 excerpt: The Austerweil Lab will be presenting 6 papers at the Annual Meeting of the Cognitive Science Society (4 talks, 2 posters).
-tags: CogSci,MathPsych,Conferences
+tags: [CogSci,MathPsych,Conferences]
 layout: post
 category: news
 ---

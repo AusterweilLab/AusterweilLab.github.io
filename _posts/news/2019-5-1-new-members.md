@@ -1,7 +1,7 @@
 ---
-title: Welcome new members of the lab!
+title: Welcome, new members of the lab!
 excerpt: The Austerweil lab would like to welcome a host of new members to the lab!
-tags: students, members, presentations
+tags: [students, members]
 layout: post
 category: news
 ---

@@ -1,7 +1,7 @@
 ---
 title: Impressive list of awards thus far in 2019!
 excerpt: Members of the Austerweil lab win a series of awards!
-tags: students, members, presentations
+tags: [students, members, awards]
 layout: post
 category: news
 ---

@@ -63,6 +63,7 @@ excerpt: A sentence or two about the news.
 tags: tags, for, seo
 layout: post
 category: news
+assets: /news/assets/location_of_post_assets
 ---
 
 Some other content can go here! This will be visible to 
@@ -80,14 +81,15 @@ Here's what the front matter items do:
 | `tags` | These are also used for SEO, but are additionally shown below the title of the page when you click the link to the post, so make sure they are appropriate. |
 | `layout` | This references a specific HTML layout that I have written. It should always be the name of a file in `_layouts`. The one i have written, `post`, is very general and you shouldn't need to write a new one. |
 | `category` |  This will either be `news` or `projects`, depending on which you are writing.|
-
+| `assets` | This is optional if it's a basic post, but important if you have images and other stuff, because it's where you specify the location of those assets. Do it by entering something like "assets: /news/assets/sample".|
+ 
 The file also has to be named very particularly for Jekyll to interpret it. Here is how it should look:
 
 ```
 YYYY-M-DD-short-name.md
 ```
 
-The date listed in that file will be shown on the post page, and also it will affect its order in the news marquee (which only shows the most recent three posts, in order of recency). So make sure that's done correctly!
+The date listed in that file will be shown on the post page, and also it will affect its order in the news marquee (which only shows the most recent five posts, in order of recency). So make sure that's done correctly!
 
 ### Syntax highlighting, MathJax, Tables, and Images
 
@@ -154,7 +156,7 @@ My great markdown table:
 
 Jekyll is particular about how files are organized, and so if you have locally hosted resources, such as images, you'll need to put them in a special place: `[projects|news]/assets/[post_name]/`. Then you'll need to reference those files in your post.
 
-So, for example, of my post was in `/_posts/projects/2017-4-15-sample.md`, I would put my resources in `/projects/assets/sample/`. 
+So, for example, if my post was in `/_posts/projects/2017-4-15-sample.md`, I would put my resources in `/projects/assets/sample/`. 
 
 To make things a little easier, you can define the location of the page resources in your YAML frontmatter:
 
@@ -166,6 +168,7 @@ Then you can use that variable in your post:
 
 ```
 ![alt text]( {{page.assets}}/image.jpg )
+*Add some caption here*
 ```
 
 ### Putting it all together
@@ -211,4 +214,9 @@ Putting all of that together, here's an example of a  project post:
     
     And an image!
     ![alt text]( {{page.assets}}/image.jpg )
+    *Add some caption here*
 
+    Or, for a linkable version of the image, enclose it in a [](), like so:
+    [![alt text]( {{page.assets}}/image.jpg )
+    *Add some caption here*
+    ]( {{page.assets}}/image.jpg )

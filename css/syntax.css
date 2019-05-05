@@ -60,4 +60,7 @@
 .highlight .vg { color: #19177C } /* Name.Variable.Global */
 .highlight .vi { color: #19177C } /* Name.Variable.Instance */
 .highlight .il { color: #666666 } /* Literal.Number.Integer.Long */
-img + em {display: block; text-align: center;}/* add properly aligned image captions */
+img + em {display: block;
+		  text-align: center;
+		  width:500px;
+		  margin: auto}/* add properly aligned image captions */
