@@ -38,6 +38,13 @@ code, pre {
   margin: 2px;
 }
 
+codesm {
+  font-family: 'Custom Mono', monospace;
+  font-size: 0.85em;
+  color: #BDBDBD;
+  margin: 2px;
+}
+
 
 blockquote {
   background-color: #ECEFF1;
@@ -78,7 +85,7 @@ blockquote p {
 }
 
 #navbar li {
-  width: 25%;
+  width: 20%;
   max-width: 190px;
   min-width: 30px;
   float: left;
@@ -90,7 +97,7 @@ blockquote p {
 }
 
 #navbar .imagecell {
-  width:  12%;
+  width:  10%;
 }
 
 #navbar li:last-child {
