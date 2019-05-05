@@ -1,5 +1,31 @@
 [
 	{
+    "URL": "/papers/files/ZemlaAusterweil2019complexity.pdf",
+    "abstract": "A defining characteristic of Alzheimer’s disease is difficulty in retrieving semantic memories, or memories encoding
+facts and knowledge. While it has been suggested that this impairment is caused by a degradation of the semantic store,
+the precise ways in which the semantic store is degraded are not well understood. Using a longitudinal corpus of
+semantic fluency data (listing of items in a category), we derive semantic network representations of patients with
+Alzheimer’s disease and of healthy controls. We contrast our network-based approach with analyzing fluency data with the
+standard method of counting the total number of items and perseverations in fluency data. We find that the networks of
+Alzheimer’s patients are more connected and that those connections are more randomly distributed than the connections in
+networks of healthy individuals. These results suggest that the semantic memory impairment of Alzheimer’s patients can
+be modeled through the inclusion of spurious associations between unrelated concepts in the semantic store. We also find
+that information from our network analysis of fluency data improves prediction of patient diagnosis compared to
+traditional measures of the semantic fluency task.",
+    "author": [
+      {"family": "Zemla", "given": "J. C."},
+      {"family": "Austerweil", "given": "J. L."}
+    ],
+    "container-title": "Complexity",
+    "id": "zemla2019complexity",
+    "page": "1-12",
+		"title": "Analyzing Knowledge Retrieval Impairments Associated with Alzheimer’s Disease Using Network Analyses",
+    "type": "article-journal",
+		"volume": "2019",
+		"tags":["networks","fluency","alzheimers"],
+    "year": 2019
+	},
+	{
     "URL": "/papers/files/Hoetal2019jep.pdf",
     "abstract": "Carrots and sticks motivate behavior, and people can teach new behaviors to other organisms, such as children or nonhuman animals, by tapping into their reward learning mechanisms. But how people teach with reward and punishment depends on their expectations about the learner. We examine how people teach using reward and punishment by contrasting two hypotheses. The first is evaluative feedback as reinforcement, where rewards and punishments are used to shape learner behavior through reinforcement learning mechanisms. The second is evaluative feedback as communication, where rewards and punishments are used to signal target behavior to a learning agent reasoning about a teacher’s pedagogical goals. We present formalizations of learning from these 2 teaching strategies based on computational frameworks for reinforcement learning. Our analysis based on these models motivates a simple interactive teaching paradigm that distinguishes between the two teaching hypotheses. Across three sets of experiments, we find that people are strongly biased to use evaluative feedback communicatively rather than as reinforcement.",
     "author": [
