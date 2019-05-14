@@ -1,5 +1,91 @@
 [
 	{
+		"URL": "/papers/files/Payton2019rps.pdf",
+		"abstract": "Rock, Paper, Scissors (RPS) is a competitive game. There are three actions: rock, paper, and scissors. The game’s
+rules are simple: scissors beats paper, rock beats scissors and paper beats rock (all signs stalemate against
+themselves). Over multiple games with the same opponent, optimal play according to a Nash Equilibrium requires subjects
+to play with genuine randomness. To examine randomness judgments in the context of competition, we tested subjects with
+identical sequences in two conditions: one produced from a dice roll, one from someone playing rock, paper, scissors. We
+compared these findings to models of subjective randomness from Falk and Konold (1997) and from Griffiths and Tenenbaum
+(2001), which explain assessments of randomness as a function of algorithmic complexity and statistical inference,
+respectively. In both conditions the models fail to adequately describe subjective randomness judgements of ternary
+outcomes. We also observe that context influences perceptions of randomness such that some isomorphic sequences produced
+from intentional play are perceived as less random than dice rolls. We discuss this finding in terms of the relation
+between patterns and opponent modeling.",
+		"author": [
+			{"family": "Payton", "given": "M."},
+			{"family": "Zemla", "given": "J. C."},
+			{"family": "Austerweil", "given": "J. L."}
+		],
+		"editor": [
+			{"family": "Goel", "given": "A."},
+			{"family": "Seifert", "given": "C."},
+			{"family": "Freksa", "given": "C."},
+		],
+		"container-title": "Proceedings of the 41st Annual Meeting of the Cognitive Science Society",
+		"id": "payton2019",
+		"publisher":"Cognitive Science Society",
+		"publisherplace":"Montreal, Quebec, Canada",
+		"title": "Subjective Randomness in a Non-cooperative Game",
+		"page":"xx-xx",
+		"type": "paper-conference",
+		"tags":["randomness", "pattern recognition", "opponent modeling"],
+		"year": 2019
+	},
+	{
+		"URL": "/papers/files/Afrasiabi2019github.pdf",
+		"abstract":"People spontaneously collaborate to solve a common goal. What factors affect whether teams are successful? Due to lack of large-scale naturalistic data and methods for investigating scientific questions on such data, previous work has
+either focused on very concrete cases, such as surveys of business teams, or abstract cases, such as GridWorld games,
+where agents coordinate their movement so that each agent can get to their own goal without obstructing other agents. We
+propose a computational framework based on the multivariate Hawkes process and a novel algorithm for parameter
+estimation on large data sets. We demonstrate the potential of this method by applying it to a large database of
+programming teams, public GitHub repositories. We analyze factors known to influence team performance, such as leader
+organization style and team cognitive diversity, as well as other factors, such as the burstiness of effort, that are
+difficult to test using existing methods.",
+		"author": [
+			{"family": "Afrasiabi", "given": "M."},
+			{"family": "Orr", "given": "M. G."},
+			{"family": "Austerweil", "given": "J. L."}
+		],
+		"editor": [
+			{"family": "Goel", "given": "A."},
+			{"family": "Seifert", "given": "C."},
+			{"family": "Freksa", "given": "C."},
+		],
+		"container-title": "Proceedings of the 41st Annual Meeting of the Cognitive Science Society",
+		"id": "afrasiabi2019",
+		"publisher":"Cognitive Science Society",
+		"publisherplace":"Montreal, Quebec, Canada",
+		"title": "Evaluating Theories of Collaborative Cognition Using the Hawkes Process and a Large Naturalistic Data Set",
+		"page":"xx-xx",
+		"type": "paper-conference",
+		"tags":["collaborative cognition","Hawkes process","organizational psychology","bayesian nonparametrics"],
+		"year": 2019
+	},
+	{
+		"URL": "/papers/files/LiewAusterweil2019nota.pdf",
+		"abstract": "
+The categorization literature often considers two types of categories as equivalent: (a) standard categories and (b) negation categories. For example, category learning studies typically conflate learning categories A and B with learning categories A and NOT A. This study represents the first attempt at delineating these two separate types of generated categories. We specifically test for differences in the distributional structure of generated categories, demonstrating that categories identified as not what was known are larger and wider-spread compared to categories that were identified with a specific label. We also observe consistency in distributional structure across multiple generated categories, replicating and extending previous findings. These results are discussed in the context of providing a foundation for future modeling work.",
+		"author": [
+			{"family": "Liew", "given": "S. X."},
+			{"family": "Austerweil", "given": "J. L."}
+		],
+		"editor": [
+			{"family": "Goel", "given": "A."},
+			{"family": "Seifert", "given": "C."},
+			{"family": "Freksa", "given": "C."},
+		],
+		"container-title": "Proceedings of the 41st Annual Meeting of the Cognitive Science Society",
+		"id": "liew2019",
+		"publisher":"Cognitive Science Society",
+		"publisherplace":"Montreal, Quebec, Canada",
+		"title": "Novel categories are distinct from \"Not\"-categories",
+		"page":"xx-xx",
+		"type": "paper-conference",
+		"tags":["categorization", "category generation", "contrast", "category learning"],
+		"year": 2019
+	},
+	{
     "URL": "/papers/files/ZemlaAusterweil2019complexity.pdf",
     "abstract": "A defining characteristic of Alzheimer’s disease is difficulty in retrieving semantic memories, or memories encoding
 facts and knowledge. While it has been suggested that this impairment is caused by a degradation of the semantic store,
@@ -526,7 +612,7 @@ language learning.",
 
 	{
 		"URL": "/papers/files/Isyroqietal2018.pdf",
-		"abstract":"We investigate a method for formulating context- and taskspecific
+		"abstract":"We investigate a method for formulating context and taskspecific
 computational models of human performance in a constrained
 semantic memory task. In particular, we assume that
 memory retrieval can only use a simple process – a random
@@ -645,7 +731,7 @@ mimics aggregate human performance.",
 
   {
     "URL": "/papers/files/PACKERCogSci2017.pdf",
-    "abstract":"Generating new concepts is an intriguing yet understudied topic in cognitive science. In this paper, we present a novel exemplar model of category generation: PACKER (Producing Alike and Contrasting Knowledge using Exemplar Representations). PACKER's core design assumptions are (1) categories are represented as exemplars in a multidimensional psychological space, (2) generated items should be similar to exemplars of the same category, and (3) generated categories should be dissimilar to existing categories. A behavioral study reveals strong effects of contrast- and target-class similarity. These effects are novel empirical phenomena, which are directly predicted by the PACKER model but are not explained by existing formal approaches.",
+    "abstract":"Generating new concepts is an intriguing yet understudied topic in cognitive science. In this paper, we present a novel exemplar model of category generation: PACKER (Producing Alike and Contrasting Knowledge using Exemplar Representations). PACKER's core design assumptions are (1) categories are represented as exemplars in a multidimensional psychological space, (2) generated items should be similar to exemplars of the same category, and (3) generated categories should be dissimilar to existing categories. A behavioral study reveals strong effects of contrast and target-class similarity. These effects are novel empirical phenomena, which are directly predicted by the PACKER model but are not explained by existing formal approaches.",
     "author": [
       {"family": "Conaway", "given": "N."},
       {"family": "Austerweil", "given": "J. L."}
@@ -855,7 +941,7 @@ mimics aggregate human performance.",
 
   {
     "URL": "http://papers.nips.cc/paper/5205-visual-concept-learning-combining-machine-vision-and-bayesian-generalization-on-concept-hierarchies.pdf",
-    "abstract": "Learning a visual concept from a small number of positive examples is a significant challenge for machine learning algorithms. Current methods typically fail to find the appropriate level of generalization in a concept hierarchy for a given set of visual examples. Recent work in cognitive science on Bayesian models of generalization addresses this challenge, but prior results assumed that objects were perfectly recognized. We present an algorithm for learning visual concepts directly from images, using probabilistic predictions generated by visual classi- fiers as the input to a Bayesian generalization model. As no existing challenge data tests this paradigm, we collect and make available a new, large-scale dataset for visual concept learning using the ImageNet hierarchy as the source of possible concepts, with human annotators to provide ground truth labels as to whether a new image is an instance of each concept using a paradigm similar to that used in experiments studying word learning in children. We compare the performance of our system to several baseline algorithms, and show a significant advantage results from combining visual classifiers with the ability to identify an appropriate level of abstraction using Bayesian generalization.",
+    "abstract": "Learning a visual concept from a small number of positive examples is a significant challenge for machine learning algorithms. Current methods typically fail to find the appropriate level of generalization in a concept hierarchy for a given set of visual examples. Recent work in cognitive science on Bayesian models of generalization addresses this challenge, but prior results assumed that objects were perfectly recognized. We present an algorithm for learning visual concepts directly from images, using probabilistic predictions generated by visual classifiers as the input to a Bayesian generalization model. As no existing challenge data tests this paradigm, we collect and make available a new, large-scale dataset for visual concept learning using the ImageNet hierarchy as the source of possible concepts, with human annotators to provide ground truth labels as to whether a new image is an instance of each concept using a paradigm similar to that used in experiments studying word learning in children. We compare the performance of our system to several baseline algorithms, and show a significant advantage results from combining visual classifiers with the ability to identify an appropriate level of abstraction using Bayesian generalization.",
     "author": [
       {"family": "Jia", "given": "Y."},
       {"family": "Abbott", "given": "J. T."},
