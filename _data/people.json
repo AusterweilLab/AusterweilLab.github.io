@@ -85,6 +85,12 @@ B.A. in Sociology and Master's in Public Policy from the Universidad de Chile.",
 			"image": "/img/people/yiwen.jpg"
 		},
 			{
+			"name": "Sam Westby",
+			"title": "Undergraduate Researcher",
+			"blurb": "Sam is interested collective behavior. Currently, he is working on validating models of human walking behavior using natural data.",
+			"image": "/img/people/sam.jpg"
+		},
+			{
 			"name": "Sichao Yang",
 			"title": "Undergraduate Researcher",
 			"blurb": "Sichao is working on Markov Chain Monte Carlo and Generative Adversarial Active Learning.",
