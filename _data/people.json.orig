@@ -1,0 +1,199 @@
+{
+	"1_overlord": {
+		"label":"",
+		"people": [
+			{"name": "Joseph Austerweil",
+			"title": "Assistant Professor",
+			"image": "/img/people/joe.jpg",
+			"email": "austerweil@wisc.edu",
+			"blurb": "As a computational cognitive psychologist, my research program explores questions at the intersection of perception and higher-level cognition. I use recent advances in statistics and computer science to formulate ideal learner models to see how they solve these problems and then test the model predictions using traditional behavioral experimentation. Ideal learner models help us understand the knowledge people use to solve problems because such knowledge must be made explicit for the ideal learner model to successfully produce human behavior. This method yields novel machine learning methods and leads to the discovery of new psychological principles."}
+		]
+	},
+
+	"2_grads_postdocs": {
+		"label":"Scientists, Postdocs, and Graduate Students",
+		"people": [
+			{"name": "Jeff Zemla",
+			"title": "Assistant Scientist",
+			"blurb": "Jeff studies semantic memory and Alzheimer's Disease. He received his PhD from Rice University working with Mike Byrne.",
+			"website":"http://chil.rice.edu/jzemla/",
+            "image": "/img/people/jeff.jpg"},
+			{"name": "Mohsen Afrasiabi",
+			 "title": "Assistant Scientist",
+			 "blurb": "Mohsen is a data scientist with a PhD in Electrical and Computer Engineering and over 15 years of experience working in industry. He is returning to academia to pursue research in Machine Learning, Deep Learning and their application in Cognitive Psychology and Computational Neuroscience.",
+			 "image": "/img/people/mohsen.jpeg"
+            },
+			{"name": "Shi Xian Liew",
+			 "email": "liew2@wisc.edu",
+  	 		 "title": "Postdoctoral Researcher",
+			 "blurb": "Xian recently graduated from University of Melbourne where he worked with Dr. Little and Dr. Howe. He investigates computational models of categorization.",
+			 "image": "/img/people/xian.png"
+			},
+			{"name": "Elise Hopman",
+			 "title": "Graduate Student",
+			 "blurb": "Elise is interested in how language learning works and investigates this question with behavioral as well as computational research.",
+			 "website": "http://lcnl.wisc.edu/index.php/elise-hopman/",
+			 "image": "/img/people/elise.jpg"
+		  },
+
+			{"name": "Ian Johnston",
+			"title": "Graduate Student",
+			"blurb": "Ian is interested in modeling legal decision making. He received his J.D. from Harvard Law School.",
+             "image": "/img/people/ian.jpg"},
+			{"name": "Pablo Andre Caceres",
+			"title": "Graduate Student",
+			"blurb": "Pablo is a Ph.D. student in the Psychology Department. He is interested in the use of cognitive science and machine
+learning tools to explore a broad range of questions, ranging from human knowledge and skill acquisition to the use of
+psychologically-inspired AI to solve real-life social and technological problems. He is a Fulbright Scholar and holds a
+B.A. in Sociology and Master's in Public Policy from the Universidad de Chile.",
+             "image": "/img/people/pablo.jpg"},
+			{"name": "Michael Payton",
+			 "title": "Graduate Student",
+			 "blurb": "",
+			 "image": "/img/people/michael.jpg"
+		  },
+
+			
+		]
+		},
+
+	"3_undergrads": {
+		"label": "Undergraduates",
+		"people": [
+			{
+				"name": "Kesong Cao",
+				"title": "Undergraduate Researcher",
+				"blurb": "Kesong is interested in human behavior and the incentives that drive them. He possesses much excitement about research and coding and is looking to learn very much from the lab (as is the lab from him.)",
+				"image": "/img/people/kesong.jpg"				
+			},
+			{
+				"name": "Jacqueline Erens",
+				"title": "Undergraduate Researcher",
+				"blurb": "Jackie has examined how people reason with features and relations using the Bayesian Generalization Framework in the domain of emojis. She is now exploring ambiguity in language production.",
+				"image": "/img/people/jackie.png"
+			},
+			{
+			"name": "Anantha (Van) Rao",
+			"title": "Undergraduate Researcher",
+			"blurb": "Van is interested in the relationship between the perception of categories and causal inference. He is currently investigating if, when and how people use multiple category information in intuitive physical judgements about object dynamics.",
+			"image": "/img/people/van.png"
+		},
+		{
+			"name": "Yiwen Wang",
+			"title": "Undergraduate Researcher",
+			"blurb": "Yiwen is interested in the possible semantic factors affecting one’s second language learning process, with a focus on English speakers learning Spanish, Portuguese and Italian.",
+			"image": "/img/people/yiwen.jpg"
+		},
+			{
+<<<<<<< HEAD
+			"name": "Sam Westby",
+			"title": "Undergraduate Researcher",
+			"blurb": "Sam is interested collective behavior. Currently, he is working on validating models of human walking behavior using natural data.",
+			"image": "/img/people/sam.jpg"
+		},
+			{
+=======
+>>>>>>> f3a09177b8e68541062139927b35d950f3468703
+			"name": "Sichao Yang",
+			"title": "Undergraduate Researcher",
+			"blurb": "Sichao is working on Markov Chain Monte Carlo and Generative Adversarial Active Learning.",
+			"image": "/img/people/sichao.jpg",
+			"website": "http://www.yangsichao.cn"
+		},
+			{"name": "Xinhui Yu",
+			 "title": "Undergraduate Researcher",
+			 "blurb": "Xinhui is majoring in Computer Science and Computer Engineering. He is interested in machine learning and neural networks. To put what he learned into practice, he is doing research on buiding neural network models based on linguistic features to help identify Alzheimer's disease in narrative speech.",
+			 "image": "/img/people/xinhui.jpg"
+		 },
+		]
+	},
+
+	"4_affiliates": {
+		"label":"Affiliates",
+		"people": [
+			{
+				"name": "Yun-Shiuan (Sean) Chang",
+				"title": "Visiting graduate student",
+				"blurb": "Sean recently graduated from National Taiwan University with BS in psychology and neuroscience.  He currently investigates children's math cognition development via computational modeling with fMRI data.",
+				"image": "/img/people/yunshiuan.jpg",
+				"website": "https://yunshiuan.github.io/",
+				"email": "yunshiuan.chuang@gmail.com"
+			},
+			{"name": "Jie Ren",
+			"title": "Visiting Instructor, Brown University; Visiting Professor, McGovern Institute for Brain Research at Beijing Normal University",
+			"image": "/img/people/jieren.jpg",
+			"website": "https://sites.google.com/a/brown.edu/jie-ren/",
+			"blurb": "​Jie's​ research is concerned with the biology and neurology of infant speech ​learning​. The research methods used in ​her​ research include behavioral measures of infant speech perception, functional neuroimaging (fNIRS) and computational modeling with ​machine-learning techniques."},
+
+			{"name": "Boyoung Kim",
+			"title": "Graduate Student at Brown University",
+			"blurb": "Boyoung collaborates on modeling how people learn social norms.."},
+
+			{"name": "Babak Hemmatian",
+			"title": "Graduate Student at Brown University",
+			"blurb": "I am a Ph.D. student of cognitive science, with a background in psychology, but a new-found love for computational modeling. I am most interested in integrating the computational models offered for different kinds of reasoning (inductive, causal, deductive, etc.), offering new such models (with an emphasis on causal reasoning) and comparing the proposals with regards to how well they capture the qualitative and quantitative aspects of human reasoning."}
+		]
+	},
+
+	"5_alumni": {
+		"label":"Alumni",
+		"people": [
+			{"name": "Nicole Beckage",
+			 "title": "Former Assistant Scientist",
+			 "blurb": "",
+			 "website":"http://www.ittc.ku.edu/~beckage/",
+			 "image": "/img/people/nicole.jpg"},
+
+			{"name": "Mark Ho",
+			"title": "Former Graduate Student",
+			"image": "/img/people/markho.png",
+			"website": "http://www.markkho.com/",
+			"blurb": "Mark completed his PhD in December 2017. He is now a postdoctoral researcher with Tom Griffiths and Sanjit Seshia."},
+
+      {"name": "Nolan Conaway",
+			"title": "Former Postdoctoral Researcher",
+			"image": "/img/people/nolanconaway.jpg",
+			"blurb": "Nolan now works as a data scientist at Shutterstock.",
+			"website": "https://nolanbconaway.github.io/"},
+
+			{"name": "Ting Qian",
+			"title": "Former Postdoctoral Scholar",
+			"blurb": "Ting is now a data scientist at the Children's Hospital of Philadelphia."},
+
+			{"name": "Yoed Kenett",
+			"title": "Former Postdoctoral Scholar",
+			"image": "/img/people/yoed_cropSmall.jpg",
+			"blurb": "Yoed is now a postdoctoral scholar with Sharon Thompson-Schill at University of Pennsylvania."},
+
+			{"name": "Mowafak Allaham",
+			"title": "Former Post-Undergrad Research Assistant",
+			"image": "/img/people/mowafak_cropSmall.jpg",
+			 "blurb": "Mowafak is now a graduate student in Psychology at University of Illinois-Chicago. He works with Sylvia Morelli."},
+			{"name": "Kendra Lange",
+			 "title": "Former Undergraduate Researcher",
+			 "blurb": "Kendra examines the interrelation between bilingualism, creativity, and intelligence. Specifically, she is examining whether reported advantages in creativity and intelligence due to bilngualism can be explained by properties of their representations.",
+			 "image": "/img/people/kendra.png"
+			},
+				{
+				"name": "Rebekah Manweiler",
+				"title": "Visiting Undergraduate Researcher",
+				"blurb": "Rebekah is an undergraduate senior from the University of Kansas in Lawrence majoring in Computer Science and minoring in Linguistics and Mathematics. She is interested in Computational Modeling and Machine learning and their applications to Psycholinguistics. Within Psycholinguistics, she is interested in the structure and method of access of the mental lexicon. She is working on research with Nicole Beckage over the summer to learn more about Cognitive Modeling and its applications. ",
+				"website": "https://rebekahmanweiler.wixsite.com/rebekahmanweiler",
+				"image": "/img/people/rebekah.jpg"
+			},
+			{
+				"name": "Sophie Sandweiss",
+				"title": "Visiting Undergraduate Researcher",
+				"blurb": "Sophie Sandweiss is an undergraduate at Brown studying Cognitive Neuroscience and Contemplative Studies. She is interested in human cognition, mental health and wellness and is in Madison studying semantic memory.",
+				"image": "/img/people/sophie.jpg"
+			},
+		{
+			"name": "Elizabeth Pettit",
+			"title": "Former Post-Baccularate Researcher",
+			"blurb": "Elizabeth graduated from UW-Madison in the Spring of 2017, majoring in Psychology. She will be a PhD graduate program in Psychology at Miami University starting September 2018.",
+			"image": "/img/people/elizabeth.jpg"
+		},
+
+		]
+	}
+}
