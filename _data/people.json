@@ -52,7 +52,10 @@ B.A. in Sociology and Master's in Public Policy from the Universidad de Chile.",
 			 "blurb": "",
 			 "image": "/img/people/michael.jpg"
 		  },
-
+			{"name": "Blake Chambers",
+			"title": "Lab Manager",
+			"blurb": "Blake recently graduated from the University of Wisconsin - Madison with a Bachelor of Science in neurobiology and psychology. His undergraduate research with Dr. Diane Gooding and the PATHS Lab focused on biobehavioral measures of at-risk populations for schizophrenia. Blake is interested in how deficits in semantic factors can be used in the identification of Alzheimer’s disease and MCI.",
+             "image": "/img/people/blake.jpg"},
 			
 		]
 		},
