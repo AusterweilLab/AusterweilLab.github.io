@@ -1,4 +1,32 @@
 [
+  {
+  "URL": "/papers/files/AusterweilSanbornGriffiths2019.pdf",
+  "abstract": "Generalization is a fundamental problem solved by every cognitive system in essentially every
+  domain. Although it is known that how people generalize varies in complex ways depending on
+  the context or domain, it is an open question how people learn the appropriate way to generalize
+  for a new context. To understand this capability, we cast the problem of learning how to generalize as a problem of learning the appropriate hypothesis space for generalization. We propose a
+  normative mathematical framework for learning how to generalize by learning inductive biases for
+  which properties are relevant for generalization in a domain from the statistical structure of features and concepts observed in that domain. More formally, the framework predicts that an ideal
+  learner should learn to generalize by either taking the weighted average of the results of generalizing according to each hypothesis space, with weights given by how well each hypothesis space fits
+  the previously observed concepts, or by using the most likely hypothesis space. We compare the
+  predictions of this framework to human generalization behavior with three experiments in one perceptual (rectangles) and two conceptual (animals and numbers) domains. Across all three studies
+  we find support for the framework’s predictions, including individual-level support for averaging
+  in the third study.",
+  "author": [
+    {"family": "Austerweil", "given": "J. L."},
+    {"family": "Sanborn", "given": "S."},
+    {"family": "Griffiths", "given": "T. L."}
+  ],
+  
+  "container-title": "Cognitive Science",
+  "id": "austerweilSanborn2019",
+  "publisher":"Cognitive Science Society",
+  "title": "Learning How to Generalize",
+  "page":"xx-xx",
+  "type": "article-journal",
+  "tags":["Generalization", "Inductive inference", "Bayesian modeling", "Category learning"],
+  "year": 2019
+},
 	{
 		"URL": "/papers/files/Payton2019rps.pdf",
 		"abstract": "Rock, Paper, Scissors (RPS) is a competitive game. There are three actions: rock, paper, and scissors. The game’s
