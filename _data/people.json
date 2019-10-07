@@ -17,7 +17,8 @@
 			"title": "Assistant Scientist",
 			"blurb": "Jeff studies semantic memory and Alzheimer's Disease. He received his PhD from Rice University working with Mike Byrne.",
 			"website":"http://chil.rice.edu/jzemla/",
-            "image": "/img/people/jeff.jpg"},
+			"image": "/img/people/jeff.jpg"},
+			
 			{"name": "Mohsen Afrasiabi",
 			 "title": "Assistant Scientist",
 			 "blurb": "Mohsen is a data scientist with a PhD in Electrical and Computer Engineering and over 15 years of experience working in industry. He is returning to academia to pursue research in Machine Learning, Deep Learning and their application in Cognitive Psychology and Computational Neuroscience.",
@@ -52,7 +53,7 @@
 
 			 {
 				"name": "Yun-Shiuan (Sean) Chang",
-				"title": "Graduate student",
+				"title": "Graduate Student",
 				"blurb": "Sean is a Ph.D. student in the Psychology Department. He currently investigates children’s math cognition development via computational modeling with fMRI data. He also investigates the sense of number in artificial neural networks and compare it to human’s math cognition. He received his BS in psychology and neuroscience from National Taiwan University.", 
 				"image": "/img/people/Sean.png",
 				"website": "https://yunshiuan.github.io/",
