@@ -51,7 +51,14 @@
 					B.A. in Sociology and Master's in Public Policy from the Universidad de Chile.",
 			 "image": "/img/people/pablo.jpg"},
 
-			 {
+			 
+			{"name": "Michael Payton",
+			 "title": "Graduate Student",
+			 "blurb": "",
+			 "image": "/img/people/michael.jpg"
+			},
+
+			{
 				"name": "Yun-Shiuan (Sean) Chang",
 				"title": "Graduate Student",
 				"blurb": "Sean is a Ph.D. student in the Psychology Department. He currently investigates children’s math cognition development via computational modeling with fMRI data. He also investigates the sense of number in artificial neural networks and compare it to human’s math cognition. He received his BS in psychology and neuroscience from National Taiwan University.", 
@@ -59,12 +66,7 @@
 				"website": "https://yunshiuan.github.io/",
 				"email": "yunshiuan.chuang@gmail.com"
 			},
-			 
-			{"name": "Michael Payton",
-			 "title": "Graduate Student",
-			 "blurb": "",
-			 "image": "/img/people/michael.jpg"
-		  },
+
 			{"name": "Blake Chambers",
 			"title": "Lab Manager",
 			"blurb": "Blake recently graduated from the University of Wisconsin - Madison with a Bachelors of Science in neurobiology and psychology. His undergraduate research with Dr. Diane Gooding and the PATHS Lab focused on biobehavioral measures of at-risk populations for schizophrenia. Blake is interested in how deficits in semantic factors can be used in the identification of Alzheimer’s disease and MCI.",

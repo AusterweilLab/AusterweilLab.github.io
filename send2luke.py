@@ -34,13 +34,13 @@ os.system('scp -i {} -P 1202 {}.tar.gz {}@alab.psych.wisc.edu:{}'.format(keyloca
 #mk new dir on host and untar the tar
 cdcmd = 'cd {}'.format(serverdirbase)
 untarcmd = 'tar -xvzf {}.tar.gz -C ./'.format(tarname)
-renamecmd = 'rsync -r {}/* ./'.format(localdir)
+renamecmd = 'sudo rsync -r {}/* ./'.format(localdir)
 #rm the tar on host
 removecmd = 'rm {}.tar.gz'.format(tarname)
 #Also remove the _site folder
-rmcite = 'rm -r {}'.format(localdir)
+rmsite = 'rm -r {}'.format(localdir)
 #run it all
-os.system('ssh -i {} -p 1202 -t {}@alab.psych.wisc.edu  \'{};{};{};{};{}\' '.format(keylocation,username,cdcmd,untarcmd,renamecmd,removecmd,rmcite))
+os.system('ssh -i {} -p 1202 -t {}@alab.psych.wisc.edu  \'{};{};{};{};{}\' '.format(keylocation,username,cdcmd,untarcmd,renamecmd,removecmd,rmsite))
 
 #rm the tar locally
 os.system('rm {}.tar.gz'.format(tarname))
