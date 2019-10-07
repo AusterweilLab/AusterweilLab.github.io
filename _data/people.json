@@ -34,19 +34,31 @@
 			 "blurb": "Elise is interested in how language learning works and investigates this question with behavioral as well as computational research.",
 			 "website": "http://lcnl.wisc.edu/index.php/elise-hopman/",
 			 "image": "/img/people/elise.jpg"
-		  },
+			},
 
 			{"name": "Ian Johnston",
 			"title": "Graduate Student",
 			"blurb": "Ian is interested in modeling legal decision making. He received his J.D. from Harvard Law School.",
-             "image": "/img/people/ian.jpg"},
+			 "image": "/img/people/ian.jpg"
+			},
+				
 			{"name": "Pablo Andre Caceres",
 			"title": "Graduate Student",
 			"blurb": "Pablo is a Ph.D. student in the Psychology Department. He is interested in the use of cognitive science and machine
-learning tools to explore a broad range of questions, ranging from human knowledge and skill acquisition to the use of
-psychologically-inspired AI to solve real-life social and technological problems. He is a Fulbright Scholar and holds a
-B.A. in Sociology and Master's in Public Policy from the Universidad de Chile.",
-             "image": "/img/people/pablo.jpg"},
+					learning tools to explore a broad range of questions, ranging from human knowledge and skill acquisition to the use of
+					psychologically-inspired AI to solve real-life social and technological problems. He is a Fulbright Scholar and holds a
+					B.A. in Sociology and Master's in Public Policy from the Universidad de Chile.",
+			 "image": "/img/people/pablo.jpg"},
+
+			 {
+				"name": "Yun-Shiuan (Sean) Chang",
+				"title": "Graduate student",
+				"blurb": "Sean is a Ph.D. student in the Psychology Department. He currently investigates children’s math cognition development via computational modeling with fMRI data. He also investigates the sense of number in artificial neural networks and compare it to human’s math cognition. He received his BS in psychology and neuroscience from National Taiwan University.", 
+				"image": "/img/people/Sean.png",
+				"website": "https://yunshiuan.github.io/",
+				"email": "yunshiuan.chuang@gmail.com"
+			},
+			 
 			{"name": "Michael Payton",
 			 "title": "Graduate Student",
 			 "blurb": "",
@@ -54,8 +66,9 @@ B.A. in Sociology and Master's in Public Policy from the Universidad de Chile.",
 		  },
 			{"name": "Blake Chambers",
 			"title": "Lab Manager",
-			"blurb": "Blake recently graduated from the University of Wisconsin - Madison with a Bachelor of Science in neurobiology and psychology. His undergraduate research with Dr. Diane Gooding and the PATHS Lab focused on biobehavioral measures of at-risk populations for schizophrenia. Blake is interested in how deficits in semantic factors can be used in the identification of Alzheimer’s disease and MCI.",
-             "image": "/img/people/blake.jpg"},
+			"blurb": "Blake recently graduated from the University of Wisconsin - Madison with a Bachelors of Science in neurobiology and psychology. His undergraduate research with Dr. Diane Gooding and the PATHS Lab focused on biobehavioral measures of at-risk populations for schizophrenia. Blake is interested in how deficits in semantic factors can be used in the identification of Alzheimer’s disease and MCI.",
+			 "image": "/img/people/blake.jpg"
+			},
 			
 		]
 		},
@@ -111,14 +124,7 @@ B.A. in Sociology and Master's in Public Policy from the Universidad de Chile.",
 	"4_affiliates": {
 		"label":"Affiliates",
 		"people": [
-			{
-				"name": "Yun-Shiuan (Sean) Chang",
-				"title": "Visiting graduate student",
-				"blurb": "Sean recently graduated from National Taiwan University with BS in psychology and neuroscience.  He currently investigates children's math cognition development via computational modeling with fMRI data.",
-				"image": "/img/people/yunshiuan.jpg",
-				"website": "https://yunshiuan.github.io/",
-				"email": "yunshiuan.chuang@gmail.com"
-			},
+			
 			{"name": "Jie Ren",
 			"title": "Visiting Instructor, Brown University; Visiting Professor, McGovern Institute for Brain Research at Beijing Normal University",
 			"image": "/img/people/jieren.jpg",
