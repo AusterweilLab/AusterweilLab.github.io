@@ -24,12 +24,7 @@
 			 "blurb": "Mohsen is a data scientist with a PhD in Electrical and Computer Engineering and over 15 years of experience working in industry. He is returning to academia to pursue research in Machine Learning, Deep Learning and their application in Cognitive Psychology and Computational Neuroscience.",
 			 "image": "/img/people/mohsen.jpeg"
             },
-			{"name": "Shi Xian Liew",
-			 "email": "liew2@wisc.edu",
-  	 		 "title": "Postdoctoral Researcher",
-			 "blurb": "Xian graduated from University of Melbourne where he worked with Dr. Little and Dr. Howe. He investigates computational models of categorization. He loves the lab.",
-			 "image": "/img/people/xian.png"
-			},
+			
 			{"name": "Elise Hopman",
 			 "title": "Graduate Student",
 			 "blurb": "Elise is interested in how language learning works and investigates this question with behavioral as well as computational research.",
@@ -86,23 +81,12 @@
 				"blurb": "Kesong is interested in human behavior and the incentives that drive them. He possesses much excitement about research and coding and is looking to learn very much from the lab (as is the lab from him.)",
 				"image": "/img/people/kesong.jpg"				
 			},
-			{
-				"name": "Jacqueline Erens",
-				"title": "Undergraduate Researcher",
-				"blurb": "Jackie has examined how people reason with features and relations using the Bayesian Generalization Framework in the domain of emojis. She is now exploring ambiguity in language production.",
-				"image": "/img/people/jackie.png"
-			},
+			
 			{
 			"name": "Anantha (Van) Rao",
 			"title": "Undergraduate Researcher",
 			"blurb": "Van is interested in the relationship between the perception of categories and causal inference. He is currently investigating if, when and how people use multiple category information in intuitive physical judgements about object dynamics.",
 			"image": "/img/people/van.png"
-		},
-		{
-			"name": "Yiwen Wang",
-			"title": "Undergraduate Researcher",
-			"blurb": "Yiwen is interested in the possible semantic factors affecting one’s second language learning process, with a focus on English speakers learning Spanish, Portuguese and Italian.",
-			"image": "/img/people/yiwen.jpg"
 		},
 			{
 			"name": "Sam Westby",
@@ -110,18 +94,6 @@
 			"blurb": "Sam is interested collective behavior. Currently, he is working on validating models of human walking behavior using natural data.",
 			"image": "/img/people/sam.jpg"
 		},
-			{
-			"name": "Sichao Yang",
-			"title": "Undergraduate Researcher",
-			"blurb": "Sichao is working on Markov Chain Monte Carlo and Generative Adversarial Active Learning.",
-			"image": "/img/people/sichao.jpg",
-			"website": "http://www.yangsichao.cn"
-		},
-			{"name": "Xinhui Yu",
-			 "title": "Undergraduate Researcher",
-			 "blurb": "Xinhui is majoring in Computer Science and Computer Engineering. He is interested in machine learning and neural networks. To put what he learned into practice, he is doing research on buiding neural network models based on linguistic features to help identify Alzheimer's disease in narrative speech.",
-			 "image": "/img/people/xinhui.jpg"
-		 },
 		]
 	},
 
@@ -154,13 +126,27 @@
 			 "website":"http://www.ittc.ku.edu/~beckage/",
 			 "image": "/img/people/nicole.jpg"},
 
+			{"name": "Shi Xian Liew",
+			"email": "liew2@wisc.edu",
+			"title": "Former Postdoctoral Researcher",
+			"blurb": "Xian graduated from University of Melbourne where he worked with Dr. Little and Dr. Howe. He investigates computational models of categorization. He is currently working under Ben Newell and Dani Nevarro at UNSW Sydney.",
+			"image": "/img/people/xian.png"
+			},
+
+			{
+			"name": "Jacqueline Erens",
+			"title": "Former Undergraduate Researcher",
+			"blurb": "Jacki has examined how people reason with features and relations using the Bayesian Generalization Framework in the domain of emojis. She is now exploring language production in the UIUC Language and Learning Lab under Jessica Montag.",
+			"image": "/img/people/jackie.png"
+			},
+
 			{"name": "Mark Ho",
 			"title": "Former Graduate Student",
 			"image": "/img/people/markho.png",
 			"website": "http://www.markkho.com/",
 			"blurb": "Mark completed his PhD in December 2017. He is now a postdoctoral researcher with Tom Griffiths and Sanjit Seshia."},
 
-      {"name": "Nolan Conaway",
+      		{"name": "Nolan Conaway",
 			"title": "Former Postdoctoral Researcher",
 			"image": "/img/people/nolanconaway.jpg",
 			"blurb": "Nolan now works as a data scientist at Shutterstock.",
