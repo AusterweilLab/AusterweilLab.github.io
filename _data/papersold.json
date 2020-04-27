@@ -1,5 +1,91 @@
 [
-	{
+  {
+		"URL": "/papers/files/Zemla2020.pdf",
+    "abstract":"The verbal fluency task — listing words from a category or words that begin with a specific letter — is a common experimental paradigm 
+    that is used to diagnose memory impairments and to understand how we store and retrieve knowledge. Data from the verbal fluency task are analyzed in many different ways,
+    often requiring manual coding that is time intensive and error-prone. Researchers have also used fluency data from groups or individuals to estimate
+    semantic networks—latent representations of semantic memory that describe the relations between concepts—that further our understanding of how knowledge is encoded.
+    However computational methods used to estimate networks are not standardized and can be difficult to implement, which has hindered widespread adoption.
+    We present SNAFU: the Semantic Network and Fluency Utility, a tool for estimating networks from fluency data and automatizing traditional fluency analyses, 
+    including counting cluster switches and cluster sizes, intrusions, perseverations, and word frequencies. In this manuscript, we provide a primer on using the tool,
+    illustrate its application by creating a semantic network for foods, and validate the tool by comparing results to trained human coders using multiple datasets.",
+    
+    "author": [
+      {"family": "Zemla", "given": "J. C."},
+      {"family": "Cao", "given": "K."},
+      {"family": "Mueller", "given": "K. D."},
+      {"family": "Austerweil", "given": "J. L."}
+    ],
+		"container-title": "Behavior Research Methods",
+		"id": "Zemla2020",
+		"publisher":"Springer US",
+		"title": "SNAFU: The Semantic Network and Fluency Utility",
+		"page":"1-19",
+		"type": "article-journal",
+		"tags":["verbal fluency", "semantic networks", "memory retrieval", "methodology"],
+		"year": 2020
+  },
+
+  {
+		"URL": "/papers/files/Afrasiabi2020.pdf",
+    "abstract":"Learned associations between stimuli allow us to model the world and make predictions, crucial for efficient behavior;
+    e.g., hearing a siren, we expect to see an ambulance and quickly make way. While theoretical and computational frameworks for prediction exist,
+    circuit and receptor-level mechanisms are unclear. Using high density EEG and Bayesian modeling, we show that trial history and frontal alpha activity 
+    account for reaction times (a proxy for predictions) on a trial by trial basis in an audio visual prediction task. Low dose ketamine, a NMDA receptor blocker,
+    but not the control drug dexmedetomidine perturbed predictions, their representation in frontal cortex, and feedback to posterior cortex.
+    This study suggests predictions depend on frontal alpha activity and NMDA receptors, and ketamine blocks access to learned predictive information.",
+		"author": [
+      {"family": "Mohanta", "given": "S."},
+      {"family": "Afrasiabi,", "given": "M."},
+      {"family": "Casey", "given": "C."},
+      {"family": "Tanabe", "given": "S."},
+      {"family": "Redinbaugh", "given": "M. J."},
+      {"family": "Kambi,", "given": "N. A."},
+      {"family": "Phillips", "given": "J. M."},
+      {"family": "Polyakov", "given": "D."},
+      {"family": "Filbey", "given": "W."},
+      {"family": "Austerweil", "given": "J. L."},
+      {"family": "Sanders,", "given": "R. D."},
+      {"family": "Saalmann", "given": "Y. B."}
+		],
+		"container-title": "bioRxiv",
+		"id": "Afrasiabi2020",
+		"publisher":"Cold Spring Harbor Laboratory",
+		"title": "Receptors, circuits and neural dynamics for prediction",
+		"page":"xx-xx",
+		"type": "article-journal",
+		"tags":["reinforcement learning"],
+		"year": 2020
+  },
+  
+  {
+		"URL": "/papers/files/Liew2019Categorization.pdf",
+		"abstract":"The ability to generate new concepts and ideas is among the most fascinating aspects of
+    human cognition, but we do not have a strong understanding of the cognitive processes
+    and representations underlying concept generation. In this paper, we study the generation
+    of new categories using the computational and behavioral toolkit of traditional artificial
+    category learning. Previous work in this domain has focused on how the statistical structure of known categories generalizes to generated categories, overlooking whether (and if
+    so, how) contrast between the known and generated categories is a factor. We report three
+    experiments demonstrating that contrast between what is known and what is created is of
+    fundamental importance for categorization. We propose two novel approaches to modeling
+    category contrast: one focused on exemplar dissimilarity and another on the representativeness heuristic. Our experiments and computational analyses demonstrate that both models
+    capture different aspects of contrast’s role in categorization.",
+		"author": [
+      {"family": "Austerweil", "given": "J. L."},
+      {"family": "Liew", "given": "S. X."},
+      {"family": "Conway", "given": "N."},
+      {"family": "Kurtz", "given": "K. J."},
+		],
+		"container-title": "PsyArXiv",
+		"id": "Liew2019",
+		"publisher":"PsyArXiv",
+		"title": "Creating Something Different: Similarity, Contrast, and Representativeness in Categorization",
+		"page":"xx-xx",
+		"type": "article-journal",
+		"tags":["categorization", "contrast", "category learning"],
+		"year": 2019
+  },
+  {
 		"URL": "/papers/files/Payton2019rps.pdf",
 		"abstract": "Rock, Paper, Scissors (RPS) is a competitive game. There are three actions: rock, paper, and scissors. The game’s
 rules are simple: scissors beats paper, rock beats scissors and paper beats rock (all signs stalemate against
