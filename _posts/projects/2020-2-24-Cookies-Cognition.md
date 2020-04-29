@@ -29,9 +29,13 @@ The second study involves a quick 20-minute online survey examining scientific e
 Participation in these studies will help improve the understanding of how neurological conditions such as Mild Cognitive Impairment and Alzheimer’s disease develop.
 
 You would be a good fit for this study if you:
+
 •	Are over the age of 55
+
 •	Are 1) cognitively healthy, OR 2) diagnosed with Mild Cognitive Impairment, OR 3) diagnosed with Alzheimer’s disease
+
 •	Are the primary grocery shopper for your household (Study 1 only)
+
 •	Have access to a laptop or desktop computer
 
 # How can I find out more?
