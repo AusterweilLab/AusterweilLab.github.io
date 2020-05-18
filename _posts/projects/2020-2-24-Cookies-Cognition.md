@@ -45,8 +45,8 @@ If you are interested in signing up for either study, follow the links below.
 Study 1 (3-months): Complete this screening questionnaire and we will reach out to you if you qualify!
 [https://uwmadison.co1.qualtrics.com/jfe/form/SV_3K0MdL1xzubxqlL](https://uwmadison.co1.qualtrics.com/jfe/form/SV_3K0MdL1xzubxqlL)
 
-Study 2 (20 minutes): Please follow this link and you will be redirected to the survey!
-[https://uwmadison.co1.qualtrics.com/jfe/form/SV_9ovXHURWmXVmzul](https://uwmadison.co1.qualtrics.com/jfe/form/SV_9ovXHURWmXVmzul)
+Study 2 (20 minutes): We are currently working on setting up this project. Please check back soon!
+
 
 
 If you are interested in finding out more information about either study or the project as a whole, please contact:
