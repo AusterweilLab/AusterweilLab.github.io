@@ -43,10 +43,10 @@ You would be a good fit for this study if you:
 If you are interested in signing up for either study, follow the links below.
 
 Study 1 (3-months): Complete this screening questionnaire and we will reach out to you if you qualify!
-[https://uwmadison.co1.qualtrics.com/jfe/form/SV_3K0MdL1xzubxqlL](https://uwmadison.co1.qualtrics.com/jfe/form/SV_3K0MdL1xzubxqlL)
+[https://bit.ly/3dVs9Tg](https://bit.ly/3dVs9Tg)
 
-Study 2 (20 minutes): We are currently working on setting up this project. Please check back soon!
-
+Study 2 (20 minutes): Complete this screening questionnaire and we will reach out to you if you qualify!
+[https://bit.ly/36k5HAD](https://bit.ly/36k5HAD)
 
 
 If you are interested in finding out more information about either study or the project as a whole, please contact:
