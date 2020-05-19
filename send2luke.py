@@ -11,7 +11,7 @@ else:
 users = {'xian':{'username':'xian',
                  'keylocation':'~/Dropbox/.ssh/luke'},
          'blake':{'username':'blake',
-                  'keylocation':'/cygdrive/c/Users/blake/.ssh/Luke'},
+                  'keylocation':'~/.ssh/id_rsa.pub'},
          'jeff':{'username':'jeff',
                   'keylocation':'~/.ssh/id_rsa.pub'}
          }
