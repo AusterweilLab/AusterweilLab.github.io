@@ -1,6 +1,6 @@
 ---
 title: Cookies & Cognition
-excerpt: This is an ongoing project examing novel behavioral tasks in an aging population
+excerpt: This is an ongoing project examining novel behavioral tasks in an aging population
 tags: fluency, semantic networks, memory
 layout: post
 category: projects
