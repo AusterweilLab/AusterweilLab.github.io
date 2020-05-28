@@ -38,9 +38,11 @@ You would be a good fit for this study if you:
 
 •	Have access to a laptop or desktop computer
 
+Note - Slots for non-cognitively impaired participants are nearly full for both studies.
+
 # How can I find out more?
 
-If you are interested in signing up for either study, follow the links below.
+If you are interested in signing up for either study, follow the links below. 
 
 Study 1 (3-months): Complete this screening questionnaire and we will reach out to you if you qualify!
 [https://bit.ly/3dVs9Tg](https://bit.ly/3dVs9Tg)
