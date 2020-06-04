@@ -32,13 +32,13 @@ You would be a good fit for this study if you:
 
 •	Are over the age of 55
 
-•	Are 1) cognitively healthy, OR 2) diagnosed with Mild Cognitive Impairment, OR 3) diagnosed with Alzheimer’s disease
+•	Are 1) diagnosed with Mild Cognitive Impairment, OR 2) diagnosed with Alzheimer’s disease
 
 •	Are the primary grocery shopper for your household (Study 1 only)
 
 •	Have access to a laptop or desktop computer
 
-Note - Slots for non-cognitively impaired participants are nearly full for both studies.
+Note: While we had previously recruited cognitively healthy participants for this study, we have filled our quota. Cognitively healthy persons interested in the study may still complete the questionnaries below, but will likely not be contacted. 
 
 # How can I find out more?
 
