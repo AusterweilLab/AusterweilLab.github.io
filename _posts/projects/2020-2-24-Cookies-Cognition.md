@@ -38,7 +38,7 @@ You would be a good fit for this study if you:
 
 •	Have access to a laptop or desktop computer
 
-Note: While we had previously recruited cognitively healthy participants for this study, we have filled our quota. Cognitively healthy persons interested in the study may still complete the questionnaries below, but will likely not be contacted. 
+Note: While we had previously recruited cognitively healthy participants for this study, we have filled our quota. Cognitively healthy persons interested in the study may still complete the questionnares below, but will likely not be contacted. 
 
 # How can I find out more?
 

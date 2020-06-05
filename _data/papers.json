@@ -1,5 +1,29 @@
 [
   {
+		"URL": "/papers/files/Sean2020.pdf",
+    "abstract":"Fractions are a critical building block for the development of human mathematical cognition, but the origins of this concept are not well-understood.
+    Recent work has found that a whole number sense is present in deep convolutional neural networks (DCNNs) pre-trained for object recognition and uses
+    them as a model for investigating human numerical cognition. Do DCNNs also have a fraction sense? If so, is it dependent or independent of whole
+    number processing? We investigated the neural sensitivity of a pretrained DCNN to both whole numbers and fractions. We replicated and extended
+    previous research that the sense of whole number emerges in a different DCNN architecture. Further, we showed that DCNN is also sensitive to fraction value,
+    i.e., the ratio of numerosities. Testing this model, our results suggest that the fraction sense relies on the whole number sense.",
+    
+    "author": [
+      {"family": "Chuang", "given": "Y."},
+      {"family": "Hubbard", "given": "E."},
+      {"family": "Austerweil", "given": "J. L."}
+    ],
+		"container-title": "Cognitive Science",
+		"id": "Sean2020",
+		"publisher":"Cognitive Science Society",
+		"title": "The “Fraction Sense” Emerges from a Deep Convolutional Neural Network",
+		"page":"xx-xx",
+		"type": "paper-conference",
+		"tags":["deep convolutional neural network", "emergent sense of number", "ratio-processing system", "approximate number system"],
+		"year": 2020
+  },
+
+  {
 		"URL": "/papers/files/Zemla2020.pdf",
     "abstract":"The verbal fluency task — listing words from a category or words that begin with a specific letter — is a common experimental paradigm 
     that is used to diagnose memory impairments and to understand how we store and retrieve knowledge. Data from the verbal fluency task are analyzed in many different ways,
