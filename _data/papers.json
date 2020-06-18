@@ -13,9 +13,10 @@
       {"family": "Hubbard", "given": "E."},
       {"family": "Austerweil", "given": "J. L."}
     ],
-		"container-title": "Cognitive Science",
+		"container-title": "Proceedings of the 42nd Annual Meeting of the Cognitive Science Society",
 		"id": "Sean2020",
-		"publisher":"Cognitive Science Society",
+    "publisher":"Cognitive Science Society",
+    "publisherplace":"Montreal, Quebec, Canada",
 		"title": "The “Fraction Sense” Emerges from a Deep Convolutional Neural Network",
 		"page":"xx-xx",
 		"type": "paper-conference",
