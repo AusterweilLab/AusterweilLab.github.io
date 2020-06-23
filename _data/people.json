@@ -75,6 +75,13 @@
 	"3_undergrads": {
 		"label": "Undergraduates",
 		"people": [
+			{	
+				"name": "Atulya Reddy",
+				"title": "Undergraduate Researcher",
+				"blurb": "Atulya is interested in the concept of learning from both psychological and computational perspectives. She is excited to be involved in research that fulfills her passion for coding and curiosity about human cognitive processes.",
+				"image": "/img/people/atulya.jpg"
+			},
+
 			{
 				"name": "Kesong Cao",
 				"title": "Undergraduate Researcher",
