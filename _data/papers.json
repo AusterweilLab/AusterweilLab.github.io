@@ -1,6 +1,6 @@
 [
   {
-		"URL": "/papers/files/Sean2020.pdf",
+		"URL": "/papers/files/SeanFractionSense2020.pdf",
     "abstract":"Fractions are a critical building block for the development of human mathematical cognition, but the origins of this concept are not well-understood.
     Recent work has found that a whole number sense is present in deep convolutional neural networks (DCNNs) pre-trained for object recognition and uses
     them as a model for investigating human numerical cognition. Do DCNNs also have a fraction sense? If so, is it dependent or independent of whole
@@ -14,7 +14,7 @@
       {"family": "Austerweil", "given": "J. L."}
     ],
 		"container-title": "Proceedings of the 42nd Annual Meeting of the Cognitive Science Society",
-		"id": "Sean2020",
+		"id": "SeanFractionSense2020",
     "publisher":"Cognitive Science Society",
     "publisherplace":"Toronto, Canada",
 		"title": "The “Fraction Sense” Emerges from a Deep Convolutional Neural Network",
