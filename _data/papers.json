@@ -1,4 +1,33 @@
-[
+[ 
+  {
+  "URL": "/papers/files/Lange2020.pdf",
+  "abstract":"Are bilinguals more creative than monolinguals? Some prior research suggests bilinguals are more creative because the knowledge representations for 
+  their second language are similarly structured to those of highly creative people. However, there is contrasting research showing that the knowledge representations 
+  of bilinguals’ second language are actually structured like those of less creative people. Finally, there is growing skepticism about there being differences 
+  between bilinguals and monolinguals on non-language tasks (e.g., the bilingual advantage for executive control). We tested whether bilinguals tested in their 
+  second language are more or less creative than both monolinguals and bilinguals tested in their first language. Participants also took a repeated semantic fluency 
+  test that we used to estimate individual semantic networks for each participant. We analyzed our results with Bayesian statistics and found support for the null 
+  hypothesis that bilingualism offers no advantage for creativity. Further, using best practices for estimating semantic networks, we found support for the hypothesis 
+  that there is no association between an individual’s semantic network and their creativity. This is in contrast with published research, and suggests that some of 
+  those findings may have been the result of idiosyncrasies, outdated methods for estimating semantic networks, or statistical noise. Our results call into question 
+  reported relations between bilingualism and creativity, as well as semantic network structure as an explanatory mechanism for individual differences in creativity.",
+  
+  "author": [
+    {"family": "Lange", "given": "K. V."},
+    {"family": "Hopman", "given": "E. W, M."},
+    {"family": "Zemla", "given": "J. C."},
+    {"family": "Austerweil", "given": "J. L."}
+  ],
+  "container-title": "PLoS ONE",
+  "id": "Lange2020",
+  "title": "Evidence against a relation between bilingualism and creativity",
+  "page":"1-18",
+  "type": "article-journal",
+  "volume": "15",
+	"issue": "6",
+  "tags":["multilingualism", "creativity", "language", "network analysis", "language acquisition", "learning"],
+  "year": 2020
+},
   {
 		"URL": "/papers/files/SeanFractionSense2020.pdf",
     "abstract":"Fractions are a critical building block for the development of human mathematical cognition, but the origins of this concept are not well-understood.
