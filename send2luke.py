@@ -13,7 +13,7 @@ users = {'xian':{'username':'xian',
          'blake':{'username':'blake',
                   'keylocation':'~/.ssh/id_rsa.pub'},
          'jeff':{'username':'jeff',
-                  'keylocation':'~/.ssh/id_rsa.pub'}
+                  'keylocation':'~/.ssh/id_rsa'}
          }
 
 if user in users:
