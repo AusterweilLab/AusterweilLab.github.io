@@ -3,7 +3,7 @@
 		"label":"",
 		"people": [
 			{"name": "Joseph Austerweil",
-			"title": "Assistant Professor",
+			"title": "Associate Professor",
 			"image": "/img/people/joe.jpg",
 			"email": "austerweil@wisc.edu",
 			"blurb": "As a computational cognitive psychologist, my research program explores questions at the intersection of perception and higher-level cognition. I use recent advances in statistics and computer science to formulate ideal learner models to see how they solve these problems and then test the model predictions using traditional behavioral experimentation. Ideal learner models help us understand the knowledge people use to solve problems because such knowledge must be made explicit for the ideal learner model to successfully produce human behavior. This method yields novel machine learning methods and leads to the discovery of new psychological principles."}
@@ -18,13 +18,13 @@
 			"blurb": "Jeff studies semantic memory and Alzheimer's Disease. He received his PhD from Rice University working with Mike Byrne.",
 			"website":"http://chil.rice.edu/jzemla/",
 			"image": "/img/people/jeff.jpg"},
-			
+
 			{"name": "Mohsen Afrasiabi",
 			 "title": "Assistant Scientist",
 			 "blurb": "Mohsen is a data scientist with a PhD in Electrical and Computer Engineering and over 15 years of experience working in industry. He is returning to academia to pursue research in Machine Learning, Deep Learning and their application in Cognitive Psychology and Computational Neuroscience.",
 			 "image": "/img/people/mohsen.jpeg"
             },
-			
+
 			{"name": "Elise Hopman",
 			 "title": "Graduate Student",
 			 "blurb": "Elise is interested in how language learning works and investigates this question with behavioral as well as computational research.",
@@ -48,7 +48,7 @@
 			{
 				"name": "Yun-Shiuan (Sean) Chuang",
 				"title": "Graduate Student",
-				"blurb": "Sean is a Ph.D. student in the Psychology Department. He currently investigates children’s math cognition development via computational modeling with fMRI data. He also investigates the sense of number in artificial neural networks and compare it to human’s math cognition. He received his BS in psychology and neuroscience from National Taiwan University.", 
+				"blurb": "Sean is a Ph.D. student in the Psychology Department. He currently investigates children’s math cognition development via computational modeling with fMRI data. He also investigates the sense of number in artificial neural networks and compare it to human’s math cognition. He received his BS in psychology and neuroscience from National Taiwan University.",
 				"image": "/img/people/Sean.png",
 				"website": "https://yunshiuan.github.io/",
 				"email": "yunshiuan.chuang@wisc.edu"
@@ -61,15 +61,22 @@
 				"website": "https://lanstonchu.wordpress.com/",
 				"image": "/img/people/lanston.jpg",
 				"email": "hchu34@wisc.edu"
+			},
+
+            {
+				"name": "Kesong Cao",
+				"title": "Graduate Student",
+				"blurb": "Kesong is interested in human cognition and behavior such as language and decision-making. He is exploring cognitive science and machine learning fields such as natural language processing and reinforcement learning.",
+				"image": "/img/people/kesong.png",
+                "email": "kesong.cao@wisc.edu"
 			}
-			
 		]
 		},
 
 	"3_undergrads": {
 		"label": "Undergraduates",
 		"people": [
-			{	
+			{
 				"name": "Atulya Reddy",
 				"title": "Undergraduate Researcher",
 				"blurb": "Atulya is interested in the concept of learning from both psychological and computational perspectives. She is excited to be involved in research that fulfills her passion for coding and curiosity about human cognitive processes.",
@@ -77,26 +84,25 @@
 			},
 
 			{
-				"name": "Kesong Cao",
-				"title": "Undergraduate Researcher",
-				"blurb": "Kesong is interested in human behavior and the incentives that drive them. He possesses much excitement about research and coding and is looking to learn very much from the lab (as is the lab from him.)",
-				"image": "/img/people/kesong.jpg"				
-			},
-			
-			{
-			"name": "Anantha (Van) Rao",
-			"title": "Undergraduate Researcher",
-			"blurb": "Van is interested in the relationship between the perception of categories and causal inference. He is currently investigating if, when and how people use multiple category information in intuitive physical judgements about object dynamics.",
-			"image": "/img/people/van.png"
-		}
+			    "name": "Anantha (Van) Rao",
+			    "title": "Undergraduate Researcher",
+			    "blurb": "Van is interested in the relationship between the perception of categories and causal inference. He is currently investigating if, when and how people use multiple category information in intuitive physical judgements about object dynamics.",
+			    "image": "/img/people/van.png"
+            },
 
+            {
+                "name": "Uday Malhotra",
+                "title": "Undergraduate Researcher",
+                "blurb": "Uday enjoys researching and exploring the links between memory and cognition. He hopes to continue researching topics at an intersection of his two majors and dive deeper into the world of NLP and become an effective contributing member of the lab.",
+                "image": "/img/people/uday.jpg"
+            }
 		]
 	},
 
 	"4_affiliates": {
 		"label":"Affiliates",
 		"people": [
-			
+
 			{"name": "Jie Ren",
 			"title": "Visiting Instructor, Brown University; Visiting Professor, McGovern Institute for Brain Research at Beijing Normal University",
 			"image": "/img/people/jieren.jpg",

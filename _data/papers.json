@@ -1,17 +1,116 @@
-[ 
+[
+  {
+    "URL": "/papers/files/SanbornR2PsychRev2021.pdf",
+    "abstract": "Much categorization behavior can be explained by family resemblance: new items are
+    classified by comparison with previously learned exemplars. However, categorization
+    behavior also shows a variety of dimensional biases, where the underlying space has
+    so-called ‘separable’ dimensions: ease of learning categories depends on how the
+    stimuli align with the separable dimensions of the space. For example, if a set of
+    objects of various sizes and colors can be accurately categorized using a single
+    separable dimension (e.g., size), then category learning will be fast, while if the
+    category is determined by both dimensions, learning will be slow. To capture these
+    dimensional biases, almost all models of categorization supplement family
+    resemblance with either rule-based systems or selective attention to separable
+    dimensions. But these models do not explain how separable dimensions initially arise;
+    they are presumed to be unexplained psychological primitives. We develop, instead, a
+    pure family resemblance version of the Rational Model of Categorization, which we
+    term the Rational Exclusively Family RESemblance Hierarchy (REFRESH), which does
+    not presuppose any separable dimensions in the space of stimuli. REFRESH infers
+    how the stimuli are clustered and uses a hierarchical prior to learn expectations about
+    the variability of clusters across categories. We first demonstrate the dimensional
+    alignment of natural category features and then show how through a lifetime of
+    categorization experience REFRESH will learn prior expectations that clusters of
+    stimuli will align with separable dimensions. REFRESH captures the key dimensional
+    biases and also explains their stimulus-dependence and how they are learned and
+    develop.",
+    "author": [
+      {"family": "Sanborn", "given": "A. N."},
+      {"family": "Heller", "given": "K."},
+      {"family": "Austerweil", "given": "J. L."},
+      {"family": "Chater", "given": "N."},
+    ],
+    "container-title": "Psychological Review",
+    "id": "Sanborn2021",
+    "title": "REFRESH: A New Approach to Modeling Dimensional Biases in Perceptual Similarity and Categorization",
+    "page": "XX-XX",
+    "type": "article-journal",
+    "volume": "(in press)",
+	  // "issue": "X",
+    "tags": ["categorization", "separable dimensions", "family resemblance", "Bayesian models"],
+    "year": 2021
+
+  },
+  {
+    "URL": "/papers/files/MalleCogSci2021.pdf",
+    "abstract": "Norms are central to social life. They help people select actions
+    that benefit the community and facilitate behavior prediction and coordination. However, little is known about the cognitive properties of norms. Here we focus on norm activation, context specificity, and how those properties differ for the two major
+    types of norms: prescriptions and prohibitions. In two studies,
+    participants are exposed to a variety of contexts by way of scene images and either (a) freely generate norms that apply to the context or (b) decide whether each of a series of candidate
+    norms applies to a given context. Across both studies, people showed high levels of context specificity and fast norm activation, and these properties were substantially stronger for prescriptions than for prohibitions.",
+    "author": [
+      {"family": "Malle", "given": "B. F."},
+      {"family": "Austerweil", "given": "J. L."},
+      {"family": "Chi", "given": "V. B."},
+      {"family": "Kenett", "given": "Y. N."},
+      {"family": "Beck", "given": "E. D."},
+      {"family": "Thapa", "given": "S."},
+      {"family": "Allaham", "given": "M. M."},
+    ],
+		"container-title": "Proceedings of the 43rd Annual Meeting of the Cognitive Science Society",
+    "id": "Malle2021",
+    "title": "Cognitive Properties of Norm Representations",
+    "page": "1-7",
+    "type": "article-conference",
+    "tags": ["social norms", "moral norms", "negation", "cognitive structure", "network", "deontics"],
+    "year": 2021
+  },
+  {
+    "URL":"/papers/files/HoCommunicativeDemonstrations2020.pdf",
+    "abstract":"Theory of mind enables an observer to interpret others’ behavior in terms of unobservable
+    beliefs, desires, intentions, feelings, and expectations about the world. This also empowers
+    the person whose behavior is being observed: By intelligently modifying her actions, she can
+    influence the mental representations that an observer ascribes to her, and by extension, what the
+    observer comes to believe about the world. That is, she can engage in intentionally communicative
+    demonstrations. Here, we develop a computational account of generating and interpreting
+    communicative demonstrations by explicitly distinguishing between two interacting types of
+    planning. Typically, instrumental planning aims to control states of the environment, whereas
+    belief-directed planning aims to influence an observer’s mental representations. Our framework
+    extends existing formal models of pragmatics and pedagogy to the setting of value-guided
+    decision-making, captures how people modify their intentional behavior to show what they
+    know about the reward or causal structure of an environment, and helps explain data on infant
+    and child imitation in terms of literal versus pragmatic interpretation of adult demonstrators’
+    actions. Additionally, our analysis of belief-directed intentionality and mentalizing sheds light
+    on the socio-cognitive mechanisms that underlie distinctly human forms of communication,
+    culture, and sociality.",
+    "author": [
+      {"family": "Ho", "given": "M. K."},
+      {"family": "Cushman", "given": "F. A."},
+      {"family": "Littman", "given": "M. L."},
+      {"family": "Austerweil", "given": "J. L."}
+    ],
+    "container-title": "Journal of Experimental Psychology: General",
+    "id": "Ho2020",
+    "title": "Communication in Action: Belief-directed Planning and Pragmatic Action Interpretation in Communicative Demonstrations",
+    "page": "1-39",
+    "type": "article-journal",
+    "volume": "(to appear)",
+	  // "issue": "X",
+    "tags": ["communication", "problem solving", "pragmatics", "planning", "social learning"],
+    "year": 2020
+  },
   {
   "URL": "/papers/files/Lange2020.pdf",
-  "abstract":"Are bilinguals more creative than monolinguals? Some prior research suggests bilinguals are more creative because the knowledge representations for 
-  their second language are similarly structured to those of highly creative people. However, there is contrasting research showing that the knowledge representations 
-  of bilinguals’ second language are actually structured like those of less creative people. Finally, there is growing skepticism about there being differences 
-  between bilinguals and monolinguals on non-language tasks (e.g., the bilingual advantage for executive control). We tested whether bilinguals tested in their 
-  second language are more or less creative than both monolinguals and bilinguals tested in their first language. Participants also took a repeated semantic fluency 
-  test that we used to estimate individual semantic networks for each participant. We analyzed our results with Bayesian statistics and found support for the null 
-  hypothesis that bilingualism offers no advantage for creativity. Further, using best practices for estimating semantic networks, we found support for the hypothesis 
-  that there is no association between an individual’s semantic network and their creativity. This is in contrast with published research, and suggests that some of 
-  those findings may have been the result of idiosyncrasies, outdated methods for estimating semantic networks, or statistical noise. Our results call into question 
+  "abstract":"Are bilinguals more creative than monolinguals? Some prior research suggests bilinguals are more creative because the knowledge representations for
+  their second language are similarly structured to those of highly creative people. However, there is contrasting research showing that the knowledge representations
+  of bilinguals’ second language are actually structured like those of less creative people. Finally, there is growing skepticism about there being differences
+  between bilinguals and monolinguals on non-language tasks (e.g., the bilingual advantage for executive control). We tested whether bilinguals tested in their
+  second language are more or less creative than both monolinguals and bilinguals tested in their first language. Participants also took a repeated semantic fluency
+  test that we used to estimate individual semantic networks for each participant. We analyzed our results with Bayesian statistics and found support for the null
+  hypothesis that bilingualism offers no advantage for creativity. Further, using best practices for estimating semantic networks, we found support for the hypothesis
+  that there is no association between an individual’s semantic network and their creativity. This is in contrast with published research, and suggests that some of
+  those findings may have been the result of idiosyncrasies, outdated methods for estimating semantic networks, or statistical noise. Our results call into question
   reported relations between bilingualism and creativity, as well as semantic network structure as an explanatory mechanism for individual differences in creativity.",
-  
+
   "author": [
     {"family": "Lange", "given": "K. V."},
     {"family": "Hopman", "given": "E. W, M."},
@@ -36,7 +135,7 @@
     number processing? We investigated the neural sensitivity of a pretrained DCNN to both whole numbers and fractions. We replicated and extended
     previous research that the sense of whole number emerges in a different DCNN architecture. Further, we showed that DCNN is also sensitive to fraction value,
     i.e., the ratio of numerosities. Testing this model, our results suggest that the fraction sense relies on the whole number sense.",
-    
+
     "author": [
       {"family": "Chuang", "given": "Y. S."},
       {"family": "Hubbard", "given": "E. M."},
@@ -55,15 +154,15 @@
 
   {
 		"URL": "/papers/files/Zemla2020.pdf",
-    "abstract":"The verbal fluency task — listing words from a category or words that begin with a specific letter — is a common experimental paradigm 
+    "abstract":"The verbal fluency task — listing words from a category or words that begin with a specific letter — is a common experimental paradigm
     that is used to diagnose memory impairments and to understand how we store and retrieve knowledge. Data from the verbal fluency task are analyzed in many different ways,
     often requiring manual coding that is time intensive and error-prone. Researchers have also used fluency data from groups or individuals to estimate
     semantic networks—latent representations of semantic memory that describe the relations between concepts—that further our understanding of how knowledge is encoded.
     However computational methods used to estimate networks are not standardized and can be difficult to implement, which has hindered widespread adoption.
-    We present SNAFU: the Semantic Network and Fluency Utility, a tool for estimating networks from fluency data and automatizing traditional fluency analyses, 
+    We present SNAFU: the Semantic Network and Fluency Utility, a tool for estimating networks from fluency data and automatizing traditional fluency analyses,
     including counting cluster switches and cluster sizes, intrusions, perseverations, and word frequencies. In this manuscript, we provide a primer on using the tool,
     illustrate its application by creating a semantic network for foods, and validate the tool by comparing results to trained human coders using multiple datasets.",
-    
+
     "author": [
       {"family": "Zemla", "given": "J. C."},
       {"family": "Cao", "given": "K."},
@@ -84,7 +183,7 @@
 		"URL": "/papers/files/Afrasiabi2020.pdf",
     "abstract":"Learned associations between stimuli allow us to model the world and make predictions, crucial for efficient behavior;
     e.g., hearing a siren, we expect to see an ambulance and quickly make way. While theoretical and computational frameworks for prediction exist,
-    circuit and receptor-level mechanisms are unclear. Using high density EEG and Bayesian modeling, we show that trial history and frontal alpha activity 
+    circuit and receptor-level mechanisms are unclear. Using high density EEG and Bayesian modeling, we show that trial history and frontal alpha activity
     account for reaction times (a proxy for predictions) on a trial by trial basis in an audio visual prediction task. Low dose ketamine, a NMDA receptor blocker,
     but not the control drug dexmedetomidine perturbed predictions, their representation in frontal cortex, and feedback to posterior cortex.
     This study suggests predictions depend on frontal alpha activity and NMDA receptors, and ketamine blocks access to learned predictive information.",
@@ -111,7 +210,7 @@
 		"tags":["reinforcement learning"],
 		"year": 2020
   },
-  
+
   {
 		"URL": "/papers/files/Liew2019Categorization.pdf",
 		"abstract":"The ability to generate new concepts and ideas is among the most fascinating aspects of
@@ -139,7 +238,7 @@
 		"tags":["categorization", "contrast", "category learning"],
 		"year": 2019
   },
-  
+
   {
   "URL": "/papers/files/AusterweilSanbornGriffiths2019.pdf",
   "abstract": "Generalization is a fundamental problem solved by every cognitive system in essentially every
@@ -158,7 +257,7 @@
     {"family": "Sanborn", "given": "S."},
     {"family": "Griffiths", "given": "T. L."}
   ],
-  
+
   "container-title": "Cognitive Science",
   "id": "austerweilSanborn2019",
   "publisher":"Cognitive Science Society",
