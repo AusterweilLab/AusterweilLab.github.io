@@ -1,28 +1,7 @@
 [
   {
-    "URL": "/papers/files/SanbornR2PsychRev2021.pdf",
-    "abstract": "Much categorization behavior can be explained by family resemblance: new items are
-    classified by comparison with previously learned exemplars. However, categorization
-    behavior also shows a variety of dimensional biases, where the underlying space has
-    so-called ‘separable’ dimensions: ease of learning categories depends on how the
-    stimuli align with the separable dimensions of the space. For example, if a set of
-    objects of various sizes and colors can be accurately categorized using a single
-    separable dimension (e.g., size), then category learning will be fast, while if the
-    category is determined by both dimensions, learning will be slow. To capture these
-    dimensional biases, almost all models of categorization supplement family
-    resemblance with either rule-based systems or selective attention to separable
-    dimensions. But these models do not explain how separable dimensions initially arise;
-    they are presumed to be unexplained psychological primitives. We develop, instead, a
-    pure family resemblance version of the Rational Model of Categorization, which we
-    term the Rational Exclusively Family RESemblance Hierarchy (REFRESH), which does
-    not presuppose any separable dimensions in the space of stimuli. REFRESH infers
-    how the stimuli are clustered and uses a hierarchical prior to learn expectations about
-    the variability of clusters across categories. We first demonstrate the dimensional
-    alignment of natural category features and then show how through a lifetime of
-    categorization experience REFRESH will learn prior expectations that clusters of
-    stimuli will align with separable dimensions. REFRESH captures the key dimensional
-    biases and also explains their stimulus-dependence and how they are learned and
-    develop.",
+    "URL": "/papers/files/Sanbornetal2021.pdf",
+    "abstract": "Much categorization behavior can be explained by family resemblance: New items are classified by comparison with previously learned exemplars. However, categorization behavior also shows a variety of dimensional biases, where the underlying space has so-called “separable” dimensions: Ease of learning categories depends on how the stimuli align with the separable dimensions of the space. For example, if a set of objects of various sizes and colors can be accurately categorized using a single separable dimension (e.g., size), then category learning will be fast, while if the category is determined by both dimensions, learning will be slow. To capture these dimensional biases, almost all models of categorization supplement family resemblance with either rule-based systems or selective attention to separable dimensions. But these models do not explain how separable dimensions initially arise; they are presumed to be unexplained psychological primitives. We develop, instead, a pure family resemblance version of the Rational Model of Categorization (RMC), which we term the Rational Exclusively Family RESemblance Hierarchy (REFRESH), which does not presuppose any separable dimensions in the space of stimuli. REFRESH infers how the stimuli are clustered and uses a hierarchical prior to learn expectations about the variability of clusters across categories. We first demonstrate the dimensional alignment of natural-category features and then show how through a lifetime of categorization experience REFRESH will learn prior expectations that clusters of stimuli will align with separable dimensions. REFRESH captures the key dimensional biases and also explains their stimulus-dependence and how they are learned and develop.",
     "author": [
       {"family": "Sanborn", "given": "A. N."},
       {"family": "Heller", "given": "K."},
@@ -32,9 +11,9 @@
     "container-title": "Psychological Review",
     "id": "Sanborn2021",
     "title": "REFRESH: A New Approach to Modeling Dimensional Biases in Perceptual Similarity and Categorization",
-    "page": "XX-XX",
+    "page": "1-43",
     "type": "article-journal",
-    "volume": "(in press)",
+    "volume": "Advance online publication",
 	  // "issue": "X",
     "tags": ["categorization", "separable dimensions", "family resemblance", "Bayesian models"],
     "year": 2021

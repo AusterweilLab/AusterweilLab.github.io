@@ -13,6 +13,8 @@ users = {'xian':{'username':'xian',
          'blake':{'username':'blake',
                   'keylocation':'~/.ssh/id_rsa.pub'},
          'jeff':{'username':'jeff',
+                  'keylocation':'~/.ssh/id_rsa'},
+         'kesong':{'username':'kesong',
                   'keylocation':'~/.ssh/id_rsa'}
          }
 
@@ -30,7 +32,7 @@ serverdirbase = '/var/services/web/'
 
 #tarzip local
 os.system('tar -cvzf {}.tar.gz {}'.format(tarname,localdir))
-#scp it over 
+#scp it over
 os.system('scp -i {} -P 1202 {}.tar.gz {}@alab.psych.wisc.edu:{}'.format(keylocation,tarname,username,serverdirbase))
 
 #mk new dir on host and untar the tar
@@ -46,4 +48,3 @@ os.system('ssh -i {} -p 1202 -t {}@alab.psych.wisc.edu  \'{};{};{};{};{}\' '.for
 
 #rm the tar locally
 os.system('rm {}.tar.gz'.format(tarname))
-
