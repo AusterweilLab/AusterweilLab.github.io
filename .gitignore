@@ -3,3 +3,4 @@
 *.sublime-workspace
 *.swp
 _site/
+.jekyll-cache/
