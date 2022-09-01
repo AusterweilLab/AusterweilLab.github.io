@@ -1,5 +1,5 @@
 <div id='fundingfoot'>
-	
+
 <p id='fundthanks'>The Austerweil Lab thanks its previous and current funders.</p>
 <div id='fundlogos'>
 {% for image in site.static_files %}
@@ -15,18 +15,24 @@
 	#fundthanks {
 		color: #B0BEC5;
 	}
-	
+
 	.fundlogo {
 		max-height: 50px;
+        max-width: 90px;
 		margin: 0 2px;
 	}
 
 	#fundingfoot {
 		text-align: center;
 	}
-	
+
 	#fundlogos {
 		margin: 0 2em;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
 	}
 
 </style>
