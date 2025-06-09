@@ -1,5 +1,68 @@
 [
   {
+    "URL": "/papers/files/AusterweilBNPBookChapter2025.pdf",
+    "abstract": "",
+    "author": [
+      {"family": "Austerweil", "given": "J. L."},
+      {"family": "Sanborn", "given": "A. N."},
+      {"family": "Lucas", "given": "C."},
+      {"family": "Griffiths", "given": "T. L."},
+    ],
+    "type": "chapter",
+    "page": "1-24",
+    "tags":["bayesian nonparametrics"],
+    "container-title": "Bayesian Models of Cognition: Reverse Engineering the Mind",
+    "editor": [
+      {"family": "Griffiths", "given": "T. L."},
+      {"family": "Chater", "given": "N."},
+      {"family": "Tenenbaum", "given": "J. B."},
+    ],
+    "id": "austerweil25bnp",
+    "publisher": "MIT Press",
+    "publisherplace": "Cambridge, MA",
+    "year": 2025
+  },
+  {
+    "URL": "/papers/files/Austerweiletal2024catgen.pdf",
+    "abstract": "The ability to generate new concepts and ideas is among the most fascinating aspects of human cognition, but we do not have a strong understanding of the cognitive processes and representations underlying concept generation. Previous work in this domain has focused on how the statistical structure of known categories generalizes to generated categories, overlooking whether (and if so, how) contrast between the known and generated categories is a factor. In this paper, we explore a different factor: contrast from known categories. We propose two novel approaches to modeling category contrast: one focused
+ on exemplar dissimilarity and another based on the representativeness heuristic. Across three behavioral experiments, we nd that people generate new categories that contrast from observed categories and distribute exemplars acoss unoccupied regions of stimulus space. The model based on the representativeness heuristic captured human category generation better when the known category was well captured by a Gaussian distribution. Conversely, the exemplar-based mode",
+    "author": [
+      {"family": "Austerweil", "given": "J. L."},
+      {"family": "Liew", "given": "S. X."},
+      {"family": "Conway", "given": "N."},
+      {"family": "Kurtz", "given": "K. J."},
+    ],
+    "container-title": "Computational Brain and Behavior",
+    "page": "1-35",
+    "type": "article-journal",
+ 		"tags":["categorization", "contrast", "category learning"],
+    "year": 2024
+  },
+  {
+    "URL": "/papers/files/Zemla2023.pdf",
+    "abstract": " As people age, they learn and store new knowledge in their semantic memory. Despite learning a tremendous amount of information, people can still recall information relevant to the current 
+situation with ease. To accomplish this, the mind must efficiently organize and search a vast store of information. It also must continue to retrieve information effectively despite changes in cognitive 
+mechanisms due to healthy aging, including a general slowing in information processing and a decline in executive functioning. How effectively does the mind of an individual adjust its search to account 
+for changes due to aging? We tested 746 people ages 25 through 69 on a semantic fluency task (free listing animals) and found that, on average, retrieval follows an optimal path through semantic 
+memory. Participants tended to list a sequence of semantically related animals (e.g., lion, tiger, puma) before switching to a semantically unrelated animal (e.g., whale). We found that the timing of these 
+transitions to semantically unrelated animals was remarkably consistent with an optimal strategy for maximizing the overall rate of retrieval (i.e., the number of animals listed per unit time). Age did not 
+affect an individual’s deviation from the optimal strategy given their general performance, suggesting that people adapt and continue to search memory optimally throughout their lives. We argue that this 
+result is more likely due to compensating for a general slowing than a decline in executive functioning",
+"author": [
+  {"family": "Zemla", "given": "J. C."},
+  {"family": "Gooding", "given": "D. C."},
+  {"family": "Austerweil", "given": "J. L."},
+],
+"container-title": "Nature: Scientific Communications",
+"id": "Zemla2023",
+"title": "Evidence for optimal semantic search throughout adulthood",
+"page": "22528",
+"volume": "13",
+"type": "article-journal",
+"tags":["memory retrieval","networks","fluency","aging","computational psychiatry"],
+"year": 2023
+  },
+  {
     "URL": "/papers/files/Sanbornetal2021.pdf",
     "abstract": "Much categorization behavior can be explained by family resemblance: New items are classified by comparison with previously learned exemplars. However, categorization behavior also shows a variety of dimensional biases, where the underlying space has so-called “separable” dimensions: Ease of learning categories depends on how the stimuli align with the separable dimensions of the space. For example, if a set of objects of various sizes and colors can be accurately categorized using a single separable dimension (e.g., size), then category learning will be fast, while if the category is determined by both dimensions, learning will be slow. To capture these dimensional biases, almost all models of categorization supplement family resemblance with either rule-based systems or selective attention to separable dimensions. But these models do not explain how separable dimensions initially arise; they are presumed to be unexplained psychological primitives. We develop, instead, a pure family resemblance version of the Rational Model of Categorization (RMC), which we term the Rational Exclusively Family RESemblance Hierarchy (REFRESH), which does not presuppose any separable dimensions in the space of stimuli. REFRESH infers how the stimuli are clustered and uses a hierarchical prior to learn expectations about the variability of clusters across categories. We first demonstrate the dimensional alignment of natural-category features and then show how through a lifetime of categorization experience REFRESH will learn prior expectations that clusters of stimuli will align with separable dimensions. REFRESH captures the key dimensional biases and also explains their stimulus-dependence and how they are learned and develop.",
     "author": [
@@ -11,9 +74,9 @@
     "container-title": "Psychological Review",
     "id": "Sanborn2021",
     "title": "REFRESH: A New Approach to Modeling Dimensional Biases in Perceptual Similarity and Categorization",
-    "page": "1-43",
+    "page": "1145-1186",
     "type": "article-journal",
-    "volume": "Advance online publication",
+    "volume": "128",
 	  // "issue": "X",
     "tags": ["categorization", "separable dimensions", "family resemblance", "Bayesian models"],
     "year": 2021
@@ -68,14 +131,14 @@
       {"family": "Austerweil", "given": "J. L."}
     ],
     "container-title": "Journal of Experimental Psychology: General",
-    "id": "Ho2020",
+    "id": "Ho2021",
     "title": "Communication in Action: Belief-directed Planning and Pragmatic Action Interpretation in Communicative Demonstrations",
-    "page": "1-39",
+    "page": "2246-2272",
     "type": "article-journal",
-    "volume": "(to appear)",
+    "volume": "13",
 	  // "issue": "X",
     "tags": ["communication", "problem solving", "pragmatics", "planning", "social learning"],
-    "year": 2020
+    "year": 2021
   },
   {
   "URL": "/papers/files/Lange2020.pdf",

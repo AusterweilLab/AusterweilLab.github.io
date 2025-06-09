@@ -13,62 +13,19 @@
 	"2_grads_postdocs": {
 		"label":"Scientists, Postdocs, and Graduate Students",
 		"people": [
-			{"name": "Jeff Zemla",
-			"title": "Assistant Scientist",
-			"blurb": "Jeff studies semantic memory and Alzheimer's Disease. He received his PhD from Rice University working with Mike Byrne.",
-			"website":"http://chil.rice.edu/jzemla/",
-			"image": "/img/people/jeff.jpg"},
-
-			{"name": "Mohsen Afrasiabi",
-			 "title": "Assistant Scientist",
-			 "blurb": "Mohsen is a data scientist with a PhD in Electrical and Computer Engineering and over 15 years of experience working in industry. He is returning to academia to pursue research in Machine Learning, Deep Learning and their application in Cognitive Psychology and Computational Neuroscience.",
-			 "image": "/img/people/mohsen.jpeg"
-            },
-
-			{"name": "Elise Hopman",
-			 "title": "Graduate Student",
-			 "blurb": "Elise is interested in how language learning works and investigates this question with behavioral as well as computational research.",
-			 "website": "http://lcnl.wisc.edu/index.php/elise-hopman/",
-			 "image": "/img/people/elise.jpg"
-			},
-
-			{"name": "Ian Johnston",
-			"title": "Graduate Student",
-			"blurb": "Ian is interested in modeling legal decision making. He received his J.D. from Harvard Law School.",
-			 "image": "/img/people/ian.jpg"
+			{
+				"name": "Hongtao Hao",
+				"title": "Graduate Student",
+				"blurb": "Hongtao is a Ph.D. student in Computer Science at UW-Madison. His work investigates combinatorial stochoastic processes for modeling disease progression.",
+				"image": "/img/people/hongtao.png",
+				"email": "hongtaoh@cs.wisc.edu"
 			},
 
 			{"name": "Michael Payton",
 			 "title": "Graduate Student",
-			 "blurb": "Michael is a Ph.D. student in the Psychology Department. His work is primarily in Social Cognition where he investigates how we make deductions about unobservable  traits like beliefs, desires and goals from observable behavior. His work touches on issues in Behavioral Economics, Social Psychology, Cognitive Science and Philosophy.",
+			 "blurb": "Michael is a Ph.D. student in Psychology at UW-Madison. His work is primarily in Computational Psychiatry where he investigates rational rumination.",
 			 "image": "/img/people/mpayton1.jpg",
 			 "email": "mjpayton@wisc.edu"
-			},
-
-			{
-				"name": "Yun-Shiuan (Sean) Chuang",
-				"title": "Graduate Student",
-				"blurb": "Sean is a Ph.D. student in the Psychology Department. He currently investigates children’s math cognition development via computational modeling with fMRI data. He also investigates the sense of number in artificial neural networks and compare it to human’s math cognition. He received his BS in psychology and neuroscience from National Taiwan University.",
-				"image": "/img/people/Sean.png",
-				"website": "https://yunshiuan.github.io/",
-				"email": "yunshiuan.chuang@wisc.edu"
-			},
-
-			{
-				"name": "Lanston Chu",
-				"title": "Graduate Student",
-				"blurb": "Lanston is a graduate student in the Electrical & Computer Engineering Department. His research mainly focuses on machine learning and computer vision, and he is currently working on a research project in the areas of face recognition and adversarial examples.  Before coming to UW Madison, he was working as a pricing Actuary in Asia. he also hold a Bachelor degree in Mathematics and a MS Degree in actuarial science.",
-				"website": "https://lanstonchu.wordpress.com/",
-				"image": "/img/people/lanston.jpg",
-				"email": "hchu34@wisc.edu"
-			},
-
-            {
-				"name": "Kesong Cao",
-				"title": "Graduate Student",
-				"blurb": "Kesong is interested in human cognition and behavior such as language and decision-making. He is exploring cognitive science and machine learning fields such as natural language processing and reinforcement learning.",
-				"image": "/img/people/kesong.png",
-                "email": "kesong.cao@wisc.edu"
 			}
 		]
 		},
@@ -76,26 +33,7 @@
 	"3_undergrads": {
 		"label": "Undergraduates",
 		"people": [
-			{
-				"name": "Atulya Reddy",
-				"title": "Undergraduate Researcher",
-				"blurb": "Atulya is interested in the concept of learning from both psychological and computational perspectives. She is excited to be involved in research that fulfills her passion for coding and curiosity about human cognitive processes.",
-				"image": "/img/people/atulya.jpg"
-			},
-
-			{
-			    "name": "Anantha (Van) Rao",
-			    "title": "Undergraduate Researcher",
-			    "blurb": "Van is interested in the relationship between the perception of categories and causal inference. He is currently investigating if, when and how people use multiple category information in intuitive physical judgements about object dynamics.",
-			    "image": "/img/people/van.png"
-            },
-
-            {
-                "name": "Uday Malhotra",
-                "title": "Undergraduate Researcher",
-                "blurb": "Uday enjoys researching and exploring the links between memory and cognition. He hopes to continue researching topics at an intersection of his two majors and dive deeper into the world of NLP and become an effective contributing member of the lab.",
-                "image": "/img/people/uday.jpg"
-            }
+			
 		]
 	},
 
@@ -122,12 +60,83 @@
 	"5_alumni": {
 		"label":"Alumni",
 		"people": [
-{
+
+			  {
+				"name": "Kesong Cao",
+				"title": "Former Graduate Student",
+				"blurb": "Kesong is interested in human cognition and behavior such as language and decision-making. He is exploring cognitive science and machine learning fields such as natural language processing and reinforcement learning.",
+				"image": "/img/people/kesong.png",
+                "email": "kesong.cao@wisc.edu"
+			},
+
+			{"name": "Jeff Zemla",
+			"title": "Assistant Professor at Syracuse University",
+			"blurb": "Jeff studies semantic memory and Alzheimer's Disease. He received his PhD from Rice University working with Mike Byrne.",
+			"website":"https://artsandsciences.syracuse.edu/people/faculty/jeffrey-c-zemla/",
+			"image": "/img/people/jeff.jpg"},
+
+			{
+				"name": "Lanston Chu",
+				"title": "Graduate Student",
+				"blurb": "Lanston is a graduate student in the Electrical & Computer Engineering Department. His research mainly focuses on machine learning and computer vision, and he is currently working on a research project in the areas of face recognition and adversarial examples.  Before coming to UW Madison, he was working as a pricing Actuary in Asia. he also hold a Bachelor degree in Mathematics and a MS Degree in actuarial science.",
+				"website": "https://lanstonchu.wordpress.com/",
+				"image": "/img/people/lanston.jpg",
+				"email": "hchu34@wisc.edu"
+			},
+
+			{
+				"name": "Yun-Shiuan (Sean) Chuang",
+				"title": "Former Graduate Student",
+				"blurb": "Sean received his Ph.D. in Psychology from UW-Madison.",
+				"image": "/img/people/Sean.png",
+				"website": "https://yunshiuan.github.io/",
+				"email": "yunshiuan.chuang@wisc.edu"
+			},
+
+			{"name": "Mohsen Afrasiabi",
+			 "title": "Former Assistant Scientist",
+			 "blurb": "Mohsen is a data scientist with a PhD in Electrical and Computer Engineering and over 15 years of experience working in industry. He is returning to academia to pursue research in Machine Learning, Deep Learning and their application in Cognitive Psychology and Computational Neuroscience.",
+			 "image": "/img/people/mohsen.jpeg"
+            },
+
+			{"name": "Elise Hopman",
+			 "title": "Former Graduate Student",
+			 "blurb": "Elise is interested in how language learning works and investigates this question with behavioral as well as computational research.",
+			 "image": "/img/people/elise.jpg"
+			},
+
+			{"name": "Ian Johnston",
+			"title": "Former Graduate Student",
+			"blurb": "Ian is interested in modeling legal decision making. He received his J.D. from Harvard Law School.",
+			 "image": "/img/people/ian.jpg"
+			},
+
+			{
+				"name": "Atulya Reddy",
+				"title": "Former Undergraduate Researcher",
+				"blurb": "Atulya is interested in the concept of learning from both psychological and computational perspectives. She is excited to be involved in research that fulfills her passion for coding and curiosity about human cognitive processes.",
+				"image": "/img/people/atulya.jpg"
+			},
+
+			{
+			    "name": "Anantha (Van) Rao",
+			    "title": "Former Undergraduate Researcher",
+			    "blurb": "Anantha is studying natural language processing.",
+			    "image": "/img/people/van.png"
+            },
+
+            {
+                "name": "Uday Malhotra",
+                "title": "Former Undergraduate Researcher",
+                "blurb": "Uday enjoys researching and exploring the links between memory and cognition. He hopes to continue researching topics at an intersection of his two majors and dive deeper into the world of NLP and become an effective contributing member of the lab.",
+                "image": "/img/people/uday.jpg"
+            },
+			{
 			"name": "Sam Westby",
 			"title": "Former Undergraduate Researcher",
-			"blurb": "Sam is currently a graduate student at Northeastern University in Network Science. he is still interested collective behavior.",
+			"blurb": "Sam received his PhD from  Northeastern University in Network Science. He is an Instragram influencer on cycling.",
 			"image": "/img/people/sam.jpg"
-		},
+			},
 			{
 				"name": "Kendra V Lange",
 				"title": "Former Undergraduate Researcher",
@@ -204,13 +213,12 @@
 				"blurb": "Sophie Sandweiss is an undergraduate at Brown studying Cognitive Neuroscience and Contemplative Studies. She is interested in human cognition, mental health and wellness and is in Madison studying semantic memory.",
 				"image": "/img/people/sophie.jpg"
 			},
-		{
+			{
 			"name": "Elizabeth Pettit",
 			"title": "Former Post-Baccularate Researcher",
 			"blurb": "Elizabeth graduated from UW-Madison in the Spring of 2017, majoring in Psychology. She will be a PhD graduate program in Psychology at Miami University starting September 2018.",
 			"image": "/img/people/elizabeth.jpg"
-		}
-
+			}
 		]
 	}
 }
