@@ -16,8 +16,9 @@
 			{
 				"name": "Hongtao Hao",
 				"title": "Graduate Student",
-				"blurb": "Hongtao is a Ph.D. student in Computer Science at UW-Madison. His work investigates combinatorial stochoastic processes for modeling disease progression.",
+				"blurb": "Hongtao is a Ph.D. student in Computer Science at UW-Madison. His work investigates combinatorial stochastic processes for modeling disease progression.",
 				"image": "/img/people/hongtao.png",
+				"website": "https://hongtaoh.com/",
 				"email": "hongtaoh@cs.wisc.edu"
 			},
 
